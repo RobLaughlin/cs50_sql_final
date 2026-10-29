@@ -1,8 +1,31 @@
 -- In this SQL file, write (and comment!) the schema of your database, including the CREATE TABLE, CREATE INDEX, CREATE VIEW, etc. statements that compose it
 
+-- Temporarily disable foreign keys while dropping tables. All tables being dropped is one single transaction
+BEGIN TRANSACTION;
+
+PRAGMA foreign_keys = OFF;
+
+-- Drop all old tables if they exist
+DROP TABLE IF EXISTS bridge_sales;
+DROP TABLE IF EXISTS dim_geo_parcels;
+DROP TABLE IF EXISTS dim_district_parcels;
+DROP TABLE IF EXISTS bridge_dp_groups;
+DROP TABLE IF EXISTS bridge_gp_groups;
+DROP TABLE IF EXISTS dim_buildings;
+DROP TABLE IF EXISTS dim_sales_groups;
+DROP TABLE IF EXISTS fct_sales_groups;
+DROP TABLE IF EXISTS fct_sales_single;
+
+-- Drop all old triggers if they exist
+DROP TRIGGER IF EXISTS set_sale_id_hash;
+
+-- Enforce foreign key constraints
+PRAGMA foreign_keys = ON;
+
+COMMIT;
+
 -- Create the sales bridge
-DROP TABLE IF EXISTS sales_bridge;
-CREATE TABLE sales_bridge (
+CREATE TABLE bridge_sales (
     -- Use INT instead of INTEGER so we don't autoincrement
     sale_id INT PRIMARY KEY,
 
@@ -12,34 +35,27 @@ CREATE TABLE sales_bridge (
     UNIQUE(book, pg)
 );
 
-
-DROP TRIGGER IF EXISTS set_sale_id_hash;
-
 -- Hash (book, pg) as the default sale_id
 CREATE TRIGGER set_sale_id_hash
-AFTER INSERT ON sales_bridge
+AFTER INSERT ON bridge_sales
 FOR EACH ROW
 WHEN NEW.sale_id IS NULL
 BEGIN
-    UPDATE sales_bridge
+    UPDATE bridge_sales
     SET sale_id = (NEW.book * 1000000000 + NEW.pg)
     WHERE rowid = NEW.rowid;
 END;
 
-
-
 -- Create dim tables for parcels
-DROP TABLE IF EXISTS dim_geo_parcels;
 CREATE TABLE dim_geo_parcels (
     gp VARCHAR(12) PRIMARY KEY CHECK (length(gp) = 12),
     parcel_description VARCHAR(2048)
 );
 
-DROP TABLE IF EXISTS dim_district_parcels;
 CREATE TABLE dim_district_parcels (
     dp VARCHAR(14) PRIMARY KEY CHECK (length(dp) = 14),
-    dp_short VARCHAR(14) NOT NULL UNIQUE CHECK (length(dp_short) <= 14),
-    gp VARCHAR(12) CHECK (length(gp) = 12) REFERENCES dim_geo_parcels(gp),
+    dp_short VARCHAR(64) NOT NULL UNIQUE,
+    gp VARCHAR(12) CHECK (length(gp) = 12) REFERENCES dim_geo_parcels(gp) ON DELETE SET NULL,
     jurisdiction VARCHAR(256),
     zip VARCHAR(5) CHECK (length(zip) = 5),
     nbhd VARCHAR(4),
@@ -50,27 +66,24 @@ CREATE TABLE dim_district_parcels (
 );
 
 -- Create the bridge groups
-DROP TABLE IF EXISTS bridge_dp_groups;
 CREATE TABLE bridge_dp_groups (
-    dp VARCHAR(14) CHECK (length(dp) = 14) NOT NULL REFERENCES dim_distrct_parcels(dp),
-    group_id INTEGER NOT NULL,
+    dp VARCHAR(14) CHECK (length(dp) = 14) NOT NULL REFERENCES dim_distrct_parcels(dp) ON DELETE CASCADE,
+    group_id VARCHAR(256) NOT NULL,
 
-    UNIQUE(dp, group_id)
+    PRIMARY KEY(dp, group_id)
 );
 
-DROP TABLE IF EXISTS bridge_gp_groups;
 CREATE TABLE bridge_gp_groups (
-    gp VARCHAR(12) CHECK (length(gp) = 12) NOT NULL REFERENCES dim_geo_parcels(gp),
-    group_id INTEGER NOT NULL,
+    gp VARCHAR(12) CHECK (length(gp) = 12) NOT NULL REFERENCES dim_geo_parcels(gp) ON DELETE CASCADE,
+    group_id VARCHAR(256) NOT NULL,
 
-    UNIQUE(gp, group_id)
+    PRIMARY KEY(gp, group_id)
 );
 
 -- Create the other dim tables
-DROP TABLE IF EXISTS dim_buildings;
 CREATE TABLE dim_buildings (
     building_id VARCHAR(256) PRIMARY KEY,
-    dp VARCHAR(14) NOT NULL CHECK (length(dp) = 14) REFERENCES dim_district_parcels(dp),
+    dp VARCHAR(14) NOT NULL CHECK (length(dp) = 14) REFERENCES dim_district_parcels(dp) ON DELETE SET NULL,
     occupancy VARCHAR(256),
     residence_type VARCHAR(256),
     bldg_style VARCHAR(256),
@@ -97,9 +110,8 @@ CREATE TABLE dim_buildings (
     last_sale_date DATETIME
 );
 
-DROP TABLE IF EXISTS dim_sales_groups;
 CREATE TABLE dim_sales_groups (
-    sale_id PRIMARY KEY REFERENCES sales_bridge(sale_id),
+    sale_id INT PRIMARY KEY REFERENCES bridge_sales(sale_id) ON DELETE CASCADE,
     instrument VARCHAR(8) CHECK (instrument IN ('Deed', 'Contract', 'Other')),
     analysis_quality VARCHAR(8) CHECK (analysis_quality IN ('Good', 'Bad', 'Other')),
     quality1 VARCHAR(64),
@@ -109,11 +121,10 @@ CREATE TABLE dim_sales_groups (
     detached_structs VARCHAR(512)
 );
 
-DROP TABLE IF EXISTS fct_sales_groups;
 CREATE TABLE fct_sales_groups (
-    sale_id INTEGER PRIMARY KEY REFERENCES sales_bridge(sale_id),
-    dp_group_id INTEGER UNIQUE NOT NULL REFERENCES bridge_dp_groups(group_id),
-    gp_group_id INTEGER UNIQUE NOT NULL REFERENCES bridge_gp_groups(group_id),
+    sale_id INT PRIMARY KEY REFERENCES bridge_sales(sale_id) ON DELETE CASCADE,
+    dp_group_id INTEGER UNIQUE NOT NULL REFERENCES bridge_dp_groups(group_id) ON DELETE CASCADE,
+    gp_group_id INTEGER UNIQUE NOT NULL REFERENCES bridge_gp_groups(group_id) ON DELETE CASCADE,
     dp_count INTEGER NOT NULL CHECK(dp_count > 0),
     sale_date DATETIME NOT NULL,
     initial_entry_date DATETIME,
@@ -125,11 +136,10 @@ CREATE TABLE fct_sales_groups (
     land_acres REAL CHECK(land_acres >= 0)
 );
 
-DROP TABLE IF EXISTS fct_sales_single;
-CREATE TABLE fct_sales_Single (
-    sale_id INTEGER PRIMARY KEY REFERENCES sales_bridge(sale_id),
-    dp VARCHAR(14) UNIQUE NOT NULL CHECK (length(dp) = 14) REFERENCES dim_district_parcels(dp),
-    building_id VARCHAR(258) UNIQUE NOT NULL REFERENCES dim_buildings(building_id),
+CREATE TABLE fct_sales_single (
+    sale_id INT PRIMARY KEY REFERENCES bridge_sales(sale_id) ON DELETE CASCADE,
+    dp VARCHAR(14) UNIQUE NOT NULL CHECK (length(dp) = 14) REFERENCES dim_district_parcels(dp) ON DELETE CASCADE,
+    building_id VARCHAR(258) UNIQUE REFERENCES dim_buildings(building_id) ON DELETE SET NULL,
 
     rooms INTEGER CHECK(rooms >= 0),
     bathrooms INTEGER CHECK(bathrooms >= 0),
@@ -162,3 +172,48 @@ CREATE TABLE fct_sales_Single (
     bsmt_walkout_ft REAL CHECK(bsmt_walkout_ft >= 0),
     bsmt_garage_stalls INTEGER CHECK(bsmt_garage_stalls >= 0)
 );
+
+-- Insert parcel data
+INSERT INTO dim_geo_parcels (
+    gp,
+    parcel_description
+)
+SELECT 
+    value ->> 'gp', 
+    value ->> 'parcel_description'
+FROM json_each(readfile('data/dim_geo_parcels_data.json'));
+
+INSERT INTO dim_district_parcels (
+    dp,
+    dp_short,
+    gp,
+    jurisdiction,
+    zip,
+    nbhd,
+    pocket,
+    address,
+    platname,
+    school_district
+)
+SELECT 
+    value ->> 'dp', 
+    value ->> 'dp_short', 
+    value ->> 'gp', 
+    value ->> 'jurisdiction',
+    value ->> 'zip',
+    value ->> 'nbhd',
+    value ->> 'pocket',
+    value ->> 'address',
+    value ->> 'platname',
+    value ->> 'school_district'
+FROM json_each(readfile('data/dim_district_parcels_data.json'));
+
+-- Insert bridge data, use (book, pg) to test the default hashing behavior
+INSERT INTO bridge_sales (
+    book, 
+    pg
+)
+SELECT 
+    value ->> 'book', 
+    value ->> 'pg'
+FROM json_each(readfile('data/bridge_sales_data.json'));

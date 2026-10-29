@@ -1,0 +1,5902 @@
+[{
+  "gp": "782435376001",
+  "parcel_description": "-EX 1.4A NW COR LYG N OF LN FROM PT 150F S OF CNT LN ON E LN TO PT 260F S CNT LN W LN- N 50 RDS W 20 RDS SE 1/4 SW 1/4 SEC 35-78-24"
+}, {
+  "gp": "792430401012",
+  "parcel_description": "-EX E 150 F- LT 5 EARLWOOD ACRES"
+}, {
+  "gp": "792431154005",
+  "parcel_description": "-EX N 5 F- LT 84 MESA PARK PLAT 2"
+}, {
+  "gp": "782503352008",
+  "parcel_description": "-EX N PRT BNG N 100F ON E LN \u0026 100F ON W LN- LOT 23 \u0026 ALL LTS 24 \u0026 25 GOLF \u0026 COUNTRY CLUB PLAT 4"
+}, {
+  "gp": "792536379001",
+  "parcel_description": "-EX S 30 F- LT 155 \u0026 ALL LT 156 COLBY ACRES PLAT NO 3"
+}, {
+  "gp": "792420227017",
+  "parcel_description": "-EX TRI PC BNG N 28F ON W \u0026 W 122.6F ON N LNS- LOT 31 DEBRA PARK PLAT NO 1"
+}, {
+  "gp": "792319326011",
+  "parcel_description": "LOT 10 EASTVIEW MANOR PLAT NO 1"
+}, {
+  "gp": "802401376102",
+  "parcel_description": "LOT 10 THE WOODLAND RESERVE PLAT 9"
+}, {
+  "gp": "792536337009",
+  "parcel_description": "LOT 116 SUBDIV OF LOT A COLBY ACRES PLAT NO 4"
+}, {
+  "gp": "792423357012",
+  "parcel_description": "LOT 12 OP W 1/2 SE 1/4 SW 1/4 SW 1/4 SEC 23-79-24"
+}, {
+  "gp": "782304203011",
+  "parcel_description": "LOT 13 BECHTOLD HEIGHTS"
+}, {
+  "gp": "802412380003",
+  "parcel_description": "LOT 13 BRIARWOOD SOUTH PLAT 3"
+}, {
+  "gp": "792432129035",
+  "parcel_description": "LOT 131 BEAVER HEIGHTS NO 2"
+}, {
+  "gp": "782506378017",
+  "parcel_description": "LOT 14 ASHWORTH ORCHARD"
+}, {
+  "gp": "792523301001",
+  "parcel_description": "LOT 15 NORTHWEST COUNTRY CLUB MANOR PLAT 5"
+}, {
+  "gp": "802533201030",
+  "parcel_description": "LOT 15 SILVERSTONE PLAT 2"
+}, {
+  "gp": "792436352009",
+  "parcel_description": "LOT 153 ASHBROOK"
+}, {
+  "gp": "792531126009",
+  "parcel_description": "LOT 17 COUNTRY CLUB PLAT 5"
+}, {
+  "gp": "802317429005",
+  "parcel_description": "LOT 17 THE CROSSINGS AT DEER CREEK PLAT 12"
+}, {
+  "gp": "792403202007",
+  "parcel_description": "LOT 197 GOLDEN ACRES"
+}, {
+  "gp": "782518128011",
+  "parcel_description": "LOT 21 PONDEROSA VALLEY PLAT 1"
+}, {
+  "gp": "792402456019",
+  "parcel_description": "LOT 24 THE GREENS AT WOODLAND HILLS PLAT 4"
+}, {
+  "gp": "802417231005",
+  "parcel_description": "LOT 26 GROVE LANDING PLAT 3"
+}, {
+  "gp": "782312276003",
+  "parcel_description": "LOT 3 MEADOW LARK ESTATES"
+}, {
+  "gp": "802529455003",
+  "parcel_description": "LOT 30 HERITAGE AT GRIMES PLAT 7"
+}, {
+  "gp": "792410402001",
+  "parcel_description": "LOT 34 WOODSIDE ESTATES WEST PLAT 2"
+}, {
+  "gp": "802435152004",
+  "parcel_description": "LOT 35 TWIN GATES PLAT 1"
+}, {
+  "gp": "782225151006",
+  "parcel_description": "LOT 5 SLOAN ACRES"
+}, {
+  "gp": "792419202013",
+  "parcel_description": "LOT 53 WESTCHESTER MANOR PLAT 5"
+}, {
+  "gp": "792329428044",
+  "parcel_description": "LOT 587 FOUR MILE"
+}, {
+  "gp": "792430477020",
+  "parcel_description": "LOT 6 BLK 6 HICKMAN PLACE"
+}, {
+  "gp": "782304206025",
+  "parcel_description": "LOT 6 PLEASANT HILL MANOR PLAT 2"
+}, {
+  "gp": "792531276009",
+  "parcel_description": "LOT 6 THE WOODLANDS PLAT NO 3"
+}, {
+  "gp": "802532252006",
+  "parcel_description": "LOT 80 BEAVERBROOKE POINTE PLAT 3"
+}, {
+  "gp": "792536233007",
+  "parcel_description": "LOT 9 LOOKOUT HEIGHTS PLAT 2"
+}, {
+  "gp": "792503351001",
+  "parcel_description": "LT 1 NEWPORT RIDGE PLAT 1"
+}, {
+  "gp": "802433228009",
+  "parcel_description": "LT 11 GLENBROOKE PLAT 5"
+}, {
+  "gp": "782428151012",
+  "parcel_description": "LT 12 JAMES EMBEE PLACE"
+}, {
+  "gp": "812535352017",
+  "parcel_description": "LT 15 ARROW RIDGE POINT PLAT 3"
+}, {
+  "gp": "802429451001",
+  "parcel_description": "LT 5 TIMBER OAKS"
+}, {
+  "gp": "782512127020",
+  "parcel_description": "LTS 5,6 \u0026 7 WESTWOOD HILLS PLAT 2"
+}, {
+  "gp": "782303226004",
+  "parcel_description": "W 208F E 241F S 208F N 241F GOV LT 1 NE FRL 1/4 SEC 3-78-23"
+}, {
+  "gp": "792536456021",
+  "parcel_description": "-EX E 51 F- LT 18 \u0026 ALL LT 19 JARO"
+}, {
+  "gp": "792332329007",
+  "parcel_description": "7 F S OF \u0026 ADJ \u0026 ALL LOT 12 BLK A GRAY HEIGHTS"
+}, {
+  "gp": "792524176011",
+  "parcel_description": "BEG 33F E \u0026 664.25F N OF SW COR THN E 124F N 15F W 124F S 15F TO POB SE 1/4 NW 1/4 SEC 24-79-25"
+}, {
+  "gp": "782409460004",
+  "parcel_description": "E 34F LOT 106 \u0026 ALL 105 FIRST PLAT OF CLIFTON HEIGHTS"
+}, {
+  "gp": "792426154013",
+  "parcel_description": "LOT 1 BLK 16 AUBURN HEIGHTS PLT 1"
+}, {
+  "gp": "802425231034",
+  "parcel_description": "LOT 1 COUNTRY CROSSING PLAT 3"
+}, {
+  "gp": "802424202020",
+  "parcel_description": "LOT 1 UEHLAMAR PLAT 4"
+}, {
+  "gp": "812327354007",
+  "parcel_description": "LOT 10 PRAIRIE POINTE PLAT 2"
+}, {
+  "gp": "792434256005",
+  "parcel_description": "LOT 11 BLK 5 POLK COUNTY HOMESTEAD \u0026 TRUST CO ADD"
+}, {
+  "gp": "792422480022",
+  "parcel_description": "LOT 11 BLK 9 HIGHLAND PARK"
+}, {
+  "gp": "782407228011",
+  "parcel_description": "LOT 11 OWLS HEAD"
+}, {
+  "gp": "802436176012",
+  "parcel_description": "LOT 12 CASSIDY HEIGHTS PLAT 1"
+}, {
+  "gp": "782406405007",
+  "parcel_description": "LOT 157 MIDDLESEX"
+}, {
+  "gp": "782423276046",
+  "parcel_description": "LOT 2 EWING WOODS PLAT NO 6"
+}, {
+  "gp": "792506176011",
+  "parcel_description": "LOT 21 KENNYBROOK ESTATES PLAT 15"
+}, {
+  "gp": "792505252004",
+  "parcel_description": "LOT 21 MEADOWLARK POINTE PLAT NO 1"
+}, {
+  "gp": "802421403002",
+  "parcel_description": "LOT 22 COUNTRY CLUB COURT PLAT 5"
+}, {
+  "gp": "782420128009",
+  "parcel_description": "LOT 22 WAKONDA CLUB KNOLLS"
+}, {
+  "gp": "802417251010",
+  "parcel_description": "LOT 23 THE GROVE PLAT 1"
+}, {
+  "gp": "782511127024",
+  "parcel_description": "LOT 26 MURROW HEIGHTS"
+}, {
+  "gp": "792324128003",
+  "parcel_description": "LOT 27 VENBURY PLAT 14"
+}, {
+  "gp": "782516103007",
+  "parcel_description": "LOT 30 JORDAN GROVE"
+}, {
+  "gp": "792534454015",
+  "parcel_description": "LOT 31 ARBOR OAKS ESTS PLAT 5"
+}, {
+  "gp": "802410351043",
+  "parcel_description": "LOT 34 VILLAGE AT TRESTLE CROSSING PLAT 1"
+}, {
+  "gp": "812535426007",
+  "parcel_description": "LOT 44 TOURNAMENT CLUB OF IOWA PLAT 2"
+}, {
+  "gp": "782433302012",
+  "parcel_description": "LOT 50 HIGHLAND HILLS PLAT 4"
+}, {
+  "gp": "802512126002",
+  "parcel_description": "LOT 54 SUBJ TO N 10F TRAIL EAS MARINA COVE PLAT 1"
+}, {
+  "gp": "792535230032",
+  "parcel_description": "LOT 6 PLAZA HILLS"
+}, {
+  "gp": "792534452009",
+  "parcel_description": "LOT 81 ARBOR OAKS ESTS PLAT 1"
+}, {
+  "gp": "802428451006",
+  "parcel_description": "LT 10 THE WESTWINDS PLAT 1"
+}, {
+  "gp": "792527453009",
+  "parcel_description": "LT 8 PATRICIA PARK PLAT 5"
+}, {
+  "gp": "802411280001",
+  "parcel_description": "LT 90 GEORGETOWN PLAT 1"
+}, {
+  "gp": "782421277007",
+  "parcel_description": "N 66F LOT 37 DEVIN PLACE ADDITION"
+}, {
+  "gp": "792414101022",
+  "parcel_description": "N 79F LT 80 PINEHILL PLAT 3"
+}, {
+  "gp": "792514302021",
+  "parcel_description": "UNIT 21 BLDG A PLUMWOOD TERRACE CONDO"
+}, {
+  "gp": "782409142016",
+  "parcel_description": "UNIT 216 111 CITY LOFTS CONDOMINIUMS"
+}, {
+  "gp": "782515304024",
+  "parcel_description": "UNIT 24 GARDEN RIDGE (CONDO)"
+}, {
+  "gp": "802318303104",
+  "parcel_description": "UNIT G8 BLDG 1110 THE CONDOS AT DELAWARE PARK"
+}, {
+  "gp": "792531354013",
+  "parcel_description": "UNIT T-9-44 THE PINNACLE CONDO"
+}, {
+  "gp": "792427102004",
+  "parcel_description": "W 1/2 LOT 8 \u0026 ALL LOT 9 BLK 16 OAK PARK"
+}, {
+  "gp": "782501382001",
+  "parcel_description": "W 199.2 F LOT 44 GRAND AVE HEIGHTS"
+}, {
+  "gp": "782415406003",
+  "parcel_description": "W 28F LOT 9 OP E 1/2 W 1/2 NW /14 SE 1/4 SEC 15-78-24; AND -EX W 70F- LOT 9 OP W1/4 NW 1/4 SE 1/4 SEC 15-78-24"
+}, {
+  "gp": "782429276017",
+  "parcel_description": "W 36.8F LOT 127 \u0026 E 31.2F LOT 128 WAKONDA MANOR PLAT NO 5"
+}, {
+  "gp": "782501279018",
+  "parcel_description": "-EX PARCEL A BK 10912 PG 142 BEG SWLY CORNER LT 36 THN NW ALONG SWLY LN 22.93F SE 23.08F TO SELY LN SW 2.68F TO POB- LOT 36 CHAMBERLAIN HEIGHTS"
+}, {
+  "gp": "782416428030",
+  "parcel_description": "-EX S 20F- E 57F LT 23 MORRIS PLACE"
+}, {
+  "gp": "792429401041",
+  "parcel_description": "-EX TRI PC BNG W 16F E 70F ON SLY LT LN \u0026 S 71.23F ON ELY LN- E 70F LT 2 \u0026 E 70F LT 3 URBANDALE OAKS"
+}, {
+  "gp": "782403102019",
+  "parcel_description": "BLDG 2 UNIT 7 DEL RAY HEIGHTS CONDOS"
+}, {
+  "gp": "782422101003",
+  "parcel_description": "E 65.61F W 245.61F N 140F LOT 14 PARK AVENUE HEIGHTS"
+}, {
+  "gp": "802230302013",
+  "parcel_description": "LOT 1 PLEASANT GROVE PLAT 3"
+}, {
+  "gp": "802413101017",
+  "parcel_description": "LOT 1 SONIC PLAT ONE"
+}, {
+  "gp": "792427131003",
+  "parcel_description": "LOT 10 BLK 9 OAK PARK"
+}, {
+  "gp": "792332301006",
+  "parcel_description": "LOT 11 BLK 3 OUT-LOOK PARK"
+}, {
+  "gp": "792519279011",
+  "parcel_description": "LOT 13 DAYS RUN WEST PLAT 1"
+}, {
+  "gp": "782319327012",
+  "parcel_description": "LOT 15 LAKEWOOD COVE PLAT 2"
+}, {
+  "gp": "792426181010",
+  "parcel_description": "LOT 18 BLK 23 AUBURN HEIGHTS PLT 1"
+}, {
+  "gp": "792521277003",
+  "parcel_description": "LOT 18 COUNTRY VIEW ESTATES"
+}, {
+  "gp": "782401210021",
+  "parcel_description": "LOT 19 BLK 17 FARWELL PLACE"
+}, {
+  "gp": "792514426008",
+  "parcel_description": "LOT 19 SYLVAN RIDGE"
+}, {
+  "gp": "802417128005",
+  "parcel_description": "LOT 19 THE GROVE PLAT 5"
+}, {
+  "gp": "792430102019",
+  "parcel_description": "LOT 21 VAN DORN PLACE"
+}, {
+  "gp": "792420331009",
+  "parcel_description": "LOT 25 RONNAS ACRES PLAT NO 4"
+}, {
+  "gp": "782413306012",
+  "parcel_description": "LOT 28 WOODS ON THE RIVER PLAT 8"
+}, {
+  "gp": "792327177005",
+  "parcel_description": "LOT 3 BROOK RUN VILLAGE PLAT 8"
+}, {
+  "gp": "792531376045",
+  "parcel_description": "LOT 30 COUNTRY CLUB RIDGE TOWNHOMES"
+}, {
+  "gp": "782402180036",
+  "parcel_description": "LOT 4 REDHEAD PLACE"
+}, {
+  "gp": "792420427003",
+  "parcel_description": "LOT 42 CRAIG REED PARK PLAT 4"
+}, {
+  "gp": "802317402009",
+  "parcel_description": "LOT 42 THE CROSSINGS AT DEER CREEK PLAT 6"
+}, {
+  "gp": "792327252010",
+  "parcel_description": "LOT 48 BROOK RUN VILLAGE PLAT 1"
+}, {
+  "gp": "802413426018",
+  "parcel_description": "LOT 5 CRESTBRUCK ACRES PLAT 3"
+}, {
+  "gp": "782421253005",
+  "parcel_description": "LOT 5 THORNTON HEIGHTS 2"
+}, {
+  "gp": "782510278037",
+  "parcel_description": "LOT 53 GILLETTE KNOLLS"
+}, {
+  "gp": "792513101006",
+  "parcel_description": "LOT 6 DON-MAR ACRES"
+}, {
+  "gp": "782527201001",
+  "parcel_description": "LOT 6 GAUDINEER HEIGHTS"
+}, {
+  "gp": "802428101011",
+  "parcel_description": "LOT 6 PLUMWOOD ESTATES"
+}, {
+  "gp": "792328152002",
+  "parcel_description": "LOT 60 SHERIDAN PARK PLAT 5"
+}, {
+  "gp": "802502205012",
+  "parcel_description": "LOT 66 FOREST HEIGHTS PLAT 4"
+}, {
+  "gp": "782507402005",
+  "parcel_description": "LOT 66 MEADOW RUE PLAT 3"
+}, {
+  "gp": "792426357022",
+  "parcel_description": "LOT 8 ADDINGTON PLACE"
+}, {
+  "gp": "802416276094",
+  "parcel_description": "LOT 8 BOULDER BROOK PLAT 10"
+}, {
+  "gp": "782421406003",
+  "parcel_description": "LOT 81 \u0026 N 12F LOT 82 WATROUS HEIGHTS PLAT 2"
+}, {
+  "gp": "792524329005",
+  "parcel_description": "LOT 96 CLEAR VIEW SUBDIV"
+}, {
+  "gp": "792523153026",
+  "parcel_description": "LT 128 PARKVIEW PLAT 1"
+}, {
+  "gp": "782330177004",
+  "parcel_description": "LT 14 EASTER LAKE ESTATES PLAT 1"
+}, {
+  "gp": "802532376010",
+  "parcel_description": "LT 7 BLK 5 CHANNONS 2ND NORTH ADD TO GRIMES"
+}, {
+  "gp": "782428376011",
+  "parcel_description": "LT 9 \u0026 E 5F LT 10 WESLEY PLACE"
+}, {
+  "gp": "792407351013",
+  "parcel_description": "W 138F S 200F OF E 3/5 LT 8 BEAVER FARMS"
+}, {
+  "gp": "802532301002",
+  "parcel_description": "-EX BEG SW COR THN N 86F NE 198.24F SE 150F W 236.2F TO POB- LT 1 YONKER ESTATES"
+}, {
+  "gp": "782414402021",
+  "parcel_description": "-EX E 73.5F- LOT 49 PARK FOREST PLAT 1"
+}, {
+  "gp": "802502227013",
+  "parcel_description": "-EX NELY 70F MEAS ON NWLY LN- LOT 2 FOREST HEIGHTS PLAT 5"
+}, {
+  "gp": "792429353013",
+  "parcel_description": "-EX S 1 FT- LT 5 BLK E MARYLAND PARK"
+}, {
+  "gp": "782419476011",
+  "parcel_description": "-EX S 3F- LOT 7 SERENDIPITY PLAT 2"
+}, {
+  "gp": "782414404015",
+  "parcel_description": "BEG SW COR THN NE133.72F E 45.32F SW 145.22F W30F TO POB LOT 16 PARK FOREST PLAT 3"
+}, {
+  "gp": "792313103003",
+  "parcel_description": "LOT 1 ALTOONA VILLAGE PLAT 2"
+}, {
+  "gp": "792433154014",
+  "parcel_description": "LOT 14 \u0026 E 23.43F LOT 15 LAWNRIDGE"
+}, {
+  "gp": "802318202019",
+  "parcel_description": "LOT 14 DEER CREEK ESTATES PLAT 7"
+}, {
+  "gp": "792434332005",
+  "parcel_description": "LOT 16 BLK 2 MC MARTIN \u0026 SNELLS ADD"
+}, {
+  "gp": "792425151014",
+  "parcel_description": "LOT 18 CERTAINTY PLACE"
+}, {
+  "gp": "782507431032",
+  "parcel_description": "LOT 2 THE KNOLLS PLAT 6"
+}, {
+  "gp": "792334254021",
+  "parcel_description": "LOT 20 COPPER CREEK PLAT NO. 17"
+}, {
+  "gp": "792434152019",
+  "parcel_description": "LOT 22 INGLE-WOLD"
+}, {
+  "gp": "782521177024",
+  "parcel_description": "LOT 23 THE PRESERVE ON GRAND PLAT 2"
+}, {
+  "gp": "802507302003",
+  "parcel_description": "LOT 24 TWIN EAGLES POINT PLAT 1"
+}, {
+  "gp": "782424303020",
+  "parcel_description": "LOT 28 EASTER BAY COLONY PLAT 2"
+}, {
+  "gp": "802336201024",
+  "parcel_description": "LOT 3 EFNOR ESTATES PLAT 2"
+}, {
+  "gp": "802424451024",
+  "parcel_description": "LOT 3 WAYWIN ACRES PLAT NO 3"
+}, {
+  "gp": "792510401010",
+  "parcel_description": "LOT 30 GREENWOOD HILLS PLAT 2"
+}, {
+  "gp": "792428353007",
+  "parcel_description": "LOT 4 FRANKLIN HGTS PLAT NO 2"
+}, {
+  "gp": "802426133009",
+  "parcel_description": "LOT 4 HERITAGE VILLAGE AT PRAIRIE TRAIL PLAT 2"
+}, {
+  "gp": "792327252007",
+  "parcel_description": "LOT 45 BROOK RUN VILLAGE PLAT 1"
+}, {
+  "gp": "792330254025",
+  "parcel_description": "LOT 45 FAIRMOUNT PARK PLAT NO 2"
+}, {
+  "gp": "792328207005",
+  "parcel_description": "LOT 5 PATRICIA ANN ESTATES PLAT 3"
+}, {
+  "gp": "792509252001",
+  "parcel_description": "LOT 56 SUBJ TO E 20F \u0026 N 10F TRAIL EAS GLENSTONE RIDGE"
+}, {
+  "gp": "802231378059",
+  "parcel_description": "LOT 6 CLARENCE OLESON VISTA ESTATES PLAT 6"
+}, {
+  "gp": "792533403003",
+  "parcel_description": "LOT 66 RIO VALLEY ESTATES PLAT 2"
+}, {
+  "gp": "782503327001",
+  "parcel_description": "LOT 72 GOLF \u0026 COUNTRY CLUB PLAT 6"
+}, {
+  "gp": "792419226028",
+  "parcel_description": "LOT 8 BEL AIRE WEST PLAT 1"
+}, {
+  "gp": "802412326012",
+  "parcel_description": "LOT 8 BRIARWOOD SOUTH PLAT 4"
+}, {
+  "gp": "782417351003",
+  "parcel_description": "LOT 8 GLENWOOD HEIGHTS PLAT 1"
+}, {
+  "gp": "792534228034",
+  "parcel_description": "LOT 8 PRIMROSE PARK PLAT 1 REPLAT"
+}, {
+  "gp": "782511231008",
+  "parcel_description": "LOT 8 WHITE OAK TERRACE"
+}, {
+  "gp": "782330101002",
+  "parcel_description": "LT 11 EASTER LAKE POINTE PLAT 1"
+}, {
+  "gp": "782505456012",
+  "parcel_description": "LT 15 MAPLENOL PLAT 2"
+}, {
+  "gp": "792523457018",
+  "parcel_description": "LT 22 MACRAE HIGHLANDS PLAT 7"
+}, {
+  "gp": "792333401077",
+  "parcel_description": "LT 37 EDGEWATER TOWNHOMES (REVISED)"
+}, {
+  "gp": "792503354005",
+  "parcel_description": "LT 85 NEWPORT RIDGE PLAT 1"
+}, {
+  "gp": "782518352002",
+  "parcel_description": "UNIT 1202 THE VILLAGE AT GLEN OAKS"
+}, {
+  "gp": "792521203059",
+  "parcel_description": "UNIT 7 LT 6 VILLA OF MEREDITH POINT"
+}, {
+  "gp": "792420452007",
+  "parcel_description": "W 110F S 85.5F LTS 73 \u0026 74 HALLETT ACRES"
+}, {
+  "gp": "782420151016",
+  "parcel_description": "-EX ALL S OF ELY PROLONGATION N LN LT 76 CAMELOT SOUTH- LOT 10 SOUTHERN GARDENS PLAT 3"
+}, {
+  "gp": "782419102050",
+  "parcel_description": "-EX BEG NE COR THN SW 92.65F NW 8.13F NE91.64F SE 10.58F TO POB- LT 13 \u0026 ALL LOT 14 SOUTHERN POINT"
+}, {
+  "gp": "802501177017",
+  "parcel_description": "6F NE \u0026 ADJ \u0026 25F SW \u0026 ADJ \u0026 ALL LT 9 \u0026 NW 15.7F LT 8 BLK A DES MOINES CO ADDITION"
+}, {
+  "gp": "792407630060",
+  "parcel_description": "BEG NW COR THN E 10F S 100F W 10F N 100F TO POB LOT 14 FRUITLAND"
+}, {
+  "gp": "792319452049",
+  "parcel_description": "E 60 F LOT 254 DOUGLAS ACRES PLAT 2"
+}, {
+  "gp": "792323204020",
+  "parcel_description": "LOT 1 EAGLE CREEK ESTATES"
+}, {
+  "gp": "782510402001",
+  "parcel_description": "LOT 1 NUTTALL ACRES PLAT 2"
+}, {
+  "gp": "792323203026",
+  "parcel_description": "LOT 11 EAGLE RIDGE PLAT 4"
+}, {
+  "gp": "792422478012",
+  "parcel_description": "LOT 13 BLK 6 PLAT OF BLKS 4,5,6 \u0026 7 HIGHLAND PARK ADD"
+}, {
+  "gp": "782304229022",
+  "parcel_description": "LOT 14 HAWKEYE SUNRISE PARK PLAT III"
+}, {
+  "gp": "792428331005",
+  "parcel_description": "LOT 148 GLEN OAKS"
+}, {
+  "gp": "802532178011",
+  "parcel_description": "LOT 16 TAYLOR ESTATES PLAT NO 8"
+}, {
+  "gp": "792430480012",
+  "parcel_description": "LOT 17 BLK 4 HICKMAN PLACE"
+}, {
+  "gp": "802434208007",
+  "parcel_description": "LOT 21 REUNION PLAT 1"
+}, {
+  "gp": "792328353031",
+  "parcel_description": "LOT 314 FOUR MILE"
+}, {
+  "gp": "782425304009",
+  "parcel_description": "LOT 33 CARMAN ESTATES PLAT 2"
+}, {
+  "gp": "782518451018",
+  "parcel_description": "LOT 33 THE GREENS"
+}, {
+  "gp": "792534328008",
+  "parcel_description": "LOT 7 INDIAN HILLS PLAT 3"
+}, {
+  "gp": "792407202005",
+  "parcel_description": "LOT 83 PINEWOOD GLEN PLAT 1"
+}, {
+  "gp": "792431107009",
+  "parcel_description": "LOT 9 BILLIES PLACE"
+}, {
+  "gp": "782410208016",
+  "parcel_description": "LOT 9 BLK 50 TOWN OF DE MOINE"
+}, {
+  "gp": "782512228014",
+  "parcel_description": "LOT 9 GREENWOOD COURT"
+}, {
+  "gp": "782401106006",
+  "parcel_description": "LOTS 10 \u0026 11 BLK 21 YORKS CHOICE"
+}, {
+  "gp": "782401108003",
+  "parcel_description": "LOTS 19 \u0026 20 BLK 17 YORKS CHOICE"
+}, {
+  "gp": "802433252017",
+  "parcel_description": "LT 12 COVES WEST PLAT 3"
+}, {
+  "gp": "792536476005",
+  "parcel_description": "LT 26 -EX S 55 F- \u0026 ALL LT 27 KNORR PLACE"
+}, {
+  "gp": "782422401038",
+  "parcel_description": "LT 3 KARY J MANOR PLAT NO 3"
+}, {
+  "gp": "792530303004",
+  "parcel_description": "LT 63 DEER RIDGE ESTATES PLAT 1"
+}, {
+  "gp": "792505178009",
+  "parcel_description": "LT 8 MEADOWLARK POINTE PLAT NO. 5"
+}, {
+  "gp": "792406351023",
+  "parcel_description": "N 82.8F E 454.3F LT 3 EAST MEADOW"
+}, {
+  "gp": "792419303038",
+  "parcel_description": "S 22.15F LT 40 \u0026 N 15F LT 41 BLK F AVIATION PARK"
+}, {
+  "gp": "792336400003",
+  "parcel_description": "-EX S 630.5 F W 326.3 F- LESS 1 A RD NE 1/4 SE 1/4 SEC 36-79-23"
+}, {
+  "gp": "792333431018",
+  "parcel_description": "LOT 1 EDGEWATER PLAT 2"
+}, {
+  "gp": "782517129006",
+  "parcel_description": "LOT 10 CIVIC ESTATES PLAT 5"
+}, {
+  "gp": "792434332008",
+  "parcel_description": "LOT 18 BLK 2 HARLAN AND TUBBS REPLAT"
+}, {
+  "gp": "792505131011",
+  "parcel_description": "LOT 2 BEAVERCREST ADD PLAT 4"
+}, {
+  "gp": "782509407042",
+  "parcel_description": "LOT 2 MEADOW POINT PLAT 3"
+}, {
+  "gp": "802416406002",
+  "parcel_description": "LOT 2 ROCK CREEK TRAIL PLAT 1"
+}, {
+  "gp": "792431305018",
+  "parcel_description": "LOT 223 UNIVERSITY HEIGHTS PLAT 2"
+}, {
+  "gp": "802427276003",
+  "parcel_description": "LOT 24 PRECEDENCE AT PRAIRIE TRAIL PLAT 1"
+}, {
+  "gp": "802415280008",
+  "parcel_description": "LOT 25 COLLEGE PARK PLAZA NORTHWEST PLAT 4"
+}, {
+  "gp": "792420179007",
+  "parcel_description": "LOT 27 MONTEREY PARK PLAT NO 2"
+}, {
+  "gp": "802435456012",
+  "parcel_description": "LOT 32 WILDFLOWER PLAT 2"
+}, {
+  "gp": "782415377037",
+  "parcel_description": "LOT 455 CRAWFORD PLACE"
+}, {
+  "gp": "802417453002",
+  "parcel_description": "LOT 47 CHERRY GLEN ESTATES PLAT 2"
+}, {
+  "gp": "792320303007",
+  "parcel_description": "LOT 52 DOUGLAS ACRES"
+}, {
+  "gp": "802417478019",
+  "parcel_description": "LOT 56 CHERRY GLEN ESTATES PLAT 4"
+}, {
+  "gp": "802424405051",
+  "parcel_description": "LOT 7 RICHLAND ESTS PLAT NO 9"
+}, {
+  "gp": "782508328017",
+  "parcel_description": "LOT 8 ASHWORTH ESTATES PLAT 17"
+}, {
+  "gp": "792524326008",
+  "parcel_description": "LOT 8 CLEAR VIEW SUB-DIV NO 2"
+}, {
+  "gp": "792534353020",
+  "parcel_description": "LOT 8 INDIAN HILLS PLAT NO 9"
+}, {
+  "gp": "792312377070",
+  "parcel_description": "LOT 8 REPLAT OF MEADOW VIEW PLAT 1"
+}, {
+  "gp": "802336129004",
+  "parcel_description": "LOT 80 QUAIL RUN PLAT 1"
+}, {
+  "gp": "792434178006",
+  "parcel_description": "LOT 9 BLK 25 PROSPECT PARK"
+}, {
+  "gp": "782526304027",
+  "parcel_description": "LOT 9 WILLOW CREEK VILLAS PLAT 2"
+}, {
+  "gp": "802325279007",
+  "parcel_description": "LOT 93 SANKEY SUMMIT PLAT 1"
+}, {
+  "gp": "792527332012",
+  "parcel_description": "LT 11 PATRICIA PARK PLAT 12"
+}, {
+  "gp": "782307152001",
+  "parcel_description": "LT 31 FISHER FIELD"
+}, {
+  "gp": "792524151014",
+  "parcel_description": "LT 5 SUNGOLD PLAZA PLAT 1"
+}, {
+  "gp": "802536477012",
+  "parcel_description": "LT 50 RITTGERS OAKS AT HYPERION PLAT 1"
+}, {
+  "gp": "782501379010",
+  "parcel_description": "N 60F LT 17 \u0026 BEG NE COR THN S 60F NWLY TO PT 22F W OF NE COR E TO POB LT 18 GRAND AVE HEIGHTS"
+}, {
+  "gp": "782314351001",
+  "parcel_description": "NW 1/4 SW 1/4 SW 1/4 LESS .68 A RD SEC 14-78-23"
+}, {
+  "gp": "792405200010",
+  "parcel_description": "PARCEL A COM SE COR LT 9 THN W 1227.58F NW 1265.77F E 50.59F TO POB THN E 505.89F SE 397.11F SW 500F NW 474.09F TO POB LTS 8 \u0026 9 BUENA VISTA"
+}, {
+  "gp": "792322353008",
+  "parcel_description": "S 60 FT LOT 106 CAPITOL HEIGHTS NO 2"
+}, {
+  "gp": "782407127004",
+  "parcel_description": "UNIT 240 3660 GRAND"
+}, {
+  "gp": "792427207006",
+  "parcel_description": "W 46 F LOT 8 BLK 4 OAK PARK"
+}, {
+  "gp": "792425351019",
+  "parcel_description": "-EX N 18.78F- LOT 18 VAN VLIET MEADOWS"
+}, {
+  "gp": "792433101008",
+  "parcel_description": "-EX PRT LYG N OF LN EXT FR PT 42.92F S OF NE COR TO PT 42.25F S OF NW COR- N 205.6F E 40F W 435F LT 35 OP SEC 33-79-24"
+}, {
+  "gp": "782421477011",
+  "parcel_description": "LOT 1 MC KINLEY HEIGHTS"
+}, {
+  "gp": "792511351011",
+  "parcel_description": "LOT 10 GLENDALE OAKS PLAT 1"
+}, {
+  "gp": "802434201002",
+  "parcel_description": "LOT 14 REUNION PLAT 1"
+}, {
+  "gp": "782405308016",
+  "parcel_description": "LOT 19 BLK B WEST PARK"
+}, {
+  "gp": "802208152006",
+  "parcel_description": "LOT 2 BRIGGS ESTATES"
+}, {
+  "gp": "782501451014",
+  "parcel_description": "LOT 2 STAVES PLACE"
+}, {
+  "gp": "792522276013",
+  "parcel_description": "LOT 2 THE MEADOWS PLAT 6"
+}, {
+  "gp": "792513303051",
+  "parcel_description": "LOT 23 MILLSIDE PLAT 1"
+}, {
+  "gp": "792522304004",
+  "parcel_description": "LOT 26 QUAIL RIDGE PLAT NO 4"
+}, {
+  "gp": "802329178010",
+  "parcel_description": "LOT 3 CLOVER RIDGE EAST PLAT 3"
+}, {
+  "gp": "802530478011",
+  "parcel_description": "LOT 30 BEAVERBROOKE WEST PLAT FOUR"
+}, {
+  "gp": "792522327045",
+  "parcel_description": "LOT 35 QUAIL RIDGE PLAT 2"
+}, {
+  "gp": "782406328046",
+  "parcel_description": "LOT 37 \u0026 S 4 F LOT 38 MILLER HEIGHTS"
+}, {
+  "gp": "802417477017",
+  "parcel_description": "LOT 37 CHERRY GLEN ESTATES PLAT 5"
+}, {
+  "gp": "782508377044",
+  "parcel_description": "LOT 4 SOUTHWICKE TOWNHOMES REPLAT"
+}, {
+  "gp": "782505377055",
+  "parcel_description": "LOT 4 WOODLAND PARK WDM PLAT 6"
+}, {
+  "gp": "782401152004",
+  "parcel_description": "LOT 40 TIMMONS PLACE"
+}, {
+  "gp": "802501455003",
+  "parcel_description": "LOT 41 PINE RIDGE ESTATES PLAT 4"
+}, {
+  "gp": "792331453009",
+  "parcel_description": "LOT 48 RICHTERS ADDITION"
+}, {
+  "gp": "802420228005",
+  "parcel_description": "LOT 5 LAKERIDGE COVE PLAT 3"
+}, {
+  "gp": "782433302014",
+  "parcel_description": "LOT 52 HIGHLAND HILLS PLAT 4"
+}, {
+  "gp": "792332452009",
+  "parcel_description": "LOT 58 FAIRVIEW HEIGHTS"
+}, {
+  "gp": "802401284023",
+  "parcel_description": "LOT 6 CREEKSIDE BROWNSTONES PLAT 3"
+}, {
+  "gp": "792515379009",
+  "parcel_description": "LOT 64 GLEN EAGLES"
+}, {
+  "gp": "802415151041",
+  "parcel_description": "LOT 7 NORTH CREEK PLAT 2"
+}, {
+  "gp": "792420227055",
+  "parcel_description": "LOT 88 SAWYER\u0027S LANDING PLAT 1"
+}, {
+  "gp": "782501431009",
+  "parcel_description": "LOT 9 BLK F GIL-MAR PARK"
+}, {
+  "gp": "782505451014",
+  "parcel_description": "LT 48 MAPLENOL PLAT 1"
+}, {
+  "gp": "792506252005",
+  "parcel_description": "LT 5 KENNYBROOK ESTATES PLAT 8"
+}, {
+  "gp": "792423277002",
+  "parcel_description": "N 60 FT S 192 FT LOTS 36 \u0026 37 IOWA GARDEN ACRES"
+}, {
+  "gp": "782421276012",
+  "parcel_description": "N 67F LOT 29 DEVIN PLACE ADDITION"
+}, {
+  "gp": "802533102041",
+  "parcel_description": "UNIT 41 THE VILLAGE AT NORTH POINTE"
+}, {
+  "gp": "792433252043",
+  "parcel_description": "-EX E 15 F- \u0026 -EX W 200 F- N 66.66 F W OF RD LT 2 OP SEC 33-79-24"
+}, {
+  "gp": "792432403019",
+  "parcel_description": "E 10 F N 50 F LT 7 \u0026 N 50 F LT 6 SAWTELL PLACE"
+}, {
+  "gp": "792435480014",
+  "parcel_description": "E 109 F LOT 326 SUB-DIV BLK A POLK \u0026 HUBBELL\u0027S ADD"
+}, {
+  "gp": "792429355021",
+  "parcel_description": "E 50 FT LOT 17  BLK B MARYLAND PARK"
+}, {
+  "gp": "792536126030",
+  "parcel_description": "IREG PC W 171.30F ON N LN \u0026 W 165.25F ON S LN N 80F LOT 24 SUBURBAN FARMS"
+}, {
+  "gp": "792324351007",
+  "parcel_description": "LOT 1 EVANS ACRES"
+}, {
+  "gp": "792511103009",
+  "parcel_description": "LOT 1 GREEN MEADOWS WEST PLT 2"
+}, {
+  "gp": "802427104001",
+  "parcel_description": "LOT 1 PRECEDENCE WEST AT PRAIRIE TRAIL PLAT 3"
+}, {
+  "gp": "782433379006",
+  "parcel_description": "LOT 101 SOUTH GATE MANOR"
+}, {
+  "gp": "792434255007",
+  "parcel_description": "LOT 11 BLK 11 POLK COUNTY HOMESTEAD \u0026 TRUST CO ADD"
+}, {
+  "gp": "802415353018",
+  "parcel_description": "LOT 11 GREENS OF GOLFVIEW PLT 1"
+}, {
+  "gp": "792423305001",
+  "parcel_description": "LOT 12 BLK 4 NORTHEAST HIGHLAND PARK"
+}, {
+  "gp": "792427206001",
+  "parcel_description": "LOT 13 \u0026 W 40 F LOT 12 BLK 3 OAK PARK"
+}, {
+  "gp": "792433231014",
+  "parcel_description": "LOT 13 BLK 4 NORWOOD PARK ADDITION TO NORTH DES MOINES"
+}, {
+  "gp": "792520378008",
+  "parcel_description": "LOT 13 TIMBERLINE PLAT 4"
+}, {
+  "gp": "792313327002",
+  "parcel_description": "LOT 14 LYNN HEIGHTS PLAT NO 1"
+}, {
+  "gp": "792323256012",
+  "parcel_description": "LOT 15 EAGLE KNOLL ESTATES PLAT 1"
+}, {
+  "gp": "802532354002",
+  "parcel_description": "LOT 2 BLK 1 CHANNONS NORTH ADDITION TO GRIMES"
+}, {
+  "gp": "792532378002",
+  "parcel_description": "LOT 2 WELLINGTON RIDGE PLAT 2"
+}, {
+  "gp": "782422226033",
+  "parcel_description": "LOT 21 SOUTHERN KNOLLS PLAT 1"
+}, {
+  "gp": "782508352017",
+  "parcel_description": "LOT 22 SOUTHWOODS EAST PLAT 2"
+}, {
+  "gp": "782502226003",
+  "parcel_description": "LOT 22 WINDSOR SQUARE"
+}, {
+  "gp": "802330280025",
+  "parcel_description": "LOT 24 CLOVER RIDGE WEST PLAT 3"
+}, {
+  "gp": "792219307020",
+  "parcel_description": "LOT 26 COUNTRY COVE PLAT 6"
+}, {
+  "gp": "792522327052",
+  "parcel_description": "LOT 28 QUAIL RIDGE PLAT 2"
+}, {
+  "gp": "782517153002",
+  "parcel_description": "LOT 3 MEADOW VISTA"
+}, {
+  "gp": "782507431060",
+  "parcel_description": "LOT 30 THE KNOLLS PLAT 6"
+}, {
+  "gp": "782509328010",
+  "parcel_description": "LOT 33 MEADOW POINT PLAT 11"
+}, {
+  "gp": "802434251015",
+  "parcel_description": "LOT 33 SAWGRASS TOWNHOMES"
+}, {
+  "gp": "792407129009",
+  "parcel_description": "LOT 36 PINEWOOD GLEN PLAT 3"
+}, {
+  "gp": "792324452022",
+  "parcel_description": "LOT 39 IRONWOOD PLAT 5"
+}, {
+  "gp": "782304229046",
+  "parcel_description": "LOT 5 HAWKEYE SUNRISE PARK PLAT 4"
+}, {
+  "gp": "792319329016",
+  "parcel_description": "LOT 50 EASTVIEW MANOR PLAT NO 1"
+}, {
+  "gp": "792420205015",
+  "parcel_description": "LOT 52 DEBRA PARK PLAT NO 1"
+}, {
+  "gp": "792427429002",
+  "parcel_description": "LOT 60 BLK 2 LAKE PARK"
+}, {
+  "gp": "792431277014",
+  "parcel_description": "LOT 72 PERKINS"
+}, {
+  "gp": "792433253026",
+  "parcel_description": "LOT 8 WILLIAMS 3RD ADDITION TO DES MOINES"
+}, {
+  "gp": "792426378015",
+  "parcel_description": "LOTS 28 \u0026 29 BLK 4 OLD ORCHARD BEACH"
+}, {
+  "gp": "782401154014",
+  "parcel_description": "LOTS 9 \u0026 10 L J KASSONS O P"
+}, {
+  "gp": "802531477029",
+  "parcel_description": "LT 17 PARKVIEW PLAZA PLAT NO 1"
+}, {
+  "gp": "802411427091",
+  "parcel_description": "LT 26 GEORGETOWN TOWNHOMES PLAT 1"
+}, {
+  "gp": "802424126003",
+  "parcel_description": "LT 3 RICHARDS MANOR PLAT 1"
+}, {
+  "gp": "782428479012",
+  "parcel_description": "LTS 29 \u0026 30 BLK 1 IN OFFICIAL REPLAT OF BLK K THOMAS HEIGHTS"
+}, {
+  "gp": "782412206001",
+  "parcel_description": "LTS 3 \u0026 4 BLK 8 CHESTERFIELD"
+}, {
+  "gp": "792433456003",
+  "parcel_description": "N 40 FT LOT 329 UNIVERSITY LAND COS 2ND ADDITION"
+}, {
+  "gp": "792428328032",
+  "parcel_description": "N 50F S 110F ON 26 ST \u0026 N 74.3F S 203F ON E LINE LOT 71 GLEN OAKS"
+}, {
+  "gp": "782511381004",
+  "parcel_description": "N 8F LOT 14 \u0026 ALL LOT 15 BLK 13 VALLEY JUNCTION"
+}, {
+  "gp": "792330377026",
+  "parcel_description": "S 1/2 LOT 79 \u0026 ALL LOT 80 WILLOUGHBY PLACE"
+}, {
+  "gp": "782407176004",
+  "parcel_description": "S 69 F N 138 F W 175 F LOT 10 COWLES PLACE"
+}, {
+  "gp": "782402210009",
+  "parcel_description": "S 87 F LOT 67 GOODE \u0026 LIKES ADDITION"
+}, {
+  "gp": "802501180012",
+  "parcel_description": "SW 1/2 ALLEY NE \u0026 ADJ \u0026 LT 16 \u0026 SE 1/2 LT 17 BLK D DES MOINES CO ADDITION"
+}, {
+  "gp": "782516279046",
+  "parcel_description": "UNIT 2241-6 VILLAS OF WHITE OAKS CONDO"
+}, {
+  "gp": "782421276030",
+  "parcel_description": "W 60F LOT 26 DEVIN PLACE ADDITION"
+}, {
+  "gp": "782428253019",
+  "parcel_description": "-EX BEG NW COR LT 3 THN E 4F ALNG N LN S 39.91F W 4F N 39.9F TO POB- LT 3 \u0026 N 15F LT 4 BLK 1 HILLCREST"
+}, {
+  "gp": "792431226001",
+  "parcel_description": "-EX N 15F- LT 96 HICKMAN HIGHLANDS"
+}, {
+  "gp": "782410305007",
+  "parcel_description": "-EX S40F- W33F LTS 7 \u0026 8 BLK 17 SOUTH FORT DES MOINES"
+}, {
+  "gp": "792212126009",
+  "parcel_description": "LOT 10 BLK B MITCHELLVILLE"
+}, {
+  "gp": "782509452001",
+  "parcel_description": "LOT 10 MEADOW POINT PLAT 8"
+}, {
+  "gp": "782421251020",
+  "parcel_description": "LOT 11 BURSON GARDENS"
+}, {
+  "gp": "782410376017",
+  "parcel_description": "LOT 14 BLK 7 SECOND PLAT OF CLIFTON HEIGHTS"
+}, {
+  "gp": "792431428027",
+  "parcel_description": "LOT 14 KIRKS PLACE"
+}, {
+  "gp": "792328301003",
+  "parcel_description": "LOT 15 SHERIDAN PARK PLAT NO 1"
+}, {
+  "gp": "782510152001",
+  "parcel_description": "LOT 16 ZELDA ACRES PLAT NO 1"
+}, {
+  "gp": "792334204014",
+  "parcel_description": "LOT 3 COPPER CREEK ESTATES PLAT 2"
+}, {
+  "gp": "792320303023",
+  "parcel_description": "LOT 3 RUPP PLACE"
+}, {
+  "gp": "802231179009",
+  "parcel_description": "LOT 30 MEADOW BROOK NORTH PLAT NO. 20"
+}, {
+  "gp": "802318278010",
+  "parcel_description": "LOT 31 DEER CREEK ESTATES PLAT 11"
+}, {
+  "gp": "792520152023",
+  "parcel_description": "LOT 35 DAY\u0027S RUN PLAT 5"
+}, {
+  "gp": "792534353005",
+  "parcel_description": "LOT 4 INDIAN HILLS PLAT NO 10"
+}, {
+  "gp": "782425203021",
+  "parcel_description": "LOT 43 EASTER LAKE COVE PLAT 1"
+}, {
+  "gp": "792426330005",
+  "parcel_description": "LOT 5 BLK 3 MORTON VIEW"
+}, {
+  "gp": "802325452008",
+  "parcel_description": "LOT 6 DEER RIDGE CROSSING PLAT 2"
+}, {
+  "gp": "802414381023",
+  "parcel_description": "LOT 6 NORTHLAWN PLAT NO 2"
+}, {
+  "gp": "782429227005",
+  "parcel_description": "LOT 70 WAKONDA MANOR PLAT NO 5"
+}, {
+  "gp": "792422326018",
+  "parcel_description": "LOT 82 SHAWNEE PARK"
+}, {
+  "gp": "792219276008",
+  "parcel_description": "LOT 9 FALCON RIDGE PLAT 2"
+}, {
+  "gp": "792524105006",
+  "parcel_description": "LT 15 SUNGOLD MANOR PLAT 1"
+}, {
+  "gp": "782511356021",
+  "parcel_description": "LT 7 CEDAR VILLAGE PLAT 1"
+}, {
+  "gp": "792327403014",
+  "parcel_description": "N 1/2 LOT 34 EASTOVER"
+}, {
+  "gp": "792524176001",
+  "parcel_description": "N 54.95F W 166F LOT 12 COLBY URBANDALE ACRES PLAT 3"
+}, {
+  "gp": "782406328008",
+  "parcel_description": "S 1/2 LOT 52 MILLER HEIGHTS"
+}, {
+  "gp": "792434253012",
+  "parcel_description": "S 1/2 LT 6 \u0026 ALL LT 7 BLK 6 POLK COUNTY HOMESTEAD \u0026 TRUST CO ADD"
+}, {
+  "gp": "792432376011",
+  "parcel_description": "S 1/2 W 173.33 FT LOT 78 CHETWYND"
+}, {
+  "gp": "792430228004",
+  "parcel_description": "S 60 F W 225 F LOT 14 CORR PLAT ROSELAND ACRES"
+}, {
+  "gp": "792509204059",
+  "parcel_description": "UNIT 11 BLDG 4 ADAM RIDGE CONDOMINIUMS"
+}, {
+  "gp": "802319352058",
+  "parcel_description": "UNIT 1313-10 VILLAS OF MEADOW RIDGE CONDO"
+}, {
+  "gp": "802415326033",
+  "parcel_description": "UNIT 33 LOT 9 WESTWOOD ANKENY CONDO #1"
+}, {
+  "gp": "802318303007",
+  "parcel_description": "UNIT A7 BLDG 1107 THE CONDOS AT DELAWARE PARK"
+}, {
+  "gp": "782508152024",
+  "parcel_description": "-EX BEG NW COR THN E 23F S 44.47F SW 78.71F TO SWLY LN NWLY 33.2F N 98.67F TO POB- LT 5 PINE GROVE PLAT 3"
+}, {
+  "gp": "812222300002",
+  "parcel_description": "-EX W 132 F S 330 F N 643.5 F- N 60 A SW 1/4 LESS 1.25 A RD SEC 22-81-22"
+}, {
+  "gp": "782517327081",
+  "parcel_description": "LOT 10 SOUTHWOODS KNOLLS TOWNHOMES PLAT 1"
+}, {
+  "gp": "782410380018",
+  "parcel_description": "LOT 13 BOYDS PLACE"
+}, {
+  "gp": "802424427019",
+  "parcel_description": "LOT 13 DELAWARE ESTATES PLAT 5"
+}, {
+  "gp": "792434257003",
+  "parcel_description": "LOT 15 BLK 13 POLK COUNTY HOMESTEAD \u0026 TRUST CO ADD"
+}, {
+  "gp": "792427207015",
+  "parcel_description": "LOT 17 BLK 4 OAK PARK"
+}, {
+  "gp": "782402178006",
+  "parcel_description": "LOT 18 BLK 60 STEWARTS ADDITION"
+}, {
+  "gp": "782402257005",
+  "parcel_description": "LOT 22 BLK A EAST PARK PLACE"
+}, {
+  "gp": "802330280027",
+  "parcel_description": "LOT 22 CLOVER RIDGE WEST PLAT 3"
+}, {
+  "gp": "802319302032",
+  "parcel_description": "LOT 27 REPLAT OF COUNTRYSIDE MEADOWS"
+}, {
+  "gp": "802502251006",
+  "parcel_description": "LOT 28 LAKEVIEW ACRES PLAT 2"
+}, {
+  "gp": "802306176008",
+  "parcel_description": "LOT 30 OTTER CREEK GOLF COURSE PLAT 6"
+}, {
+  "gp": "782509181005",
+  "parcel_description": "LOT 47 FAIRMEADOWS NO 8"
+}, {
+  "gp": "782501432016",
+  "parcel_description": "LOT 5 REPLT LTS 10 THRU 16 \u0026 PRT LT 17 BLK E GIL-MAR PARK"
+}, {
+  "gp": "782505352005",
+  "parcel_description": "LOT 5 WEST PARK PLAT 7"
+}, {
+  "gp": "792324452002",
+  "parcel_description": "LOT 52 IRONWOOD PLAT 3"
+}, {
+  "gp": "812535326007",
+  "parcel_description": "LOT 6 STREAMWOOD PLAT 1"
+}, {
+  "gp": "802416252014",
+  "parcel_description": "LOT 69 BOULDER BROOK PLAT 14"
+}, {
+  "gp": "792527253002",
+  "parcel_description": "LOT 7 SCOTTS PARK 4"
+}, {
+  "gp": "802415452006",
+  "parcel_description": "LOT 8 COLLEGE PARK PLAZA NORTHWEST PLAT 1"
+}, {
+  "gp": "782502177010",
+  "parcel_description": "LOT 8 FAIRMEADOWS MANOR"
+}, {
+  "gp": "782304228026",
+  "parcel_description": "LOT 8 HAWKEYE SUNRISE PARK"
+}, {
+  "gp": "802532327005",
+  "parcel_description": "LOT 8 TAYLOR ESTATES PLAT NO 3"
+}, {
+  "gp": "782402204008",
+  "parcel_description": "LOT 9 BLK 7 SUNNYSIDE ADDITION"
+}, {
+  "gp": "792333102050",
+  "parcel_description": "LOTS 321 \u0026 322 SUNRISE PARK"
+}, {
+  "gp": "792419376043",
+  "parcel_description": "LOTS 38 \u0026 39 BLK L AVIATION PARK"
+}, {
+  "gp": "792511351028",
+  "parcel_description": "LT 19 GREEN MEADOWS WEST PLAT 9"
+}, {
+  "gp": "782508129010",
+  "parcel_description": "LT 27 WESTGATE PLAT 1"
+}, {
+  "gp": "782505456003",
+  "parcel_description": "LT 3 MAPLENOL PLAT 2"
+}, {
+  "gp": "792513451063",
+  "parcel_description": "LT 43 PARKSIDE CROSSING"
+}, {
+  "gp": "782401178014",
+  "parcel_description": "N 71F LTS 49, 51, 53 \u0026 55 BLK 8 GRANT PARK"
+}, {
+  "gp": "782405403005",
+  "parcel_description": "S 20 F LOT 56 T E BROWNS ADD"
+}, {
+  "gp": "792419428020",
+  "parcel_description": "S 5F LOT 78 \u0026 LOT 79 WESTCHESTER MANOR PLAT 1"
+}, {
+  "gp": "782508179026",
+  "parcel_description": "TRI PC LT 15 BEG SW COR LT 16 THN SELY 40.6F THN SELY 104.8F THN NWLY TO BEG \u0026 ALL LT 16 WESTERN HILLS PLAT 10"
+}, {
+  "gp": "782406383016",
+  "parcel_description": "UNIT 403 GRAND AT 36TH CONDO"
+}, {
+  "gp": "792524257019",
+  "parcel_description": "UNIT 4203-1 JENSEN MANOR"
+}, {
+  "gp": "792534378020",
+  "parcel_description": "UNIT 9507-20 ASPEN RIDGE CONDOMINIUM"
+}, {
+  "gp": "802318303129",
+  "parcel_description": "UNIT I1 BLDG 1210 THE CONDOS AT DELAWARE PARK"
+}, {
+  "gp": "782507303037",
+  "parcel_description": "-EX BEG 75.63F W OF NE COR THN SW63.44F N63.24F TO NW COR E 4.36F TO POB- LOT 14 JORDAN PARK VISTA"
+}, {
+  "gp": "782502201017",
+  "parcel_description": "-EX BEG SW COR THN N100F E 3.24F SW 100F W .39F TO POB- LOT 81 BROOKLINE HEIGHTS"
+}, {
+  "gp": "792320203020",
+  "parcel_description": "-EX N 17F \u0026 S 43F N 60F E 369.68F- LT 397 \u0026 ALL LT 398 DOUGLAS ACRES PLAT 5"
+}, {
+  "gp": "792434228015",
+  "parcel_description": "-SUBJ TO S 25F RD EAS- E 135F W 275F LT 38 OP GOVT LT 3 \u0026 SE 1/4 SEC 34-79-24"
+}, {
+  "gp": "792436326003",
+  "parcel_description": "7F E OF \u0026 ADJ \u0026 ALL LT 117 EAST CAPITAL PARK"
+}, {
+  "gp": "782433301012",
+  "parcel_description": "LOT 10 HIGHLAND HILLS PLAT 4"
+}, {
+  "gp": "792314477028",
+  "parcel_description": "LOT 10 WILLOW BROOK PLAT NO 1"
+}, {
+  "gp": "782422428007",
+  "parcel_description": "LOT 11 ROSE HILL MANOR PLAT 1"
+}, {
+  "gp": "792526379076",
+  "parcel_description": "LOT 12 COBBLESTONE PLAT NO 2"
+}, {
+  "gp": "792431352021",
+  "parcel_description": "LOT 124 UNIVERSITY HEIGHTS"
+}, {
+  "gp": "792325278001",
+  "parcel_description": "LOT 13 CLAY ESTATES PLAT 2"
+}, {
+  "gp": "792429352006",
+  "parcel_description": "LOT 14 BLK F MARYLAND PARK"
+}, {
+  "gp": "792314405041",
+  "parcel_description": "LOT 15 ADVENTURELAND ESTATES PLAT 5"
+}, {
+  "gp": "782303202043",
+  "parcel_description": "LOT 18 THE HIGHLANDS OF PLEASANT HILL TOWNHOMES PLAT 2"
+}, {
+  "gp": "792432177044",
+  "parcel_description": "LOT 2 WISE PLACE"
+}, {
+  "gp": "792434302024",
+  "parcel_description": "LOT 21 BLK 4 LAYMANS 2ND ADD"
+}, {
+  "gp": "792513351040",
+  "parcel_description": "LOT 21 HICKORY HILL PLAT NO 6"
+}, {
+  "gp": "782511152022",
+  "parcel_description": "LOT 21 MURROWS ADD TO VALLEY JUNCTION"
+}, {
+  "gp": "782422102038",
+  "parcel_description": "LOT 23 PARK AVENUE EAST PLAT NO 1"
+}, {
+  "gp": "802401428003",
+  "parcel_description": "LOT 3 OTTER RIDGE PLAT 1"
+}, {
+  "gp": "792327202013",
+  "parcel_description": "LOT 34 BROOK RUN VILLAGE PLAT 1"
+}, {
+  "gp": "782419176036",
+  "parcel_description": "LOT 37 SOUTHPARK PLAZA PLAT 3"
+}, {
+  "gp": "792435428018",
+  "parcel_description": "LOT 379 POLK \u0026 HUBBELL\u0027S ADD"
+}, {
+  "gp": "792410276018",
+  "parcel_description": "LOT 49 WOODSIDE ESTATES WEST PLAT 1"
+}, {
+  "gp": "802502428007",
+  "parcel_description": "LOT 51 EDGEWATER POINTE PLAT 2"
+}, {
+  "gp": "782429402014",
+  "parcel_description": "LOT 53 FARR VIEW ACRES"
+}, {
+  "gp": "792535256008",
+  "parcel_description": "LOT 64 PLAZA HILLS PLAT 5"
+}, {
+  "gp": "802325281005",
+  "parcel_description": "LOT 73 SANKEY SUMMIT PLAT 2"
+}, {
+  "gp": "792531102002",
+  "parcel_description": "LOT 74 COUNTRY CLUB PLAT 7"
+}, {
+  "gp": "802422101027",
+  "parcel_description": "LOT 8 MEADOWLARK PLATEAU PLT 2"
+}, {
+  "gp": "782520226004",
+  "parcel_description": "LOT 8 TURNBERRY"
+}, {
+  "gp": "802416379008",
+  "parcel_description": "LT 12 SEASONS RIDGE PLAT 8"
+}, {
+  "gp": "292530427006",
+  "parcel_description": "LT 13 DEER CREEK"
+}, {
+  "gp": "792523101046",
+  "parcel_description": "LT 34 PARKVIEW PLAT 4"
+}, {
+  "gp": "782433133008",
+  "parcel_description": "LTS 12, 13, 14 BLK 7 RODGERS PLACE"
+}, {
+  "gp": "782306333024",
+  "parcel_description": "LTS 75 \u0026 76 GEORGE P CURRANS ADD"
+}, {
+  "gp": "792423331003",
+  "parcel_description": "N 25 F LT 20 \u0026 ALL LT 21 BLK 6 OP NE 1/4 SW 1/4 -EX E 830.4 F S 1/2- SEC 23-79-24"
+}, {
+  "gp": "792427201009",
+  "parcel_description": "N 71 F LOTS 1 \u0026 2 BLK 7 OAK PARK"
+}, {
+  "gp": "792313303033",
+  "parcel_description": "PARCEL C BK 7774 PG 402 BEG SW COR THN N 109.22F E 315.54F S 109.52F TO S LN W 315.38F TO POB LOT 1 PLEASANT VIEW ACRES"
+}, {
+  "gp": "782428403022",
+  "parcel_description": "S 1/2 LT 11 \u0026 ALL LTS 12,13 \u0026 14 SUB DIV BLK E -EX LTS 4 \u0026 5- THOMAS HEIGHTS"
+}, {
+  "gp": "782512227003",
+  "parcel_description": "UNIT 3 FORTY-THREE SIXTEEN GRAND CONDO"
+}, {
+  "gp": "802415303021",
+  "parcel_description": "LOT 10 \u0026 PARCEL E BEG SE COR LOT 10 THN NW 84F NE 24F SE 86.59F SW 24F TO POB OUTLOT X WESTWOOD-ANKENY PLAT 12"
+}, {
+  "gp": "802401230019",
+  "parcel_description": "LOT 11 LEDGESTONE PLAT 2"
+}, {
+  "gp": "792426258002",
+  "parcel_description": "LOT 110 WRIGHTS GROVE"
+}, {
+  "gp": "802336132002",
+  "parcel_description": "LOT 115 QUAIL RUN PLAT 1"
+}, {
+  "gp": "802329155012",
+  "parcel_description": "LOT 12 HILLSIDE ESTATES PLAT 1"
+}, {
+  "gp": "792323180006",
+  "parcel_description": "LOT 15 MEADOW VISTA ESTATES PLAT 5"
+}, {
+  "gp": "792331430001",
+  "parcel_description": "LOT 163 BOULEVARD ADDITION"
+}, {
+  "gp": "792534226022",
+  "parcel_description": "LOT 2 SUMMIT HEIGHTS PLT 1"
+}, {
+  "gp": "802531231036",
+  "parcel_description": "LOT 20 BEAVERBROOKE TOWNHOMES"
+}, {
+  "gp": "792426402023",
+  "parcel_description": "LOT 24 BLK 4 GRAND VIEW"
+}, {
+  "gp": "802413276021",
+  "parcel_description": "LOT 24 FOUNTAIN VIEW ESTATES PLAT 3"
+}, {
+  "gp": "802317407009",
+  "parcel_description": "LOT 29 THE CROSSINGS AT DEER CREEK PLAT 9"
+}, {
+  "gp": "802317303017",
+  "parcel_description": "LOT 3 DEER CREEK SOUTH TOWNHOMES PLAT 2"
+}, {
+  "gp": "802403353091",
+  "parcel_description": "LOT 3 VILLAGE AT ROCK CREEK PLAT 1"
+}, {
+  "gp": "812436303013",
+  "parcel_description": "LOT 35 HARVEST RIDGE PLAT 2"
+}, {
+  "gp": "792428178016",
+  "parcel_description": "LOT 36 WELBECK TERRACE"
+}, {
+  "gp": "792217176006",
+  "parcel_description": "LOT 4 FARMER\u0027S POND"
+}, {
+  "gp": "802413176020",
+  "parcel_description": "LOT 5 TERRELL-STONERIDGE KNOLLS PLAT NO 3"
+}, {
+  "gp": "792525427022",
+  "parcel_description": "LOT 6 HANNAH PLACE REPLAT"
+}, {
+  "gp": "792525330017",
+  "parcel_description": "LOT 6 KINGSWOOD MANOR PLAT 3"
+}, {
+  "gp": "792419351014",
+  "parcel_description": "LOT 9 MERLISON PLACE"
+}, {
+  "gp": "782433176018",
+  "parcel_description": "LOTS 26 \u0026 27 BLK 9 RODGERS PLACE"
+}, {
+  "gp": "782414151037",
+  "parcel_description": "LT 1 STERLING PLACE"
+}, {
+  "gp": "792515353013",
+  "parcel_description": "LT 13 GLEN EAGLES NORTH"
+}, {
+  "gp": "802411453006",
+  "parcel_description": "LT 15 GEORGETOWN PLAT 4"
+}, {
+  "gp": "782424179006",
+  "parcel_description": "LT 8 EASTER LAKE PARK"
+}, {
+  "gp": "792423329024",
+  "parcel_description": "LT 9 BLK 1 OP NE 1/4 SW 1/4 -EX E 830.4 F S 1/2- SEC 23-79-24"
+}, {
+  "gp": "792522278021",
+  "parcel_description": "LT C-30 BLK C THE MEADOWS PLAT 1"
+}, {
+  "gp": "792331357019",
+  "parcel_description": "N 46F LTS 49, 50, 51, 52 COLSONS ADDITION"
+}, {
+  "gp": "792319451028",
+  "parcel_description": "N 70 F LOT 298 DOUGLAS ACRES PLAT 2"
+}, {
+  "gp": "792317352015",
+  "parcel_description": "S 1/2 LOT 49 DOUGLAS ACRES PLAT 6"
+}, {
+  "gp": "782406382079",
+  "parcel_description": "UNIT 1001 WEST GRAND TOWERS CONDO"
+}, {
+  "gp": "792229326021",
+  "parcel_description": "-EX N 230F- LOT 3 WALLINGS HAVEN"
+}, {
+  "gp": "792320151015",
+  "parcel_description": "-EX S 335F- LT 73 LONGACRE"
+}, {
+  "gp": "802415476012",
+  "parcel_description": "-EX S 4.5F- LOT 30 FRONTIER VILLAGE PLAT 6"
+}, {
+  "gp": "792320252019",
+  "parcel_description": "-EX W 100 F- LT 409 DOUGLAS ACRES PLAT 5"
+}, {
+  "gp": "802423126027",
+  "parcel_description": "E 1/2 ALLEY W \u0026 ADJ \u0026 LT 3 BLK 2 VAN SLYCK ADDITION"
+}, {
+  "gp": "792525302007",
+  "parcel_description": "LOT 10 OAK CREEK PLAT 1"
+}, {
+  "gp": "802435251017",
+  "parcel_description": "LOT 11 SIENA HILLS PLAT 4"
+}, {
+  "gp": "792312127006",
+  "parcel_description": "LOT 11 WOLF CREEK PLAT 1"
+}, {
+  "gp": "802531281005",
+  "parcel_description": "LOT 12 BEAVERBROOKE WEST PLAT 2"
+}, {
+  "gp": "802421129009",
+  "parcel_description": "LOT 15 CAMDEN WOODS PLAT 3"
+}, {
+  "gp": "782405307022",
+  "parcel_description": "LOT 19 WOODLAND PLACE"
+}, {
+  "gp": "792419126044",
+  "parcel_description": "LOT 20 NORTHWOODS TOWNHOMES"
+}, {
+  "gp": "792331304010",
+  "parcel_description": "LOT 22 BLK 16 EASTON PLACE"
+}, {
+  "gp": "802416280016",
+  "parcel_description": "LOT 22 BOULDER BROOK PLAT 11"
+}, {
+  "gp": "792519227009",
+  "parcel_description": "LOT 24 DAY\u0027S RUN WEST PLAT 2"
+}, {
+  "gp": "782507355004",
+  "parcel_description": "LOT 24 WESTRIDGE ESTATES PLAT 3"
+}, {
+  "gp": "792332478001",
+  "parcel_description": "LOT 258 GRAYS WOODS"
+}, {
+  "gp": "792324403020",
+  "parcel_description": "LOT 29 VENBURY PLAT 17"
+}, {
+  "gp": "792432377003",
+  "parcel_description": "LOT 3 ALSTRAND PLACE"
+}, {
+  "gp": "792313431002",
+  "parcel_description": "LOT 3 BLK 3 ENSIGNS ADD TOWN OF ALTOONA"
+}, {
+  "gp": "782509329012",
+  "parcel_description": "LOT 3 MEADOW POINT PLAT 11"
+}, {
+  "gp": "802434153039",
+  "parcel_description": "LOT 35 TRADITION GREENS PLAT 2"
+}, {
+  "gp": "792419279004",
+  "parcel_description": "LOT 38 WESTCHESTER MANOR PLAT 2"
+}, {
+  "gp": "802401203006",
+  "parcel_description": "LOT 3B LEDGESTONE PLAT 4"
+}, {
+  "gp": "792436403005",
+  "parcel_description": "LOT 4 DIXON PLAZA PLAT 1"
+}, {
+  "gp": "782507281008",
+  "parcel_description": "LOT 4 THE KNOLLS PLAT 4"
+}, {
+  "gp": "792519228025",
+  "parcel_description": "LOT 42 DAY\u0027S RUN WEST PLAT 2"
+}, {
+  "gp": "782509277024",
+  "parcel_description": "LOT 59 FAIRMEADOWS PLAT 5"
+}, {
+  "gp": "792523304019",
+  "parcel_description": "LOT 6 NORTHWEST COUNTRY CLUB MANOR PLAT 2"
+}, {
+  "gp": "802434277119",
+  "parcel_description": "LOT 7 THE VILLAGE AT WHITE BIRCH PLAT 2"
+}, {
+  "gp": "802319302065",
+  "parcel_description": "LOT 79 REPLAT OF COUNTRYSIDE MEADOWS"
+}, {
+  "gp": "782508401008",
+  "parcel_description": "LT 10 STONEBRIDGE CROSSING PLAT 1"
+}, {
+  "gp": "792530455008",
+  "parcel_description": "LT 17 COUNTRY CLUB NORTH PLAT 3"
+}, {
+  "gp": "812535378009",
+  "parcel_description": "LT 21 ARROW RIDGE POINT PLAT 2"
+}, {
+  "gp": "792530305017",
+  "parcel_description": "LT 25 DEER RIDGE ESTATES PLAT 1"
+}, {
+  "gp": "792511327012",
+  "parcel_description": "LT 39 GREEN MEADOWS WEST PLAT 8"
+}, {
+  "gp": "792434432005",
+  "parcel_description": "S 43.7F LOT 47 BATES ADDITION"
+}, {
+  "gp": "792527478175",
+  "parcel_description": "UNIT 2529 \u0026 G-2529 BLDG D GRANTS COVE"
+}, {
+  "gp": "782425154028",
+  "parcel_description": "UNIT U28 CARMAN ESTATES CONDOMINIUMS"
+}, {
+  "gp": "792431226006",
+  "parcel_description": "W 150 FT LOT 91 HICKMAN HIGHLANDS"
+}, {
+  "gp": "782420178007",
+  "parcel_description": "W 233.8F ON N LN \u0026 W 217.3F S LN LOT 37 WAKONDA CLUB KNOLLS"
+}, {
+  "gp": "792422376009",
+  "parcel_description": "-EX S 10F- LOT 15 \u0026 ALL LOT 16    WOODS ADD"
+}, {
+  "gp": "792429328004",
+  "parcel_description": "-EX S 168 F- E 65 F W 72 F LT 13 BEAVER GLEN"
+}, {
+  "gp": "792432426009",
+  "parcel_description": "E 120.06F LOT 17 BLK 4 MERRITT \u0026 FISCHERS PARK"
+}, {
+  "gp": "792503326023",
+  "parcel_description": "LOT 104 NEWPORT VISTA"
+}, {
+  "gp": "792505376006",
+  "parcel_description": "LOT 105 MEADOWLARK SOUTH PLAT 1"
+}, {
+  "gp": "782303226055",
+  "parcel_description": "LOT 107 VILLAGE AT ARBOR CHASE PLAT 1"
+}, {
+  "gp": "782508331005",
+  "parcel_description": "LOT 11 ASHWORTH ESTATES PLAT 15"
+}, {
+  "gp": "802502204024",
+  "parcel_description": "LOT 12 FOREST HEIGHTS PLAT 4"
+}, {
+  "gp": "792523402011",
+  "parcel_description": "LOT 121 SHARON HEIGHTS PLAT 3"
+}, {
+  "gp": "782502206006",
+  "parcel_description": "LOT 14 BROOKLINE HTS"
+}, {
+  "gp": "782406405004",
+  "parcel_description": "LOT 154 MIDDLESEX"
+}, {
+  "gp": "792530276005",
+  "parcel_description": "LOT 23 TIMBERLINE PLAT 1"
+}, {
+  "gp": "792514301005",
+  "parcel_description": "LOT 26 MEREDITH PARK PLAT NO 3"
+}, {
+  "gp": "782511404012",
+  "parcel_description": "LOT 28 DONAHEY PLACE"
+}, {
+  "gp": "792230301028",
+  "parcel_description": "LOT 33 FIELDSTONE ESTATES PLAT 1"
+}, {
+  "gp": "792520305004",
+  "parcel_description": "LOT 34 TIMBERLINE PARK"
+}, {
+  "gp": "782422252013",
+  "parcel_description": "LOT 39 PLAT 2 MORNINGSIDE"
+}, {
+  "gp": "792503427030",
+  "parcel_description": "LOT 43 GREEN MEADOWS NORTH TOWNHOMES PLAT 1"
+}, {
+  "gp": "792406476019",
+  "parcel_description": "LOT 47 SUBJ TO TRAIL EAS W 15F \u0026 S 60F JOHNSTON MEADOWS PLAT 1"
+}, {
+  "gp": "802409254017",
+  "parcel_description": "LOT 49 TRESTLE RIDGE ESTATES PLAT 6"
+}, {
+  "gp": "782520101012",
+  "parcel_description": "LOT 61 QUAIL PARK MEADOWS"
+}, {
+  "gp": "782432282017",
+  "parcel_description": "LOT 63 HIGHLAND HILLS PLT 3"
+}, {
+  "gp": "792431353020",
+  "parcel_description": "LOT 73 UNIVERSITY HEIGHTS"
+}, {
+  "gp": "792410401008",
+  "parcel_description": "LOT 8 WOODSIDE ESTATES WEST PLAT 2"
+}, {
+  "gp": "782401258002",
+  "parcel_description": "LOT 9 BLK 8 BREWER \u0026 COMPANYS ADDITION TO GRANT PARK"
+}, {
+  "gp": "782433179012",
+  "parcel_description": "LOTS 34 \u0026 35 BLK 16 RODGERS PLACE"
+}, {
+  "gp": "792436104028",
+  "parcel_description": "LOTS 42 \u0026 43 HAUGES BIRCHWOOD PLACE"
+}, {
+  "gp": "792406152052",
+  "parcel_description": "LT 1 HYPERION PLAZA PLAT 1"
+}, {
+  "gp": "782401182007",
+  "parcel_description": "LT 124 \u0026 E 1/2 VAC ALLEY W \u0026 ADJ \u0026 ALL LT 122 BLK 7 GRANT PARK"
+}, {
+  "gp": "792219181025",
+  "parcel_description": "LT 2 CENTENNIAL PLACE PLAT NO. 3"
+}, {
+  "gp": "782227151004",
+  "parcel_description": "LT 4 BEATTIE SUBDIVISION"
+}, {
+  "gp": "792503276007",
+  "parcel_description": "LT 40 GREEN MEADOWS NORTH PLAT 2"
+}, {
+  "gp": "792434105025",
+  "parcel_description": "LTS 36, 37 \u0026 38 BLK F CHAUTAUQUA PARK"
+}, {
+  "gp": "782402176031",
+  "parcel_description": "N 50 F LOT 10 BLK 59 STEWARTS ADDITION"
+}, {
+  "gp": "782502127042",
+  "parcel_description": "N 60 F E 1/2 LOT 8 COOPER PLACE"
+}, {
+  "gp": "782502127036",
+  "parcel_description": "N 62.5F S 125F LOT 1 COOPER PLACE"
+}, {
+  "gp": "802415178024",
+  "parcel_description": "UNIT 1047 WESTWOOD ANKENY CONDO 5"
+}, {
+  "gp": "782305102004",
+  "parcel_description": "UNIT 4 KNOB HILL CONDOMINIUMS"
+}, {
+  "gp": "802401477093",
+  "parcel_description": "UNIT 909 LOT 7 THE VILLAS AT GREENVIEW CROSSING"
+}, {
+  "gp": "782416327007",
+  "parcel_description": "W 100F LOT 12 BELL PLACE"
+}, {
+  "gp": "792320352040",
+  "parcel_description": "W 45F E 200F LOT 73 DOUGLAS ACRES"
+}, {
+  "gp": "792432154046",
+  "parcel_description": "W 50 F LOTS 4-5-6 \u0026 -EX N 150F- LOT B GRASTONE PLACE"
+}, {
+  "gp": "802523427005",
+  "parcel_description": "-EX PARCEL A BK 8237 PG 224 BEG NW COR LT 1 MERWOOD KNOLLS PLT 1 THN S 359.91F NWLY 369.55F E 81.42F TO POB- LOT 3 WALLERSTEAD"
+}, {
+  "gp": "792430277010",
+  "parcel_description": "LOT 1 ROSELAND ACRES REPLAT 1"
+}, {
+  "gp": "792514454022",
+  "parcel_description": "LOT 10 MEREDITH GRANDE PLAT 2"
+}, {
+  "gp": "802502327004",
+  "parcel_description": "LOT 12 BRIDGEVIEW PLAT 1"
+}, {
+  "gp": "782304277012",
+  "parcel_description": "LOT 15 WA SCHWEIKER\u0027S FIRST ADD TO PLEASANT HILL PLAT 3"
+}, {
+  "gp": "792434176003",
+  "parcel_description": "LOT 152 \u0026 THAT PART SPRING CREEK DRIVE W OF \u0026 ADJ THIRD PLAT PROSPECT PARK"
+}, {
+  "gp": "792419126042",
+  "parcel_description": "LOT 18 NORTHWOODS TOWNHOMES"
+}, {
+  "gp": "782422176035",
+  "parcel_description": "LOT 19 SMITHS ACRES PLAT 2"
+}, {
+  "gp": "792522329002",
+  "parcel_description": "LOT 20 GOLF VIEW ESTATES PLAT 3"
+}, {
+  "gp": "792532151023",
+  "parcel_description": "LOT 20 LANDSBROOK PLAT 6"
+}, {
+  "gp": "802415377008",
+  "parcel_description": "LOT 22 \u0026 S 5F LOT 23 COLLEGE PARK PLAZA NORTHWEST PLAT 5"
+}, {
+  "gp": "802435478018",
+  "parcel_description": "LOT 23 WILLOW RUN WEST PLAT 1"
+}, {
+  "gp": "802403376011",
+  "parcel_description": "LOT 26 COURTYARDS AT ROCK CREEK PLAT 3"
+}, {
+  "gp": "792422331006",
+  "parcel_description": "LOT 270 COLLEGE PARK"
+}, {
+  "gp": "792312453004",
+  "parcel_description": "LOT 3 WYATT WOODS PLAT 4"
+}, {
+  "gp": "802434153032",
+  "parcel_description": "LOT 42 TRADITION GREENS PLAT 2"
+}, {
+  "gp": "802527376023",
+  "parcel_description": "LOT 47 CROSSHAVEN PLAT 6"
+}, {
+  "gp": "792510429013",
+  "parcel_description": "LOT 47 GREENWOOD HILLS PLAT 1"
+}, {
+  "gp": "782414451020",
+  "parcel_description": "LOT 57 FOREST PARK MANOR"
+}, {
+  "gp": "802415176005",
+  "parcel_description": "LOT 58 WESTWOOD-ANKENY PLAT 2"
+}, {
+  "gp": "802336130018",
+  "parcel_description": "LOT 75 QUAIL RUN PLAT 1"
+}, {
+  "gp": "802435203009",
+  "parcel_description": "LOT 8 SIENA HILLS PLAT 2"
+}, {
+  "gp": "792422426008",
+  "parcel_description": "LOT 89 COLLEGE PARK"
+}, {
+  "gp": "792433426004",
+  "parcel_description": "LT 21 OP LT 9 OP SEC 33-79-24"
+}, {
+  "gp": "802412102009",
+  "parcel_description": "LT 24 BRIARWOOD PLAT 5"
+}, {
+  "gp": "802307151001",
+  "parcel_description": "LT 26 BRIAR CREEK PLAT 1"
+}, {
+  "gp": "782517178010",
+  "parcel_description": "LT 36 CIVIC ESTATES PLAT 1"
+}, {
+  "gp": "792329426051",
+  "parcel_description": "PARCEL A LOT 686 \u0026 -EX S 114.16F- LOTS 687, 688 \u0026 689 FOUR MILE"
+}, {
+  "gp": "782403203013",
+  "parcel_description": "S 66F LT 1 \u0026 -EX W 10F N 44F- S110F LT 2 BLK 13 STEWARTS ADDITION"
+}, {
+  "gp": "782418452020",
+  "parcel_description": "UNIT 21 LT 4 PARK AT SOUTHERN HILLS"
+}, {
+  "gp": "782407202024",
+  "parcel_description": "UNIT 3I 3100 GRAND AVE CONDO"
+}, {
+  "gp": "802434254017",
+  "parcel_description": "UNIT 603 BLDG 6 SAWGRASS LINKS TOWNHOMES"
+}, {
+  "gp": "782501201007",
+  "parcel_description": "UNIT 7 WAVELAND VILLAGE CONDO"
+}, {
+  "gp": "792330276037",
+  "parcel_description": "W 160F E 208F N 183.7F S 208.7F S 1/2 NE 1/4 NE 1/4 SEC 30-79-23"
+}, {
+  "gp": "782401258006",
+  "parcel_description": "W 58 F LOT 5 BLK 8 BREWER \u0026 COMPANYS ADDITION TO GRANT PARK"
+}, {
+  "gp": "792422427012",
+  "parcel_description": "W 90 F LOT 62 COLLEGE PARK"
+}, {
+  "gp": "792425351025",
+  "parcel_description": "-EX N 18.78F- LOT 24 VAN VLIET MEADOWS"
+}, {
+  "gp": "792536456035",
+  "parcel_description": "-EX W 140.07F- LOT 1 EVERGREEN HEIGHTS"
+}, {
+  "gp": "782501431020",
+  "parcel_description": "E 125F LOTS 1 \u0026 2 REPLAT LTS 1-2 \u0026 3 BLK F GIL-MAR PARK"
+}, {
+  "gp": "782416478031",
+  "parcel_description": "E 55F W 110F N 137F S 145.5F LOT 10 BERRY PLACE"
+}, {
+  "gp": "792331132009",
+  "parcel_description": "LOT 1 \u0026 N 7.4 F LOT 2 BLK 2 EASTON PLACE PLAT NO 4"
+}, {
+  "gp": "802416403009",
+  "parcel_description": "LOT 119 BOULDER BROOK PLAT 15"
+}, {
+  "gp": "792331429001",
+  "parcel_description": "LOT 124 BOULEVARD ADDITION"
+}, {
+  "gp": "802415128012",
+  "parcel_description": "LOT 127 WESTWOOD-ANKENY PLAT 2"
+}, {
+  "gp": "802436327008",
+  "parcel_description": "LOT 13 SPRINGWOOD TERRACE PLAT 2"
+}, {
+  "gp": "792431351036",
+  "parcel_description": "LOT 144 UNIVERSITY HEIGHTS"
+}, {
+  "gp": "782517154009",
+  "parcel_description": "LOT 18 SOUTHWOODS EAST PLAT 7"
+}, {
+  "gp": "792522376012",
+  "parcel_description": "LOT 20 QUAIL RIDGE PLAT 2"
+}, {
+  "gp": "792312202002",
+  "parcel_description": "LOT 20 WOLF CREEK PLAT 1"
+}, {
+  "gp": "782509408014",
+  "parcel_description": "LOT 22 MEADOW POINT PLAT 5"
+}, {
+  "gp": "792522204004",
+  "parcel_description": "LOT 23 CROSS CREEK WEST PLAT 6"
+}, {
+  "gp": "782304376003",
+  "parcel_description": "LOT 32 PLEASANT HILL ESTATES PLAT 6"
+}, {
+  "gp": "792431106023",
+  "parcel_description": "LOT 33 BILLIES PLACE"
+}, {
+  "gp": "802435152006",
+  "parcel_description": "LOT 37 TWIN GATES PLAT 1"
+}, {
+  "gp": "782517108008",
+  "parcel_description": "LOT 4 SOUTHWOODS EAST PLAT 6"
+}, {
+  "gp": "792403151023",
+  "parcel_description": "LOT 41 SAYLORVILLE HEIGHTS"
+}, {
+  "gp": "792407206007",
+  "parcel_description": "LOT 45 PINEWOOD GLEN PLAT 2"
+}, {
+  "gp": "782519281045",
+  "parcel_description": "LOT 48 QUAIL VISTA TOWNHOMES PLAT 2"
+}, {
+  "gp": "802532206007",
+  "parcel_description": "LOT 52 \u0026 OUTLOT N BEAVERBROOKE POINTE PLAT 3"
+}, {
+  "gp": "802435152061",
+  "parcel_description": "LOT 57A TWIN GATES PLAT 1 REPLAT OF LOTS 54-59, 59A \u0026 OUTLOTS V \u0026 Z"
+}, {
+  "gp": "782330305001",
+  "parcel_description": "LOT 58 EASTER LAKE SOUTH PLAT 1"
+}, {
+  "gp": "782521304002",
+  "parcel_description": "LOT 6 GRAND VALLEY PLAT 1"
+}, {
+  "gp": "792218380001",
+  "parcel_description": "LOT 62 FAIRLANE ADD PLAT NO 3"
+}, {
+  "gp": "802523426027",
+  "parcel_description": "LOT 63 SUNSET RIDGE POINTE PLAT 2"
+}, {
+  "gp": "782406108013",
+  "parcel_description": "LOT 7 KINGMAN COURT"
+}, {
+  "gp": "802414381026",
+  "parcel_description": "LOT 9 NORTHLAWN PLAT NO 2"
+}, {
+  "gp": "782334610012",
+  "parcel_description": "LOT C NOVA PARK PLAT NO 1"
+}, {
+  "gp": "792523152026",
+  "parcel_description": "LT 100 PARKVIEW PLAT 1"
+}, {
+  "gp": "802428476004",
+  "parcel_description": "LT 14 THE WESTWINDS PLAT 1"
+}, {
+  "gp": "792515227012",
+  "parcel_description": "LT 15 ROUGHWOOD IV"
+}, {
+  "gp": "792503379019",
+  "parcel_description": "LT 151 NEWPORT RIDGE PLAT 1"
+}, {
+  "gp": "792526404004",
+  "parcel_description": "LT 20 KAREN ACRES PLAT 17"
+}, {
+  "gp": "802411451010",
+  "parcel_description": "LT 3 GEORGETOWN PLAT 8"
+}, {
+  "gp": "802412128019",
+  "parcel_description": "LT 8A BRIARWOOD PLAT 9"
+}, {
+  "gp": "802330101034",
+  "parcel_description": "LT 9 BLK E PRAIRIE GLEN PLAT 1"
+}, {
+  "gp": "792332431020",
+  "parcel_description": "LTS 159,160 \u0026 161 GRAYS WOODS"
+}, {
+  "gp": "792527178005",
+  "parcel_description": "N 75 F LOT 7 \u0026 S 30 F LOT 8 PATRICIA PARK PLAT NO 3"
+}, {
+  "gp": "792327403022",
+  "parcel_description": "S 1/2 LOT 30 EASTOVER"
+}, {
+  "gp": "782505310002",
+  "parcel_description": "UNIT 2 LOT 1 COLONIAL VILLAGE 4TH ADD NOELCREST CONDOMINIUMS"
+}, {
+  "gp": "792514302091",
+  "parcel_description": "UNIT 25 BLDG C PLUMWOOD TERRACE CONDO"
+}, {
+  "gp": "782404488022",
+  "parcel_description": "UNIT RESIDENTIAL 210 4TH AND COURT CONDOMINIUMS"
+}, {
+  "gp": "782406352008",
+  "parcel_description": "E 100 F N 75 F LOT 10 GREENWOOD PARK"
+}, {
+  "gp": "782415404002",
+  "parcel_description": "E 126F LT 28 \u0026 E 126F N 3F LT 29 SOUTHERN HEIGHTS"
+}, {
+  "gp": "782421328019",
+  "parcel_description": "E 60F S 1/2 LOT 5 AMEND PLACE"
+}, {
+  "gp": "792436380027",
+  "parcel_description": "LOT 1 SAMPSON ST CENTRE PLAT 1"
+}, {
+  "gp": "792218252002",
+  "parcel_description": "LOT 10 EDGEWOOD TRAIL PLAT 1"
+}, {
+  "gp": "792329451028",
+  "parcel_description": "LOT 1025 FOUR MILE"
+}, {
+  "gp": "792420478011",
+  "parcel_description": "LOT 11 \u0026 W 12 F LOT 12 BLK E LAWNWOODS"
+}, {
+  "gp": "802416427008",
+  "parcel_description": "LOT 12 BOULDER BROOK PLAT NO 1"
+}, {
+  "gp": "792427427001",
+  "parcel_description": "LOT 135 BLK 6 LAKE PARK"
+}, {
+  "gp": "792426201011",
+  "parcel_description": "LOT 16 CAMPUS PARK"
+}, {
+  "gp": "782436203014",
+  "parcel_description": "LOT 17 THREE LAKES ESTATES PLAT 1"
+}, {
+  "gp": "802401280133",
+  "parcel_description": "LOT 2 CREEKSIDE BROWNSTONES PLAT 2"
+}, {
+  "gp": "782223201015",
+  "parcel_description": "LOT 2 EAST POLK PLAT 4"
+}, {
+  "gp": "792533178011",
+  "parcel_description": "LOT 2 INDIAN MEADOWS CORR PLAT"
+}, {
+  "gp": "782403133012",
+  "parcel_description": "LOT 20 MARY T SMITHS SUB DIV"
+}, {
+  "gp": "792531376038",
+  "parcel_description": "LOT 23 COUNTRY CLUB RIDGE TOWNHOMES"
+}, {
+  "gp": "792527428001",
+  "parcel_description": "LOT 23 OLDHAM PARK PLAT NO 1"
+}, {
+  "gp": "802436328014",
+  "parcel_description": "LOT 25 SPRINGWOOD TERRACE PLAT 3"
+}, {
+  "gp": "792407254016",
+  "parcel_description": "LOT 29 BEAVER PINES"
+}, {
+  "gp": "782406304024",
+  "parcel_description": "LOT 3 GREENWOOD HEIGHTS"
+}, {
+  "gp": "792419451042",
+  "parcel_description": "LOT 3 MEADOWLAND PLAT 3"
+}, {
+  "gp": "792220154001",
+  "parcel_description": "LOT 32 TUSCANY PLAT 1"
+}, {
+  "gp": "802422102004",
+  "parcel_description": "LOT 34 MEADOWLARK PLATEAU PLT 2"
+}, {
+  "gp": "792423378012",
+  "parcel_description": "LOT 37 EAST HIGHLAND PARK PLT 2"
+}, {
+  "gp": "792312126026",
+  "parcel_description": "LOT 4 WOLF CREEK PLAT 13"
+}, {
+  "gp": "782412228006",
+  "parcel_description": "LOT 4 YORKS ADDITION TO CHESTERFIELD"
+}, {
+  "gp": "802403305006",
+  "parcel_description": "LOT 6 VILLAS AT BRINMORE ESTATES PLAT 1"
+}, {
+  "gp": "802523426021",
+  "parcel_description": "LOT 69 SUNSET RIDGE POINTE PLAT 2"
+}, {
+  "gp": "792522452048",
+  "parcel_description": "LOT 7 SUNFLOWER PLAT 4"
+}, {
+  "gp": "802317452007",
+  "parcel_description": "LOT 7 THE CROSSINGS AT DEER CREEK PLAT 5"
+}, {
+  "gp": "802420202001",
+  "parcel_description": "LOT 8 HUNTERS RUN PLAT 2"
+}, {
+  "gp": "802424376006",
+  "parcel_description": "LT 11 SPAHR MANOR PLAT NO 3"
+}, {
+  "gp": "802411427027",
+  "parcel_description": "LT 20 \u0026 G-20 CORNERSTONE AT GEORGETOWN"
+}, {
+  "gp": "792510402010",
+  "parcel_description": "LT 3 GREENWOOD HILLS PLAT 4"
+}, {
+  "gp": "802536476036",
+  "parcel_description": "LT 33 RITTGERS OAKS AT HYPERION PLAT 1"
+}, {
+  "gp": "792516478026",
+  "parcel_description": "LT 9 FOXDALE PLAT 1"
+}, {
+  "gp": "782406329014",
+  "parcel_description": "N 1/2 LOT 16 MILLER HEIGHTS"
+}, {
+  "gp": "792329102030",
+  "parcel_description": "S 170F LT 3 EDWARDS PLACE PLAT 3"
+}, {
+  "gp": "782515304029",
+  "parcel_description": "UNIT 29 GARDEN RIDGE (CONDO)"
+}, {
+  "gp": "782518352039",
+  "parcel_description": "UNIT 803 THE VILLAGE AT GLEN OAKS"
+}, {
+  "gp": "782405435006",
+  "parcel_description": "UNIT TRILLIUM ALCHEMILLA CONDOMINIUMS"
+}, {
+  "gp": "792524228011",
+  "parcel_description": "E 150F LT 108 MERLE HAY ACRES"
+}, {
+  "gp": "792331357030",
+  "parcel_description": "E 20 F LOT 69 \u0026 LOT 70 \u0026 W 5 F LOT 71 COLSONS ADDITION"
+}, {
+  "gp": "802416254011",
+  "parcel_description": "LOT 11 BOULDER BROOK PLAT 14"
+}, {
+  "gp": "802436180029",
+  "parcel_description": "LOT 12 SPRINGWOOD PLAT 12"
+}, {
+  "gp": "782422101037",
+  "parcel_description": "LOT 14 JACKSON MANOR"
+}, {
+  "gp": "792328203014",
+  "parcel_description": "LOT 14 SUNRISE ESTATES PLAT #1"
+}, {
+  "gp": "792426429001",
+  "parcel_description": "LOT 15 BLK 11 GRAND VIEW"
+}, {
+  "gp": "802330277008",
+  "parcel_description": "LOT 15 CLOVER RIDGE WEST PLAT 1"
+}, {
+  "gp": "782508328003",
+  "parcel_description": "LOT 17 ASHWORTH ESTATES PLAT 19"
+}, {
+  "gp": "802422201014",
+  "parcel_description": "LOT 17 WESTLAWN PLACE PLAT 7"
+}, {
+  "gp": "792331108016",
+  "parcel_description": "LOT 19 BLK 18 EASTON PLACE"
+}, {
+  "gp": "782407351024",
+  "parcel_description": "LOT 2 RIVER OAKS PLAT 2"
+}, {
+  "gp": "782436303010",
+  "parcel_description": "LOT 20 HILLSBORO PLAT 3"
+}, {
+  "gp": "802336229008",
+  "parcel_description": "LOT 21 RIECK ESTATES"
+}, {
+  "gp": "792522351058",
+  "parcel_description": "LOT 22 QUAIL RIDGE PLAT NO 3"
+}, {
+  "gp": "792435479018",
+  "parcel_description": "LOT 224 CAPITAL PARK"
+}, {
+  "gp": "782427204034",
+  "parcel_description": "LOT 26 SHARON HILLS PLAT 1"
+}, {
+  "gp": "792436477008",
+  "parcel_description": "LOT 31 BLK 6 FOUNDRY ADD"
+}, {
+  "gp": "802523476017",
+  "parcel_description": "LOT 34 SUNSET RIDGE POINTE PLAT 2"
+}, {
+  "gp": "802231376002",
+  "parcel_description": "LOT 35 MEADOW BROOK NORTH PLAT 3"
+}, {
+  "gp": "782436203023",
+  "parcel_description": "LOT 39 THREE LAKES ESTATES PLAT 1"
+}, {
+  "gp": "792407351035",
+  "parcel_description": "LOT 4 THE VILLAGE AT JOHNSTON STATION"
+}, {
+  "gp": "782510431014",
+  "parcel_description": "LOT 40 MYERLYS ADD TO VALLEY JUNCTION"
+}, {
+  "gp": "792320252024",
+  "parcel_description": "LOT 413 DOUGLAS ACRES PLAT 5"
+}, {
+  "gp": "782423227005",
+  "parcel_description": "LOT 43 EVERGREEN PARK"
+}, {
+  "gp": "802412276015",
+  "parcel_description": "LOT 46 BRIARWOOD PLAT 1"
+}, {
+  "gp": "782401460002",
+  "parcel_description": "LOT 5 BLK 9 ESHBAUGH \u0026 WESTS ADDITION"
+}, {
+  "gp": "782304402015",
+  "parcel_description": "LOT 6 JACOB\u0027S CROSSING PLAT 1"
+}, {
+  "gp": "782509256018",
+  "parcel_description": "LOT 86 FAIRMEADOWS PLAT 6"
+}, {
+  "gp": "782508301009",
+  "parcel_description": "LOT 9 ASHWORTH ESTATES PLAT 14"
+}, {
+  "gp": "802507101001",
+  "parcel_description": "LOT 9 EAGLES VIEW"
+}, {
+  "gp": "792333128016",
+  "parcel_description": "LOT 90 SUNRISE PARK"
+}, {
+  "gp": "792527332022",
+  "parcel_description": "LT 1 PATRICIA PARK PLAT 12"
+}, {
+  "gp": "792312377032",
+  "parcel_description": "LT C-9 GREENWAY PLAT 1"
+}, {
+  "gp": "782433179007",
+  "parcel_description": "LTS 21,22,23 BLK 16 RODGERS PLACE"
+}, {
+  "gp": "792432305032",
+  "parcel_description": "N 22F LTS 1 \u0026 39 \u0026 ALL LTS 6 \u0026 38 BLK A ERNHURST WOODS"
+}, {
+  "gp": "782428226002",
+  "parcel_description": "S 1/2 LOT 61 FARR ADDITION"
+}, {
+  "gp": "782405401010",
+  "parcel_description": "S 32 F LOT 24 T E BROWNS 3RD ADD"
+}, {
+  "gp": "792332102022",
+  "parcel_description": "S 60F N 205F W 100F LOT 10 PATTERSON PLACE"
+}, {
+  "gp": "802401477062",
+  "parcel_description": "UNIT 1012 LT 3 THE VILLAS AT GREENVIEW CROSSING"
+}, {
+  "gp": "782506329001",
+  "parcel_description": "UNIT 5400 BROADMOOR PLACE"
+}, {
+  "gp": "792433127008",
+  "parcel_description": "-EX N 80 F- W 150 F N 186 F LT 8 ROSS PLACE"
+}, {
+  "gp": "792331329001",
+  "parcel_description": "-EX S 55F- LOTS 9 \u0026 10 J R LEVERETT PLACE"
+}, {
+  "gp": "802502276024",
+  "parcel_description": "BEG 64.5F N OF NE COR LOT 91 LEONARD\u0027S PLACE THN W 192.5F N 174.5F E 166F SE 176.35F TO POB LOT 23 OP N 1/2 SEC 2-80-25"
+}, {
+  "gp": "792425301013",
+  "parcel_description": "E 25.62F S 140F N 165F LOT 10 \u0026 W 50F S 150F N 175F LOT 11 PART PLAT NW 1/4 SW 1/4 SEC 25-79-24"
+}, {
+  "gp": "782401201008",
+  "parcel_description": "LOT 10 BLK 1 FARWELL PLACE"
+}, {
+  "gp": "802416277006",
+  "parcel_description": "LOT 12 BOULDER BROOK PLAT 5"
+}, {
+  "gp": "782506304001",
+  "parcel_description": "LOT 12 SUN PRAIRIE WEST PLAT 1"
+}, {
+  "gp": "802425229012",
+  "parcel_description": "LOT 14 COUNTRY CROSSING PLAT 1"
+}, {
+  "gp": "802531302007",
+  "parcel_description": "LOT 15 AUTUMN PARK WEST PLAT 1"
+}, {
+  "gp": "792331129034",
+  "parcel_description": "LOT 16 BLK 10 EASTON PLACE"
+}, {
+  "gp": "792432429008",
+  "parcel_description": "LOT 18 BLK 1 MERRITT \u0026 FISCHERS PARK"
+}, {
+  "gp": "792436302014",
+  "parcel_description": "LOT 181 ASHBROOK"
+}, {
+  "gp": "792525253016",
+  "parcel_description": "LOT 2 KINGSLEY ACRES"
+}, {
+  "gp": "792230127002",
+  "parcel_description": "LOT 2 PRAIRIE VISTA PLAT 1"
+}, {
+  "gp": "792506177009",
+  "parcel_description": "LOT 20 KENNYBROOK SOUTH PLAT 1"
+}, {
+  "gp": "792324404028",
+  "parcel_description": "LOT 23 VENBURY PLAT 16"
+}, {
+  "gp": "802317451051",
+  "parcel_description": "LOT 26 THE LANDING AT DEER CREEK CROSSING"
+}, {
+  "gp": "792426404025",
+  "parcel_description": "LOT 27 BLK 10 GRAND VIEW"
+}, {
+  "gp": "802329302010",
+  "parcel_description": "LOT 27 CLOVER RIDGE PLAT 1"
+}, {
+  "gp": "792510376073",
+  "parcel_description": "LOT 28 BENT TREE VILLAS PLAT 2"
+}, {
+  "gp": "802435276018",
+  "parcel_description": "LOT 31 SIENA HILLS PLAT 1"
+}, {
+  "gp": "792511302006",
+  "parcel_description": "LOT 33 GREEN MEADOWS WEST PLT 5"
+}, {
+  "gp": "802424477007",
+  "parcel_description": "LOT 45 WAYWIN ACRES PLAT 5"
+}, {
+  "gp": "802415226010",
+  "parcel_description": "LOT 46 PRAIRIE LAKES PLAT 2"
+}, {
+  "gp": "792321476003",
+  "parcel_description": "LOT 47 CAPITOL HEIGHTS NO 2"
+}, {
+  "gp": "782507427002",
+  "parcel_description": "LOT 58 THE KNOLLS PLAT 3"
+}, {
+  "gp": "792510454004",
+  "parcel_description": "LOT 62 LONGVIEW GREENS PLAT 1"
+}, {
+  "gp": "802434177006",
+  "parcel_description": "LOT 7 DIAMOND HILLS PLAT 1"
+}, {
+  "gp": "782506428041",
+  "parcel_description": "LOT 76 WEST COVE"
+}, {
+  "gp": "802435377010",
+  "parcel_description": "LOT 77A SOMERSBY PLAT 1"
+}, {
+  "gp": "792407128001",
+  "parcel_description": "LOT 8 PINEWOOD GLEN PLAT 3"
+}, {
+  "gp": "792427284003",
+  "parcel_description": "LOT 94 BLK 3 LAKE PARK"
+}, {
+  "gp": "782401133017",
+  "parcel_description": "LOTS 30 \u0026 31 BLK 11 YORKS CHOICE"
+}, {
+  "gp": "802413354006",
+  "parcel_description": "LT 10 HENDERSON PARK PLAT 6"
+}, {
+  "gp": "782419279009",
+  "parcel_description": "LT 110 CAMELOT SOUTH"
+}, {
+  "gp": "782404126004",
+  "parcel_description": "N 1/2 S 2/3 W 1/2 LOT 13 OP NE FR 1/4 NW FR 1/4 SEC 4-78-24"
+}, {
+  "gp": "782501227045",
+  "parcel_description": "N 45 F LTS 17 \u0026 18 \u0026 ALL LOT 19 \u0026 N 5 F LOT 20 KENMORE REPLAT"
+}, {
+  "gp": "782410360006",
+  "parcel_description": "NE 1/4 LOT 18 OP W 1/2 S OF D M RIVER SEC 10-78-24"
+}, {
+  "gp": "802502229006",
+  "parcel_description": "UNIT 2 BLDG 3 FOREST HEIGHTS CONDOS 2"
+}, {
+  "gp": "782404486032",
+  "parcel_description": "UNIT 423 WATER STREET BROWNSTONES"
+}, {
+  "gp": "782425154094",
+  "parcel_description": "UNIT L94 CARMAN ESTATES CONDOMINIUMS"
+}, {
+  "gp": "792332326003",
+  "parcel_description": "W 5 FT LOT 15 \u0026 ALL LOTS 16 \u0026 17 BLK 1 OUT-LOOK PARK"
+}, {
+  "gp": "792527330014",
+  "parcel_description": "WLY 25F LOT 7 \u0026 E 59.2F LOT 8 PATRICIA PARK PLAT 4"
+}, {
+  "gp": "782403205023",
+  "parcel_description": "BEG 38.08F W OF SE COR THN W 40F NLY TO PT 50F W 0F NE COR E 22F SLY 150F TO POB LT 1 BLK 9 STEWARTS ADDITION"
+}, {
+  "gp": "782406402017",
+  "parcel_description": "E 120 F LOT 95 MIDDLESEX PLAT NO 2"
+}, {
+  "gp": "782406127010",
+  "parcel_description": "E 48 F LOT 23 \u0026 24 KAUFFMAN PLACE"
+}, {
+  "gp": "782428154028",
+  "parcel_description": "E15F LT 122 \u0026 ALL LT 123 SHERIDAN PLACE"
+}, {
+  "gp": "792431354011",
+  "parcel_description": "LOT 11 UNIVERSITY HEIGHTS"
+}, {
+  "gp": "802330279011",
+  "parcel_description": "LOT 12 CLOVER RIDGE WEST PLAT 3"
+}, {
+  "gp": "802424406007",
+  "parcel_description": "LOT 12 RICHLAND ESTS PLAT NO 8"
+}, {
+  "gp": "782514128001",
+  "parcel_description": "LOT 15 BLK 1 VALLEY JUNCTION"
+}, {
+  "gp": "792433276055",
+  "parcel_description": "LOT 17 ROSS ADD TO INGLE WOLD"
+}, {
+  "gp": "792431429020",
+  "parcel_description": "LOT 17 TODD PLACE"
+}, {
+  "gp": "812535476004",
+  "parcel_description": "LOT 18 TOURNAMENT CLUB OF IOWA PLAT 2"
+}, {
+  "gp": "782520227009",
+  "parcel_description": "LOT 18 TURNBERRY"
+}, {
+  "gp": "802435303020",
+  "parcel_description": "LOT 19 SOMERSBY WEST PLAT 2"
+}, {
+  "gp": "802415302010",
+  "parcel_description": "LOT 2 WESTWOOD-ANKENY PLAT 13"
+}, {
+  "gp": "782507178024",
+  "parcel_description": "LOT 20 MEADOW BROOK PLAT 8"
+}, {
+  "gp": "792426102004",
+  "parcel_description": "LOT 21 BLK 17 HIGHLAND PARK"
+}, {
+  "gp": "792523432008",
+  "parcel_description": "LOT 21 SHARON HEIGHTS PLAT 2"
+}, {
+  "gp": "792428106004",
+  "parcel_description": "LOT 25 WINNIES PLACE"
+}, {
+  "gp": "792433179002",
+  "parcel_description": "LOT 26 KIRKWOOD GLEN"
+}, {
+  "gp": "782433301034",
+  "parcel_description": "LOT 27 HIGHLAND HILLS PLAT 4"
+}, {
+  "gp": "782407252011",
+  "parcel_description": "LOT 3 BLK C LINCOLN PLACE REPLAT"
+}, {
+  "gp": "792426451029",
+  "parcel_description": "LOT 30 BLK 15 GRAND VIEW"
+}, {
+  "gp": "802528451013",
+  "parcel_description": "LOT 31 CHESTERFIELD HEIGHTS PLAT 1"
+}, {
+  "gp": "792422404021",
+  "parcel_description": "LOT 328 COLLEGE PARK"
+}, {
+  "gp": "782519376020",
+  "parcel_description": "LOT 37 GLEN OAKS PLAT 2"
+}, {
+  "gp": "802208400008",
+  "parcel_description": "LOT 4 RIECK\u0027S PLACE PLAT 1"
+}, {
+  "gp": "792230131004",
+  "parcel_description": "LOT 40 PRAIRIE VISTA PLAT 1"
+}, {
+  "gp": "792531129002",
+  "parcel_description": "LOT 43 COUNTRY CLUB PLAT 5"
+}, {
+  "gp": "782427404008",
+  "parcel_description": "LOT 44 JORDAN PLACE PLAT 3"
+}, {
+  "gp": "802415451014",
+  "parcel_description": "LOT 59 COLLEGE PARK PLAZA NORTHWEST PLAT 1"
+}, {
+  "gp": "802435403019",
+  "parcel_description": "LOT 6 SIENNA FALLS PLAT 2"
+}, {
+  "gp": "802207201018",
+  "parcel_description": "LOT 74 WOODLAND LAKE ESTATES PLAT 2"
+}, {
+  "gp": "782428177009",
+  "parcel_description": "LOT 81 SHERIDAN PLACE"
+}, {
+  "gp": "802532328030",
+  "parcel_description": "LOT 90 CHANNON HEIGHTS"
+}, {
+  "gp": "792523379001",
+  "parcel_description": "LT 13 MACRAE HIGHLANDS PLAT 11"
+}, {
+  "gp": "782427276005",
+  "parcel_description": "LT 31 JORDAN MANOR PLAT 1"
+}, {
+  "gp": "792320476010",
+  "parcel_description": "LT 5 APPLEWOOD-PLACE"
+}, {
+  "gp": "792505206007",
+  "parcel_description": "LT 5 THE CROSSING TOWNHOMES"
+}, {
+  "gp": "792532326002",
+  "parcel_description": "LT 52 WELLINGTON RIDGE PLAT 3"
+}, {
+  "gp": "782429403013",
+  "parcel_description": "N 1/2 LOT 43 FARR VIEW ACRES"
+}, {
+  "gp": "812429200002",
+  "parcel_description": "S 180F N 1050F W 287.4F E 320.4F NE 1/4 SEC 29-81-24"
+}, {
+  "gp": "782404488028",
+  "parcel_description": "UNIT RESIDENTIAL 306 4TH AND COURT CONDOMINIUMS"
+}, {
+  "gp": "792531354010",
+  "parcel_description": "UNIT T-10-36 THE PINNACLE CONDO"
+}, {
+  "gp": "792425327022",
+  "parcel_description": "-EX S 440 F- \u0026 -EX N 385 F- \u0026 -EX W 25 F- S 4 A LT 3 PRT PLAT NE 1/4 SW 1/4 SEC 25-79-24"
+}, {
+  "gp": "792432154044",
+  "parcel_description": "E 21.5F W 43F ONS LN \u0026 E 25.1F W 45.5F ON N LN LOT 13 SHAFER WOODS; AND MEAS E 59.98 F ON N LN LT 1 \u0026 E 98 F ON S LN LT 3 E PT LTS 1-2 \u0026 3 GRASTONE PLACE"
+}, {
+  "gp": "782415126051",
+  "parcel_description": "E 70F W 269.65F LT 49 CRAWFORD PLACE"
+}, {
+  "gp": "782401107013",
+  "parcel_description": "LOT 1 \u0026 E 6 F LOT 2 BLK 20 YORKS CHOICE"
+}, {
+  "gp": "792402457013",
+  "parcel_description": "LOT 1 THE GREENS AT WOODLAND HILLS PLAT 4"
+}, {
+  "gp": "802530453022",
+  "parcel_description": "LOT 117 BEAVERBROOKE WEST PLAT EIGHT"
+}, {
+  "gp": "812327355005",
+  "parcel_description": "LOT 13 PRAIRIE POINTE PLAT 4"
+}, {
+  "gp": "802530180011",
+  "parcel_description": "LOT 13 WILLOW HILLS PLAT 2"
+}, {
+  "gp": "802412328009",
+  "parcel_description": "LOT 15 BRIARWOOD SOUTH PLAT 5"
+}, {
+  "gp": "792535229011",
+  "parcel_description": "LOT 15 CORR PLAT PLAZA HILLS PLAT 3"
+}, {
+  "gp": "782416351046",
+  "parcel_description": "LOT 15 DANFORTH"
+}, {
+  "gp": "802427276007",
+  "parcel_description": "LOT 16 PRECEDENCE AT PRAIRIE TRAIL PLAT 1"
+}, {
+  "gp": "782520303012",
+  "parcel_description": "LOT 17 QUAIL MEADOWS WEST PLAT 2"
+}, {
+  "gp": "792430126030",
+  "parcel_description": "LOT 21 HOLLYWOOD GARDENS"
+}, {
+  "gp": "782424303022",
+  "parcel_description": "LOT 26 EASTER BAY COLONY PLAT 2"
+}, {
+  "gp": "782508404013",
+  "parcel_description": "LOT 3 ASHWORTH ESTATES PLAT 16"
+}, {
+  "gp": "792433251018",
+  "parcel_description": "LOT 3 BLK 2 INGLESIDE"
+}, {
+  "gp": "782509154024",
+  "parcel_description": "LOT 39 FAIRMEADOWS PLAT NO 12"
+}, {
+  "gp": "802401151020",
+  "parcel_description": "LOT 4 AVONDALE TRACE PLAT 6"
+}, {
+  "gp": "792509277015",
+  "parcel_description": "LOT 4 VILLAS AT GLENSTONE RIDGE PLAT 1"
+}, {
+  "gp": "792332456024",
+  "parcel_description": "LOT 459 GRAYS WOODS"
+}, {
+  "gp": "792534376001",
+  "parcel_description": "LOT 49 INDIAN HILLS PLAT 4"
+}, {
+  "gp": "792426307030",
+  "parcel_description": "LOT 50 MARTHA HALL HEIGHTS"
+}, {
+  "gp": "792436304006",
+  "parcel_description": "LOT 6 ASHBROOK"
+}, {
+  "gp": "802434277017",
+  "parcel_description": "LOT 66 THE VILLAGE AT WHITE BIRCH PLAT 2"
+}, {
+  "gp": "792432177038",
+  "parcel_description": "LOT 72 HOLLANDALE"
+}, {
+  "gp": "782517352010",
+  "parcel_description": "LOT 8 WESTERNWOODS PLAT 2"
+}, {
+  "gp": "782429427019",
+  "parcel_description": "LOT 81 FARR VIEW ACRES"
+}, {
+  "gp": "792513351059",
+  "parcel_description": "LOT 9 TIMBER GLEN PLAT 1"
+}, {
+  "gp": "792526259001",
+  "parcel_description": "LT 1 \u0026 -EX S 12 F- LT 2 BLK K KAREN ACRES PLAT 4"
+}, {
+  "gp": "792526352029",
+  "parcel_description": "LT 1 COBBLESTONE PLAT 20"
+}, {
+  "gp": "792505177009",
+  "parcel_description": "LT 14 MEADOWLARK POINTE PLAT NO. 5"
+}, {
+  "gp": "802433203029",
+  "parcel_description": "LT 15 GLENBROOKE PLAT 3"
+}, {
+  "gp": "782417477010",
+  "parcel_description": "LT 40 WINDOVER WOODS PLAT 1"
+}, {
+  "gp": "802231157006",
+  "parcel_description": "LT 6 \u0026 N 1/2 LT 7 BLK 19 BONDURANT ADD TO BONDURANT"
+}, {
+  "gp": "792219103013",
+  "parcel_description": "LT 9 HERITAGE HOMES PLAT NO 3"
+}, {
+  "gp": "782319200011",
+  "parcel_description": "PARCEL A BEG 644F W \u0026 33F N OF E 1/4 COR OF SEC THN W 170.98F N 266.04F NELY 95F N 20F NELY 208.41F SW 326.97F TO POB LT 10 S OF RR OP GOVT LT 7 SEC 19-78-23"
+}, {
+  "gp": "792512452018",
+  "parcel_description": "UNIT 18 BLDG 5 THE HOMESTEAD IN GREEN MEADOWS CONDO"
+}, {
+  "gp": "792527478155",
+  "parcel_description": "UNIT 2461 \u0026 G-2461 BLDG E GRANTS COVE"
+}, {
+  "gp": "782501457001",
+  "parcel_description": "W 116.22 F LOT 27 INGERSOLL PARK"
+}, {
+  "gp": "782415279008",
+  "parcel_description": "W 156.37F S 91F LOT 32 OP LOTS 13,14,18 TALLMADGES SUB-DIV"
+}, {
+  "gp": "782427126017",
+  "parcel_description": "-EX BEG 25F S OF NW COR THN E 297F S 381.37F NW 228.89F N 90.5F NW 46.69F NW 18.52F NW 259.12F TO POB- S 319.28F MEAS ON W LN N OF TITUS AV LOT 8 THOMAS HEIGHTS 2ND ADD"
+}, {
+  "gp": "792320252028",
+  "parcel_description": "-EX E 105F- LOT 426 DOUGLAS ACRES PLAT 5"
+}, {
+  "gp": "782310151049",
+  "parcel_description": "LOT 12 ARBOR LAKE PLAT 2"
+}, {
+  "gp": "802505280002",
+  "parcel_description": "LOT 13 JESTER GLEN ESTATES PLAT FOUR"
+}, {
+  "gp": "802413330026",
+  "parcel_description": "LOT 14 HENDERSON PARK PLAT 19"
+}, {
+  "gp": "802412276025",
+  "parcel_description": "LOT 15 BRIARWOOD PLAT 4"
+}, {
+  "gp": "802502132014",
+  "parcel_description": "LOT 15 WOODHAVEN PLAT 2"
+}, {
+  "gp": "792513326001",
+  "parcel_description": "LOT 16 MILLSIDE PLAT 4"
+}, {
+  "gp": "802414402006",
+  "parcel_description": "LOT 16 PARKVIEW TERRACE PLAT 12"
+}, {
+  "gp": "792319276007",
+  "parcel_description": "LOT 19 DOUGLAS ACRES PLAT 8"
+}, {
+  "gp": "802423178028",
+  "parcel_description": "LOT 2 BLK 3 VAN SLYCK ADDITION"
+}, {
+  "gp": "782420351017",
+  "parcel_description": "LOT 2 MEADOW ROSE"
+}, {
+  "gp": "792523476009",
+  "parcel_description": "LOT 21 MACRAE HIGHLANDS PLAT 4"
+}, {
+  "gp": "782422226036",
+  "parcel_description": "LOT 24 SOUTHERN KNOLLS PLAT 1"
+}, {
+  "gp": "792420430011",
+  "parcel_description": "LOT 25 CRAIG REED PARK PLAT 1"
+}, {
+  "gp": "792513351038",
+  "parcel_description": "LOT 25 HICKORY HILL PLAT NO 6"
+}, {
+  "gp": "792419204027",
+  "parcel_description": "LOT 26 BEL AIRE WEST PLAT NO 3"
+}, {
+  "gp": "782402257018",
+  "parcel_description": "LOT 3 \u0026 W 5 F LOT 4 BLK A EAST PARK PLACE"
+}, {
+  "gp": "792323126010",
+  "parcel_description": "LOT 3 MEADOW VISTA ESTATES PLAT 1"
+}, {
+  "gp": "802533452016",
+  "parcel_description": "LOT 30 HIGHLAND SUMMIT PLAT 1"
+}, {
+  "gp": "792432177009",
+  "parcel_description": "LOT 36 HOLLANDALE"
+}, {
+  "gp": "782409182007",
+  "parcel_description": "LOT 4 GRAY\u0027S STATION PLAT 2"
+}, {
+  "gp": "802409430012",
+  "parcel_description": "LOT 4 TRESTLE RIDGE ESTATES PLAT 4"
+}, {
+  "gp": "792510431008",
+  "parcel_description": "LOT 5 GREENWOOD HILLS PLAT 5"
+}, {
+  "gp": "792505251009",
+  "parcel_description": "LOT 6 MEADOWLARK POINTE PLAT NO 1"
+}, {
+  "gp": "782508377035",
+  "parcel_description": "LOT 66 SOUTHWICKE TOWNHOMES REPLAT"
+}, {
+  "gp": "792536229004",
+  "parcel_description": "LOT 7 LOOKOUT HEIGHTS"
+}, {
+  "gp": "802415426003",
+  "parcel_description": "LOT 8 FRONTIER VILLAGE PLAT 9"
+}, {
+  "gp": "802434304011",
+  "parcel_description": "LOT 8 LATHRUM MANOR"
+}, {
+  "gp": "802536427003",
+  "parcel_description": "LT 15 HYPERION POINTE"
+}, {
+  "gp": "792523128033",
+  "parcel_description": "LT 16B PARKVIEW PLAT 3"
+}, {
+  "gp": "782506377003",
+  "parcel_description": "LT 17 SUN PRAIRIE PLAT 2"
+}, {
+  "gp": "782504353010",
+  "parcel_description": "LT 20 WOODLAND HEIGHTS PLAT 3"
+}, {
+  "gp": "792523128009",
+  "parcel_description": "LT 23 PARKVIEW PLAT 4"
+}, {
+  "gp": "802415129005",
+  "parcel_description": "UNIT 2505 WESTWOOD-ANKENY CONDO 7"
+}, {
+  "gp": "792429354016",
+  "parcel_description": "-EX IRREG ELY PT BNG ELY 4 F ON NWLY LN ELY 23.5 F ON SELY LN- LT 3 BLK A MARYLAND PARK"
+}, {
+  "gp": "802423254013",
+  "parcel_description": "-EX N 5 F- LT 5 ANKENY VILLAGE PLAT 2"
+}, {
+  "gp": "782502351034",
+  "parcel_description": "-EX S 5.11F ON W LN \u0026 S 2.03F ON E LN- LOT 70 CLEGG PARK PLAT 3"
+}, {
+  "gp": "782415402019",
+  "parcel_description": "-EX W 150F- S 69F N 129F LOT 2 OP E 1/2 W 1/2 NW 1/4 SE 1/4 SEC 15-78-24"
+}, {
+  "gp": "802423254024",
+  "parcel_description": "E 1/2 N/S ALLEY LYG W \u0026 ADJ \u0026 ALL LT 8 ANKENY VILLAGE PLAT 1"
+}, {
+  "gp": "792423305002",
+  "parcel_description": "LOT 11 BLK 4 NORTHEAST HIGHLAND PARK"
+}, {
+  "gp": "782309228036",
+  "parcel_description": "LOT 11 COMMUNITY AT ARBOR LAKE PLAT 1"
+}, {
+  "gp": "802529401007",
+  "parcel_description": "LOT 11 HERITAGE AT GRIMES PLAT 6"
+}, {
+  "gp": "792531478005",
+  "parcel_description": "LOT 11 HUNTINGTON RIDGE PLAT 3"
+}, {
+  "gp": "802435303001",
+  "parcel_description": "LOT 11 SOMERSBY PLAT 1"
+}, {
+  "gp": "782409460009",
+  "parcel_description": "LOT 115 FIRST PLAT OF CLIFTON HEIGHTS"
+}, {
+  "gp": "802415376034",
+  "parcel_description": "LOT 12 LAKEVIEW PLAZA PLAT 1"
+}, {
+  "gp": "792219354009",
+  "parcel_description": "LOT 15 COUNTRY COVE PLAT 3"
+}, {
+  "gp": "792328301008",
+  "parcel_description": "LOT 15 SHERIDAN PARK PLAT 6"
+}, {
+  "gp": "802531251001",
+  "parcel_description": "LOT 16 BEAVERBROOKE WEST PLAT 6"
+}, {
+  "gp": "782507304003",
+  "parcel_description": "LOT 17 JORDAN PARK VISTA"
+}, {
+  "gp": "782424305013",
+  "parcel_description": "LOT 18 EASTER BAY COLONY PLAT 3"
+}, {
+  "gp": "792505201017",
+  "parcel_description": "LOT 19 THE CROSSING TOWNHOMES PLAT 2"
+}, {
+  "gp": "802512202023",
+  "parcel_description": "LOT 19 TWELVE OAKS PLAT 3"
+}, {
+  "gp": "802307101108",
+  "parcel_description": "LOT 24 BRIAR CREEK PLAT 3"
+}, {
+  "gp": "792536478019",
+  "parcel_description": "LOT 25 WALDRON PLACE"
+}, {
+  "gp": "802414256009",
+  "parcel_description": "LOT 26 PARKVIEW CAMPUS PLAT 4"
+}, {
+  "gp": "782415277010",
+  "parcel_description": "LOT 29 MAPLETON"
+}, {
+  "gp": "782436302014",
+  "parcel_description": "LOT 3 HILLSBORO PLAT 2"
+}, {
+  "gp": "782419151022",
+  "parcel_description": "LOT 3 SOUTHPARK PLAZA PLAT 2"
+}, {
+  "gp": "812436304013",
+  "parcel_description": "LOT 32 HARVEST RIDGE PLAT 1"
+}, {
+  "gp": "792533454001",
+  "parcel_description": "LOT 33 WALNUT RIDGE CREEK PLT 3"
+}, {
+  "gp": "802401476066",
+  "parcel_description": "LOT 35 GREENVIEW CROSSING PLAT 1A"
+}, {
+  "gp": "792327201054",
+  "parcel_description": "LOT 4 BROOK RUN VILLAGE PLAT 11"
+}, {
+  "gp": "802531255010",
+  "parcel_description": "LOT 43 BEAVERBROOKE WEST PLAT NINE"
+}, {
+  "gp": "792435229008",
+  "parcel_description": "LOT 43 UNION ADDITION"
+}, {
+  "gp": "782517155027",
+  "parcel_description": "LOT 54 MEADOW VISTA"
+}, {
+  "gp": "782511401009",
+  "parcel_description": "LOT 6 WESTLINE PLACE"
+}, {
+  "gp": "802434256011",
+  "parcel_description": "LOT 61 WHITE BIRCH PLAT 1"
+}, {
+  "gp": "782410136014",
+  "parcel_description": "LOT 7 BLK 56 TOWN OF DE MOINE"
+}, {
+  "gp": "792512477009",
+  "parcel_description": "LOT 7 MEADOW PARK PLAT 1"
+}, {
+  "gp": "792312376014",
+  "parcel_description": "LOT 7 MEADOW VIEW PLAT 9"
+}, {
+  "gp": "792313477006",
+  "parcel_description": "LOT 8 BLK 9 ENSIGNS ADD TOWN OF ALTOONA"
+}, {
+  "gp": "782506455008",
+  "parcel_description": "LOT 9 BRADFORD PLACE PLAT 2"
+}, {
+  "gp": "792430432012",
+  "parcel_description": "LOT 94 CHURCHDALE"
+}, {
+  "gp": "782511153025",
+  "parcel_description": "LOTS 29 \u0026 30 MURROWS ADD TO VALLEY JUNCTION"
+}, {
+  "gp": "782407176021",
+  "parcel_description": "LT 1 LOZIER WOODS"
+}, {
+  "gp": "782330159007",
+  "parcel_description": "LT 10 EASTER LAKE ESTATES PLAT 4"
+}, {
+  "gp": "792532452005",
+  "parcel_description": "LT 12 HICKORY HILLS"
+}, {
+  "gp": "802411427113",
+  "parcel_description": "LT 16 GEORGETOWN TOWNHOMES PLAT 1"
+}, {
+  "gp": "792219303003",
+  "parcel_description": "LT 18 COUNTRY COVE PLAT 1"
+}, {
+  "gp": "792536105015",
+  "parcel_description": "LT 389 \u0026 W 10F LT 390 PROGRESSO PLAT NO 9"
+}, {
+  "gp": "782330157005",
+  "parcel_description": "LT 39 EASTER LAKE ESTATES PLAT 4"
+}, {
+  "gp": "792312377151",
+  "parcel_description": "LT 41 MEADOW VIEW PLAT 8"
+}, {
+  "gp": "792527276003",
+  "parcel_description": "N 62 F LOT 19 \u0026 S 28 F LOT 20 LAKE HALICE PLAT NO 2"
+}, {
+  "gp": "782421102002",
+  "parcel_description": "W 44.63F E 91.63F LOTS 105 \u0026 106 GOODELL PLACE"
+}, {
+  "gp": "782416477004",
+  "parcel_description": "-EX W 61F- LOT 18 DALE PLACE"
+}, {
+  "gp": "782402134019",
+  "parcel_description": "E 1/2 LOT 12 BLK 58 STEWARTS ADDITION"
+}, {
+  "gp": "792414177005",
+  "parcel_description": "E 183F W 333F N 120F NE 1/4 SE 1/4 NW 1/4 LESS RD SEC 14-79-24"
+}, {
+  "gp": "802403303018",
+  "parcel_description": "LOT 105A VILLAS AT BRINMORE ESTATES PLAT 1"
+}, {
+  "gp": "792432428026",
+  "parcel_description": "LOT 11 BLK 2 MERRITT \u0026 FISCHERS PARK"
+}, {
+  "gp": "792523302003",
+  "parcel_description": "LOT 12 NORTHWEST COUNTRY CLUB MANOR PLAT 5"
+}, {
+  "gp": "802423451009",
+  "parcel_description": "LOT 16 HERITAGE AT PRAIRIE TRAIL PLAT 1"
+}, {
+  "gp": "782420377002",
+  "parcel_description": "LOT 17 STANTON RIDGE"
+}, {
+  "gp": "792526379020",
+  "parcel_description": "LOT 2 COBBLESTONE PLAT NO 10"
+}, {
+  "gp": "782215126002",
+  "parcel_description": "LOT 2 PASTOUR ESTATES PLAT 1"
+}, {
+  "gp": "792432252020",
+  "parcel_description": "LOT 21 KINGSDALE"
+}, {
+  "gp": "782401202014",
+  "parcel_description": "LOT 22 BLK 2 FARWELL PLACE"
+}, {
+  "gp": "792319402014",
+  "parcel_description": "LOT 275 DOUGLAS ACRES PLAT 2"
+}, {
+  "gp": "792525352008",
+  "parcel_description": "LOT 29 ROCKLYN CREEK PLAT 2"
+}, {
+  "gp": "802433430012",
+  "parcel_description": "LOT 34 AUTUMN RIDGE PLAT 4"
+}, {
+  "gp": "792435427032",
+  "parcel_description": "LOT 349 POLK \u0026 HUBBELL\u0027S ADD"
+}, {
+  "gp": "802532203021",
+  "parcel_description": "LOT 37 BEAVERBROOKE POINTE PLAT 3"
+}, {
+  "gp": "792324255010",
+  "parcel_description": "LOT 4 VENBURY PLAT 18"
+}, {
+  "gp": "802434157016",
+  "parcel_description": "LOT 51 TRADITION GREENS PLAT 2"
+}, {
+  "gp": "792524331003",
+  "parcel_description": "LOT 53 CLEAR VIEW SUB-DIV NO 2"
+}, {
+  "gp": "802403379004",
+  "parcel_description": "LOT 63 ROCK CREEK NORTH"
+}, {
+  "gp": "792431353011",
+  "parcel_description": "LOT 64 UNIVERSITY HEIGHTS"
+}, {
+  "gp": "802433228029",
+  "parcel_description": "LOT 9 GLENBROOKE PLAT 7"
+}, {
+  "gp": "802416355001",
+  "parcel_description": "LOT 9 WATERCREST PLAT 1"
+}, {
+  "gp": "792420481019",
+  "parcel_description": "LTS 8,9 BLK D LAWNWOODS"
+}, {
+  "gp": "782406477006",
+  "parcel_description": "N 8F VAC ALLEY S \u0026 ADJ \u0026 S 6F VAC HIGH ST N \u0026 ADJ \u0026 W 46F LOT 9 \u0026 E 2F LOT 10 BLK 3 MC CAIN PLACE"
+}, {
+  "gp": "792536177032",
+  "parcel_description": "PARCEL 2020-177 BK 18414 PG 342 BEG SW COR LOT 1 GRAHAM KNOLLS PLAT 2 THN E 65F S 29.15F W 65F N 29.04F TO POB LOT 47 SUBURBAN FARMS"
+}, {
+  "gp": "792328378040",
+  "parcel_description": "S 1/2 LT 71 \u0026 ALL LT 72 FOUR MILE"
+}, {
+  "gp": "782403134017",
+  "parcel_description": "S 16.5F E 40F W 78F LOT 12 \u0026 E 40F W 78F LOT 13 BLK C DEANS 2ND SD OF OUTLOT"
+}, {
+  "gp": "782319376018",
+  "parcel_description": "S 90F LOT 2 ROTHFUS ACRES"
+}, {
+  "gp": "782401176021",
+  "parcel_description": "W 15F LOT 75 \u0026 ALL LOT 73 BLK 2 GRANT PARK"
+}, {
+  "gp": "792434227022",
+  "parcel_description": "-EX N 6F- E 2F W 1/2 LOT 11 RIVERVIEW PARK; AND ALL LOTS 11 \u0026 12 W OF A LINE DRAWN FROM A PT 4 FT E OF NW COR LOT 11 TO A PT 15.3 FT E OF SW COR LOT 12 \u0026 LOT 13 ARLINGTON PLACE"
+}, {
+  "gp": "302529177001",
+  "parcel_description": "-EX PARCEL A BK 11851 PG 962 BEG 392.03F E OF SW CORNER LT 1 THN NW 40F NE 50.87F N 125.92F TO N LN NE 100.74F TO NE CORNER S 213.5F W 131.04F TO POB- LOT 1 NEALS ACRES"
+}, {
+  "gp": "792429156009",
+  "parcel_description": "E 30 FT LOT 32 -EX E 10 FT- LOT 33 ASHBY MANOR"
+}, {
+  "gp": "792428301037",
+  "parcel_description": "E 50 FT LOT 32 ARNOLD\u0027S PLACE"
+}, {
+  "gp": "782405377009",
+  "parcel_description": "LOT 1 BLK B WOODLAND PARK"
+}, {
+  "gp": "302435103004",
+  "parcel_description": "LOT 1 TRADITION PLAT 3"
+}, {
+  "gp": "792436405032",
+  "parcel_description": "LOT 10 BLK 2 DE WOLFS ADDITION"
+}, {
+  "gp": "802424426004",
+  "parcel_description": "LOT 10 DELAWARE ESTATES PLAT 6"
+}, {
+  "gp": "802413277001",
+  "parcel_description": "LOT 10 FOUNTAIN VIEW ESTATES PLAT 2"
+}, {
+  "gp": "782415452006",
+  "parcel_description": "LOT 109 \u0026 110 JEFFERSON HEIGHTS REPLAT"
+}, {
+  "gp": "792433229031",
+  "parcel_description": "LOT 11 BLK 7 NORWOOD PARK ADDITION TO NORTH DES MOINES"
+}, {
+  "gp": "792525376004",
+  "parcel_description": "LOT 12 THE ROCKLYN COURT"
+}, {
+  "gp": "802431377003",
+  "parcel_description": "LOT 14 THE FOREST"
+}, {
+  "gp": "792433179020",
+  "parcel_description": "LOT 17 KIRKWOOD GLEN"
+}, {
+  "gp": "802412353002",
+  "parcel_description": "LOT 2 BRIARWOOD SOUTH PLAT 7"
+}, {
+  "gp": "782510151010",
+  "parcel_description": "LOT 20 ZELDA ACRES PLAT NO 1"
+}, {
+  "gp": "792220326013",
+  "parcel_description": "LOT 21 TUSCANY PLAT 6"
+}, {
+  "gp": "792531101043",
+  "parcel_description": "LOT 24 COUNTRY CLUB PLAT 7"
+}, {
+  "gp": "802415152021",
+  "parcel_description": "LOT 24 NORTH CREEK PLAT 2"
+}, {
+  "gp": "802307302007",
+  "parcel_description": "LOT 25 BRIAR CREEK SOUTH PLAT 2"
+}, {
+  "gp": "802424478016",
+  "parcel_description": "LOT 27 DELAWARE ESTATES PLAT 2"
+}, {
+  "gp": "792522326039",
+  "parcel_description": "LOT 28 GOLF VIEW ESTATES PLAT 3"
+}, {
+  "gp": "782304151003",
+  "parcel_description": "LOT 3 HURDS HICKORY HEIGHTS PLAT 4"
+}, {
+  "gp": "802414251013",
+  "parcel_description": "LOT 4 PARKVIEW CAMPUS PLAT 3"
+}, {
+  "gp": "792430127004",
+  "parcel_description": "LOT 45 HOLLYWOOD GARDENS"
+}, {
+  "gp": "802412328013",
+  "parcel_description": "LOT 47 BRIARWOOD SOUTH PLAT 6"
+}, {
+  "gp": "782510276041",
+  "parcel_description": "LOT 61 COLONIAL HEIGHTS PLAT 2"
+}, {
+  "gp": "792328326002",
+  "parcel_description": "LOT 62 SHERIDAN PARK PLAT 3"
+}, {
+  "gp": "792510376110",
+  "parcel_description": "LOT 85 BENT TREE VILLAS PLAT 2"
+}, {
+  "gp": "792420126032",
+  "parcel_description": "LOT 9 DEBRA ACRES PLAT NO 5"
+}, {
+  "gp": "802403330004",
+  "parcel_description": "LOT 9B BRINMORE ESTATES PLAT 1"
+}, {
+  "gp": "792411402019",
+  "parcel_description": "LT 17 WOODSIDE ESTATES PLAT 4"
+}, {
+  "gp": "782524227016",
+  "parcel_description": "LT 56 PARKLAWN HEIGHTS"
+}, {
+  "gp": "802415252014",
+  "parcel_description": "UNIT 11 LOT 1 GREENTREE VILLAGE PLT 1 GREENTREE CONDOMINIUM NO. 1"
+}, {
+  "gp": "782414454019",
+  "parcel_description": "UNIT 19 LOT 79 FOREST PARK ESTS CONDO"
+}, {
+  "gp": "802401477131",
+  "parcel_description": "UNIT 3912 LOT 2 PLAT 3 THE VILLAS AT GREENVIEW CROSSING"
+}, {
+  "gp": "782406382042",
+  "parcel_description": "UNIT 504 WEST GRAND TOWERS CONDO"
+}, {
+  "gp": "792531354069",
+  "parcel_description": "UNIT T-14-55 THE PINNACLE CONDO"
+}, {
+  "gp": "782405201041",
+  "parcel_description": "-EX BEG SE COR THN W 17.16F NE 50.88F TO N LN E 7.53F TO NE COR S 50F TO POB- LT 31 T K CLARKES ADDITION"
+}, {
+  "gp": "802436351045",
+  "parcel_description": "-EX LYG W OF LN BEG 19.8F E OF NW COR LT 17 THN S TO A PT 20.21F E OF SW COR RD EAS- S 72.5F LOT 17 CARNEY ACRES"
+}, {
+  "gp": "782416428034",
+  "parcel_description": "-EX S 20F- E 1/2 LOT 26 MORRIS PLACE"
+}, {
+  "gp": "792329102029",
+  "parcel_description": "-EX W .58F- LOT 20 EDWARDS PLACE PLAT 3"
+}, {
+  "gp": "792436401007",
+  "parcel_description": "7F W \u0026 ADJ \u0026 ALL LT 10 \u0026 -EX S 6F- N 1/2 LOT 11 BLK 3 STALFORD \u0026 DIXONS ADD"
+}, {
+  "gp": "782402132019",
+  "parcel_description": "E 1/2 LOT 1 \u0026 N 89 F W 1/2 LOT 1 BLK 57 STEWARTS ADDITION"
+}, {
+  "gp": "792332401022",
+  "parcel_description": "LOT 10 WOOD VIEW ACRES"
+}, {
+  "gp": "802416427009",
+  "parcel_description": "LOT 11 BOULDER BROOK PLAT NO 1"
+}, {
+  "gp": "802427261013",
+  "parcel_description": "LOT 12 PRECEDENCE AT PRAIRIE TRAIL PLAT 4"
+}, {
+  "gp": "792527132008",
+  "parcel_description": "LOT 13 \u0026 S 24 F LOT 14 PATRICIA PARK PLAT NO 3"
+}, {
+  "gp": "802415377011",
+  "parcel_description": "LOT 15 \u0026 N 2F LOT 16 LAKEVIEW PLAZA PLAT 1"
+}, {
+  "gp": "792230151021",
+  "parcel_description": "LOT 15 FIELDSTONE ESTATES PLAT 2"
+}, {
+  "gp": "782412276013",
+  "parcel_description": "LOT 17 BLK 21 LARISON PLACE"
+}, {
+  "gp": "782422102036",
+  "parcel_description": "LOT 21 PARK AVENUE EAST PLAT NO 1"
+}, {
+  "gp": "802325453011",
+  "parcel_description": "LOT 24 DEER RIDGE CROSSING PLAT 2"
+}, {
+  "gp": "792430378017",
+  "parcel_description": "LOT 24 DEERFOOT ACRES PLAT 3"
+}, {
+  "gp": "792509253002",
+  "parcel_description": "LOT 24 GLENSTONE RIDGE"
+}, {
+  "gp": "782401133014",
+  "parcel_description": "LOT 25 \u0026 W 10 F LOT 26 BLK 11 YORKS CHOICE"
+}, {
+  "gp": "792419452013",
+  "parcel_description": "LOT 30 MEADOWLAND PLAT 2"
+}, {
+  "gp": "782422102047",
+  "parcel_description": "LOT 32 PARK AVENUE EAST PLAT NO 1"
+}, {
+  "gp": "802415379017",
+  "parcel_description": "LOT 35 GOLFVIEW TERRACE PLAT 1"
+}, {
+  "gp": "792503258006",
+  "parcel_description": "LOT 37 GREEN MEADOWS NORTH PLAT 9"
+}, {
+  "gp": "792432232014",
+  "parcel_description": "LOT 4 BROWNLIE PLACE"
+}, {
+  "gp": "792331277006",
+  "parcel_description": "LOT 4 DONAHOE PLACE"
+}, {
+  "gp": "792331230011",
+  "parcel_description": "LOT 5 BURNETTE PLACE"
+}, {
+  "gp": "782507431035",
+  "parcel_description": "LOT 5 THE KNOLLS PLAT 6"
+}, {
+  "gp": "792432302006",
+  "parcel_description": "LOT 56 HOLLYWOOD"
+}, {
+  "gp": "792328302024",
+  "parcel_description": "LOT 59 SHERIDAN PARK PLAT NO 1"
+}, {
+  "gp": "782509280026",
+  "parcel_description": "LOT 6 FAIRMEADOWS PLAT 2"
+}, {
+  "gp": "782432282032",
+  "parcel_description": "LOT 75 HIGHLAND HILLS PLT 3"
+}, {
+  "gp": "792531105004",
+  "parcel_description": "LOT 83 COUNTRY CLUB PLAT 7"
+}, {
+  "gp": "782519201052",
+  "parcel_description": "LT 11 THE VILLAS OF GLEN OAKS PLAT 2"
+}, {
+  "gp": "782518102027",
+  "parcel_description": "LT 25 WESTRIDGE ESTATES PLAT 5"
+}, {
+  "gp": "792511351020",
+  "parcel_description": "LT 27 GREEN MEADOWS WEST PLAT 9"
+}, {
+  "gp": "792411401008",
+  "parcel_description": "LT 48 WOODSIDE ESTATES PLAT 4"
+}, {
+  "gp": "792527451017",
+  "parcel_description": "LT 9 CORONADO PLAT 1"
+}, {
+  "gp": "782428105012",
+  "parcel_description": "LTS 22, 23 \u0026 24 BLK 9 PINEHURST"
+}, {
+  "gp": "782421304017",
+  "parcel_description": "N 75 F LOT 20 CARLISLE PLACE"
+}, {
+  "gp": "792319402055",
+  "parcel_description": "PAR B BK 11384 PG 133 BNG -EX W 54F- W 128F LOTS 233 THRU 235 DOUGLAS ACRES PLAT 2"
+}, {
+  "gp": "792522228019",
+  "parcel_description": "UNIT 19 CROSS CREEK TOWN HOMES CONDO"
+}, {
+  "gp": "802401478073",
+  "parcel_description": "UNIT 4006 LOT 7 THE GARDENS AT GREENVIEW CROSSING"
+}, {
+  "gp": "802411383100",
+  "parcel_description": "UNIT 5 BLDG 21 FOUNTAIN POINTE CONDOMINIUMS"
+}, {
+  "gp": "782406106013",
+  "parcel_description": "W 1/2 N 158F LOT 58 FAGEN PLACE"
+}, {
+  "gp": "782406181029",
+  "parcel_description": "6.5F N OF \u0026 ADJ \u0026 ALL LOT 55 W W LYONS ADD TO LYONS PARK"
+}, {
+  "gp": "792314426007",
+  "parcel_description": "LOT 13 ADVENTURELAND ESTATES PLAT 8"
+}, {
+  "gp": "782304351008",
+  "parcel_description": "LOT 14 PLEASANT HILL ESTATES PLAT 4"
+}, {
+  "gp": "792505251019",
+  "parcel_description": "LOT 16 MEADOWLARK POINTE PLAT NO 1"
+}, {
+  "gp": "802424407004",
+  "parcel_description": "LOT 18 RICHLAND ESTS PLAT NO 9"
+}, {
+  "gp": "792429379009",
+  "parcel_description": "LOT 2 DUNLAP PLACE"
+}, {
+  "gp": "802532129034",
+  "parcel_description": "LOT 20 BEAVERBROOKE POINTE PLAT 1"
+}, {
+  "gp": "802502426029",
+  "parcel_description": "LOT 21 EDGEWATER POINTE PLAT 2"
+}, {
+  "gp": "792331105010",
+  "parcel_description": "LOT 23 BLK 12 EASTON PLACE"
+}, {
+  "gp": "792427127023",
+  "parcel_description": "LOT 23 BLK 12 OAK PARK"
+}, {
+  "gp": "782303202026",
+  "parcel_description": "LOT 23 THE HIGHLANDS OF PLEASANT HILL PLAT 2"
+}, {
+  "gp": "782509126008",
+  "parcel_description": "LOT 25 FAIRMEADOWS PLAT NO 11"
+}, {
+  "gp": "792332328029",
+  "parcel_description": "LOT 34 BLK 7 OUT-LOOK PARK"
+}, {
+  "gp": "802417477020",
+  "parcel_description": "LOT 34 CHERRY GLEN ESTATES PLAT 5"
+}, {
+  "gp": "792429476038",
+  "parcel_description": "LOT 39 OAK GROVES"
+}, {
+  "gp": "782520103016",
+  "parcel_description": "LOT 45 QUAIL PARK MEADOWS"
+}, {
+  "gp": "782419176002",
+  "parcel_description": "LOT 47 SOUTHPARK PLAZA PLAT 1"
+}, {
+  "gp": "802415151043",
+  "parcel_description": "LOT 5 NORTH CREEK PLAT 2"
+}, {
+  "gp": "802427128015",
+  "parcel_description": "LOT 50 PRECEDENCE WEST AT PRAIRIE TRAIL PLAT 1"
+}, {
+  "gp": "802401179005",
+  "parcel_description": "LOT 52 AVONDALE TRACE PLAT 2"
+}, {
+  "gp": "792428379001",
+  "parcel_description": "LOT 6 HAPPY HOLLOW"
+}, {
+  "gp": "802401376025",
+  "parcel_description": "LOT 6 THE WOODLAND RESERVE PLAT 3"
+}, {
+  "gp": "782507126022",
+  "parcel_description": "LOT 6 WILLOW RIDGE ESTATES"
+}, {
+  "gp": "812331355025",
+  "parcel_description": "LOT 70 KIMBERLEY CROSSING PLAT 1"
+}, {
+  "gp": "802410405004",
+  "parcel_description": "LOT 8 CENTENNIAL POINTE WEST PLAT 4"
+}, {
+  "gp": "812436329008",
+  "parcel_description": "LOT 8 NORTHGATE PLAT 7"
+}, {
+  "gp": "812535326009",
+  "parcel_description": "LOT 8 STREAMWOOD PLAT 1"
+}, {
+  "gp": "802427261007",
+  "parcel_description": "LOT 9 PRECEDENCE AT PRAIRIE TRAIL PLAT 2"
+}, {
+  "gp": "792429451007",
+  "parcel_description": "LOTS 15 \u0026 16 BLK 8 HIGHLAWN"
+}, {
+  "gp": "802411405012",
+  "parcel_description": "LT 13 GEORGETOWN PLAT 7"
+}, {
+  "gp": "802425204019",
+  "parcel_description": "LT 23 COUNTRY CROSSING PLAT 10"
+}, {
+  "gp": "802434305004",
+  "parcel_description": "LT 3 LAMBS HEIGHTS"
+}, {
+  "gp": "792332203003",
+  "parcel_description": "N 1/2 LOT 979 FOUR MILE"
+}, {
+  "gp": "782504353022",
+  "parcel_description": "N 213 F W 120 F LOT 15 COUNTRY CLUB ESTATES"
+}, {
+  "gp": "792525278008",
+  "parcel_description": "S 56 FT LOT 23 CLOVER ACRES"
+}, {
+  "gp": "792428326006",
+  "parcel_description": "THAT PART LOT 1 N OF \u0026 ADJ \u0026 ALL LOT 18 GLEN OAKS"
+}, {
+  "gp": "782406484001",
+  "parcel_description": "UNIT 101 3031 GRAND CONDOMINIUM"
+}, {
+  "gp": "792531354052",
+  "parcel_description": "UNIT C-3-304 THE PINNACLE CONDO"
+}, {
+  "gp": "782235426016",
+  "parcel_description": "-EX PARCEL A BK 9566 PG 280 N 230F- LT 2 SUBJ TO DRAINAGE EAS DAWSON SUBDIVISION"
+}, {
+  "gp": "782215451008",
+  "parcel_description": "-EX S 80F \u0026 W 45F- W 295F S 691F \u0026 PARCEL B BK 6643 PG 945 BEG 294.81F E \u0026 80F N OF S 1/4 COR THN N 611F E 50F S 611.14F W 50F TO POB SW 1/4 SE 1/4 SEC 15-78-22"
+}, {
+  "gp": "792434154042",
+  "parcel_description": "-EX W 10 F- LOT 38 FOREST PARK"
+}, {
+  "gp": "782422226042",
+  "parcel_description": "-EX W 60F- LOT 29 SOUTHERN KNOLLS PLAT 1"
+}, {
+  "gp": "782427330008",
+  "parcel_description": "E 1/2 N 1/2 LOT 2 SOUTH MEADOWS"
+}, {
+  "gp": "802434353019",
+  "parcel_description": "LOT 10 DEER POND ESTATE PLAT 2"
+}, {
+  "gp": "782423255012",
+  "parcel_description": "LOT 11 EVERGREEN PLAT NO 1"
+}, {
+  "gp": "802502276016",
+  "parcel_description": "LOT 12 LEONARDS PLACE"
+}, {
+  "gp": "792432178024",
+  "parcel_description": "LOT 14 HOLLANDALE"
+}, {
+  "gp": "792513302034",
+  "parcel_description": "LOT 17 MILLSIDE PLAT 2"
+}, {
+  "gp": "792422351026",
+  "parcel_description": "LOT 183 \u0026 S 20F LOT 182 L M MANNS 1ST ADD TO OAK PARK"
+}, {
+  "gp": "792426104002",
+  "parcel_description": "LOT 20 BLK 28 HIGHLAND PARK"
+}, {
+  "gp": "792524251023",
+  "parcel_description": "LOT 26 PLAZA GARDENS PLAT 6"
+}, {
+  "gp": "792536456037",
+  "parcel_description": "LOT 3 EVERGREEN HEIGHTS"
+}, {
+  "gp": "802410403010",
+  "parcel_description": "LOT 33 CENTENNIAL POINTE WEST PLAT 3"
+}, {
+  "gp": "802534103002",
+  "parcel_description": "LOT 34 CROSSHAVEN PLAT 1"
+}, {
+  "gp": "792432227017",
+  "parcel_description": "LOT 39 POPULAR HEIGHTS"
+}, {
+  "gp": "792533277018",
+  "parcel_description": "LOT 49 INDIAN HILLS PLAT 7"
+}, {
+  "gp": "782502180017",
+  "parcel_description": "LOT 5 MAIRNER"
+}, {
+  "gp": "802422226006",
+  "parcel_description": "LOT 6 WESTLAWN PLACE PLAT 7"
+}, {
+  "gp": "802530454022",
+  "parcel_description": "LOT 65 BEAVERBROOKE WEST PLAT EIGHT"
+}, {
+  "gp": "782519276032",
+  "parcel_description": "LOT 7 QUAIL VISTA TOWNHOMES PLAT 1"
+}, {
+  "gp": "792331227004",
+  "parcel_description": "LOT 9 CASS GRAND VIEW PLACE"
+}, {
+  "gp": "792420482015",
+  "parcel_description": "LOTS 30 \u0026 31 BLK F LAWNWOODS"
+}, {
+  "gp": "792420101039",
+  "parcel_description": "LT 1 BENLAN HEIGHTS PLAT 2"
+}, {
+  "gp": "802502276035",
+  "parcel_description": "LT 1 RYANS SUBDIVISION"
+}, {
+  "gp": "782422306015",
+  "parcel_description": "LT 14 \u0026 PART W OF LN BEG 4.4 F E OF NW COR THENCE SLY 55 F THENCE SLY 70 F TO SW COR LT 15 SCANDIA MAGNOLIA PARK PLAT 1"
+}, {
+  "gp": "792313101013",
+  "parcel_description": "LT 17 PRAIRIE VILLAGE TOWNHOMES"
+}, {
+  "gp": "802413426026",
+  "parcel_description": "LT 18 CRESTBRUCK ACRES PLAT 8"
+}, {
+  "gp": "802508376011",
+  "parcel_description": "LT 3 BEAVER VISTA ESTATES PLAT 3"
+}, {
+  "gp": "792201476024",
+  "parcel_description": "LT 40 CLARK\u0027S LAKE VIEW ESTATES"
+}, {
+  "gp": "792328451043",
+  "parcel_description": "LTS 1167, 1168 \u0026 1169 FOUR MILE PLAT 2"
+}, {
+  "gp": "792426381044",
+  "parcel_description": "LYG N \u0026 E LN BEG NW COR THN S 12.33F E 26.42F SELY TO PT 2F N \u0026 85F W OF SE COR E TO E LN LT 7 BLK 1 HOSMER PLACE"
+}, {
+  "gp": "792426451038",
+  "parcel_description": "N 1/3 LOTS 37 \u0026 38 BLK 15 GRAND VIEW"
+}, {
+  "gp": "782416351066",
+  "parcel_description": "PARCEL A S 167F W 60F E 125F LT 12 SHULL PLACE"
+}, {
+  "gp": "802415178014",
+  "parcel_description": "UNIT 1027 WESTWOOD ANKENY CONDO 5"
+}, {
+  "gp": "782409216003",
+  "parcel_description": "UNIT 103 WHITELINE LOFTS"
+}, {
+  "gp": "782402132003",
+  "parcel_description": "W 1/2 LOT 19 BLK 57 STEWARTS ADDITION"
+}, {
+  "gp": "782423252002",
+  "parcel_description": "W 89F E 267F S 175F N 205F W 18 A SW 1/4 NE 1/4 SEC 23-78-24"
+}, {
+  "gp": "792426376009",
+  "parcel_description": "-EX N 15 F- LOT 1 MARTIN PLACE"
+}, {
+  "gp": "782415401004",
+  "parcel_description": "-EX W 10F- SW 1/4 LT 2 OP W 1/4 NW 1/4 SE 1/4 SEC 15-78-24"
+}, {
+  "gp": "782422301007",
+  "parcel_description": "-EX W 5F- LT 3 SUNNYCREST"
+}, {
+  "gp": "792433403019",
+  "parcel_description": "7F W OF \u0026 ADJ \u0026 ALL LOT 19 BLK 4 SHEPHERDSONS ADD TO DES MOINES"
+}, {
+  "gp": "782518228010",
+  "parcel_description": "LOT 1 SOUTHWOODS WEST PLAT 2"
+}, {
+  "gp": "792430151012",
+  "parcel_description": "LOT 10 GOODWIN PLACE"
+}, {
+  "gp": "792429304007",
+  "parcel_description": "LOT 100 GRASSMERE"
+}, {
+  "gp": "792436380014",
+  "parcel_description": "LOT 109 WITMERS"
+}, {
+  "gp": "792535257010",
+  "parcel_description": "LOT 14 PLAZA HILLS PLAT NO 4"
+}, {
+  "gp": "792419426001",
+  "parcel_description": "LOT 17 WESTCHESTER MANOR PLAT 1"
+}, {
+  "gp": "802435403031",
+  "parcel_description": "LOT 18 SIENNA FALLS PLAT 2"
+}, {
+  "gp": "802436153009",
+  "parcel_description": "LOT 19 SPRINGWOOD PLAT 5"
+}, {
+  "gp": "792526379030",
+  "parcel_description": "LOT 2 COBBLESTONE PLAT NO 9"
+}, {
+  "gp": "802317283017",
+  "parcel_description": "LOT 23 CANYON LANDING PLAT 4"
+}, {
+  "gp": "802436153003",
+  "parcel_description": "LOT 25 SPRINGWOOD PLAT 5"
+}, {
+  "gp": "792435427006",
+  "parcel_description": "LOT 269 CAPITAL PARK"
+}, {
+  "gp": "802416251013",
+  "parcel_description": "LOT 27 HIDDEN CREEK PLAT 3"
+}, {
+  "gp": "792328354021",
+  "parcel_description": "LOT 285 FOUR MILE"
+}, {
+  "gp": "802424278045",
+  "parcel_description": "LOT 29 SUMMERBROOK PLAT 4"
+}, {
+  "gp": "792520179004",
+  "parcel_description": "LOT 3 DAYS RUN PLAT 2"
+}, {
+  "gp": "802434177002",
+  "parcel_description": "LOT 3 DIAMOND HILLS PLAT 1"
+}, {
+  "gp": "802432426006",
+  "parcel_description": "LOT 3 TIMBER COVE PLAT 2"
+}, {
+  "gp": "802329302007",
+  "parcel_description": "LOT 30 CLOVER RIDGE PLAT 1"
+}, {
+  "gp": "792312204009",
+  "parcel_description": "LOT 33 WOLF CREEK PLAT 2"
+}, {
+  "gp": "782415376021",
+  "parcel_description": "LOT 380 CRAWFORD PLACE"
+}, {
+  "gp": "812436479023",
+  "parcel_description": "LOT 44 NORTHGATE EAST"
+}, {
+  "gp": "782510277006",
+  "parcel_description": "LOT 46 COLONIAL HEIGHTS PLAT 2"
+}, {
+  "gp": "792435229005",
+  "parcel_description": "LOT 46 UNION ADDITION"
+}, {
+  "gp": "802411304009",
+  "parcel_description": "LOT 49 ASHLAND MEADOWS PLAT 8"
+}, {
+  "gp": "782402178025",
+  "parcel_description": "LOT 5 BLK 60 STEWARTS ADDITION"
+}, {
+  "gp": "792324406011",
+  "parcel_description": "LOT 5 IRONWOOD PLAT 3"
+}, {
+  "gp": "802425231076",
+  "parcel_description": "LOT 6 COUNTRY CROSSING PLAT 4"
+}, {
+  "gp": "782427326015",
+  "parcel_description": "LOT 63 SOUTHWICK"
+}, {
+  "gp": "792509251014",
+  "parcel_description": "LOT 70 GLENSTONE RIDGE"
+}, {
+  "gp": "782416204012",
+  "parcel_description": "LOT 8 MC CONKEY PLACE"
+}, {
+  "gp": "802427278003",
+  "parcel_description": "LOT 8 THE GARDENS AT PRAIRIE TRAIL"
+}, {
+  "gp": "802413353022",
+  "parcel_description": "LT 12 HENDERSON PARK PLAT 6"
+}, {
+  "gp": "782414353019",
+  "parcel_description": "LT 121 OP SW 1/4 SW 1/4 -EX N 20 F- SEC 14-78-24"
+}, {
+  "gp": "792524104007",
+  "parcel_description": "LT 2 SUNGOLD PLAZA PLAT NO 2"
+}, {
+  "gp": "782509305016",
+  "parcel_description": "LT 3 ASHAWA ESTATES PLAT 3"
+}, {
+  "gp": "792511352021",
+  "parcel_description": "LT 51 GREEN MEADOWS WEST PLAT 9"
+}, {
+  "gp": "792525301034",
+  "parcel_description": "LT 6 OAK SHADOW"
+}, {
+  "gp": "782310253001",
+  "parcel_description": "LT 9 STONE RIDGE ESTATES PLAT 1"
+}, {
+  "gp": "782428455005",
+  "parcel_description": "LTS 7,8,9 \u0026 10 BLK 4 PORTERS REPLAT"
+}, {
+  "gp": "782405352038",
+  "parcel_description": "N 124 F LOT 67 INGERSOLL PLACE"
+}, {
+  "gp": "802204300001",
+  "parcel_description": "NW 1/4 SW 1/4 SUBJ TO .135A DITCH EAS SEC 4-80-22"
+}, {
+  "gp": "812519200004",
+  "parcel_description": "PARCEL A BEG NE COR SEC 19 THN S201.96F W262.68F N 299.92F E 248.15F S 97.52F TO POB LT 2 LESS .36A RD OP S 1/2 SE 1/4 SEC 18 \u0026 NE 1/4 SEC 19-81-25"
+}, {
+  "gp": "802329352004",
+  "parcel_description": "PRT COM 462.55F E \u0026 390F N OF SW COR THN N 293F W 539.4F TO RD THN SWLY 203.1F ELY 171.4F S 72F \u0026 E TO PT OF BEG LT 1 OP SW 1/4 SW 1/4 SEC 29-80-23"
+}, {
+  "gp": "782505327017",
+  "parcel_description": "UNIT 1 LOT 3 COLONIAL VILLAGE 2ND ADD WESTERN HILLS CONDOS"
+}, {
+  "gp": "782506427011",
+  "parcel_description": "UNIT 1107 BLDG 1 STONERIDGE CONDOMINIUM"
+}, {
+  "gp": "792536382019",
+  "parcel_description": "UNIT 35 WINDSOR WOODS"
+}, {
+  "gp": "782518203037",
+  "parcel_description": "UNIT 601 VILLAS OF BERKSHIRE HILLS CONDO"
+}, {
+  "gp": "782404462308",
+  "parcel_description": "UNIT 803 THE PLAZA"
+}, {
+  "gp": "782417453203",
+  "parcel_description": "UNIT 906 THE PARK FLEUR"
+}, {
+  "gp": "792329229009",
+  "parcel_description": "W 1/2 LOT 69 GRAND VIEW ACRES"
+}, {
+  "gp": "792429176022",
+  "parcel_description": "W 90 F S 181.43 F LOT 6 FORTIETH STREET PLACE"
+}, {
+  "gp": "792212255016",
+  "parcel_description": "60F VAC ST S \u0026 ADJ \u0026 LOT 16 BLK 23 SEMINARY PLAT"
+}, {
+  "gp": "782406108028",
+  "parcel_description": "E 120F -EX E 5F S 130F- LOT 42 FAGEN PLACE"
+}, {
+  "gp": "792435204011",
+  "parcel_description": "E 150 F LOT 1 UNION ADDITION"
+}, {
+  "gp": "782433158013",
+  "parcel_description": "E 28 F LT 382 ALL 383 \u0026 W 10 F LT 384 DAVID MC KEE PLACE"
+}, {
+  "gp": "782402178010",
+  "parcel_description": "E 30 F LOT 16 BLK 60 STEWARTS ADDITION"
+}, {
+  "gp": "782303226057",
+  "parcel_description": "LOT 109 VILLAGE AT ARBOR CHASE PLAT 1"
+}, {
+  "gp": "792433128005",
+  "parcel_description": "LOT 11 ALICE BRIAR"
+}, {
+  "gp": "782305476043",
+  "parcel_description": "LOT 16 BIANCHI KNOLLS PLAT 2"
+}, {
+  "gp": "782519230004",
+  "parcel_description": "LOT 16 GREY HAWK PLAT 1"
+}, {
+  "gp": "782502405009",
+  "parcel_description": "LOT 17 BLK D ASHWORTH OAKS PLAT 3"
+}, {
+  "gp": "792423406019",
+  "parcel_description": "LOT 20 GLEN COVE PLACE"
+}, {
+  "gp": "782509430012",
+  "parcel_description": "LOT 25 MEADOW PARK CIRCLE"
+}, {
+  "gp": "792503402030",
+  "parcel_description": "LOT 33 GREEN MEADOWS NORTH PLAT 5"
+}, {
+  "gp": "802502251011",
+  "parcel_description": "LOT 33 LAKEVIEW ACRES PLAT 2"
+}, {
+  "gp": "782511177015",
+  "parcel_description": "LOT 4 MURROWS 2ND ADD TO VALLEY JUNCTION"
+}, {
+  "gp": "802427279007",
+  "parcel_description": "LOT 5 THE GARDENS AT PRAIRIE TRAIL PLAT 2"
+}, {
+  "gp": "792402427013",
+  "parcel_description": "LOT 6 THE GREENS AT WOODLAND HILLS PLAT 6"
+}, {
+  "gp": "792425353026",
+  "parcel_description": "LOT 78 VAN VLIET MEADOWS"
+}, {
+  "gp": "802427302005",
+  "parcel_description": "LOT 8 POINTES WEST AT PRAIRIE TRAIL PLAT 3"
+}, {
+  "gp": "792428329002",
+  "parcel_description": "LOT 85 GLEN OAKS"
+}, {
+  "gp": "792212179013",
+  "parcel_description": "LT 13 \u0026 W44F LT 14 BLK Q MITCHELLVILLE"
+}, {
+  "gp": "782424179011",
+  "parcel_description": "LT 4 EASTER LAKE PARK"
+}, {
+  "gp": "782413376022",
+  "parcel_description": "LT 49 WOODS ON THE RIVER PLAT 3"
+}, {
+  "gp": "792420308006",
+  "parcel_description": "N 1/2 LOT 5 GLEN ECHO"
+}, {
+  "gp": "802531426003",
+  "parcel_description": "W 330F E 363F N 379.5F SE 1/4 SEC 31-80-25"
+}, {
+  "gp": "782421426004",
+  "parcel_description": "W 50 F LT 13 \u0026 E 50 F LT 14 SOUTHMOOR GARDENS"
+}, {
+  "gp": "792432129046",
+  "parcel_description": "W 56F LOTS 49 \u0026 50 FAIRACRES"
+}, {
+  "gp": "782406256004",
+  "parcel_description": "W 96 2/3 F LOT 14 BLK 4 PLEASANT VIEW"
+}, {
+  "gp": "792419329041",
+  "parcel_description": "-EX E 6 F- LTS 35 \u0026 36 BLK A AVIATION PARK"
+}, {
+  "gp": "792317351030",
+  "parcel_description": "-EX N 15 F- LT 38 DOUGLAS ACRES PLAT 6"
+}, {
+  "gp": "292509200002",
+  "parcel_description": "BEG PT 1017.6F S OF NE COR THN W 159.45F S 68.9F W242.55F S236.1F E 402F N 305F TO POB N 1/2 NE 1/4 LESS RD SEC 9-79-25"
+}, {
+  "gp": "782305132013",
+  "parcel_description": "BEG SW COR LT 43 THN W .37F NW 133.95F TO PT 2.13F E OF NW COR THN NE 38.48F SE 132.64F SW 40.77F TO POB LTS 43 \u0026 44 VALLEY HIGH MANOR PLAT 3"
+}, {
+  "gp": "782416407041",
+  "parcel_description": "E 50F W 100F S1/2 -EX S 20F ST- LOT 21 MORRIS PLACE"
+}, {
+  "gp": "782502230017",
+  "parcel_description": "LOT 101 WINDSOR SQUARE"
+}, {
+  "gp": "792328305007",
+  "parcel_description": "LOT 11 SHERIDAN PARK PLAT NO 2"
+}, {
+  "gp": "802413327015",
+  "parcel_description": "LOT 12 HENDERSON PARK PLAT 12"
+}, {
+  "gp": "792434154007",
+  "parcel_description": "LOT 13 FOREST PARK"
+}, {
+  "gp": "782518351007",
+  "parcel_description": "LOT 13 GLEN OAKS PLAT 3"
+}, {
+  "gp": "792426179009",
+  "parcel_description": "LOT 16 BLK 20 AUBURN HEIGHTS PLT 1"
+}, {
+  "gp": "792513327015",
+  "parcel_description": "LOT 21 MILLSIDE PLAT 3"
+}, {
+  "gp": "802435303027",
+  "parcel_description": "LOT 23 SOMERSBY WEST PLAT 1"
+}, {
+  "gp": "792432253013",
+  "parcel_description": "LOT 29 KINGSDALE"
+}, {
+  "gp": "792328354016",
+  "parcel_description": "LOT 290 FOUR MILE"
+}, {
+  "gp": "782510305013",
+  "parcel_description": "LOT 3 BLK 1 RIDGWAY SUB DIV"
+}, {
+  "gp": "782421153014",
+  "parcel_description": "LOT 3 THORNTON PLACE"
+}, {
+  "gp": "792431303009",
+  "parcel_description": "LOT 360 UNIVERSITY HEIGHTS PLAT 3"
+}, {
+  "gp": "792328352019",
+  "parcel_description": "LOT 387 FOUR MILE"
+}, {
+  "gp": "802433281014",
+  "parcel_description": "LOT 4 GLENBROOKE PLAT 8"
+}, {
+  "gp": "782205129003",
+  "parcel_description": "LOT 4 SHELBY LYNN ESTATES"
+}, {
+  "gp": "782518129001",
+  "parcel_description": "LOT 47 PONDEROSA VALLEY PLAT 1"
+}, {
+  "gp": "802434276005",
+  "parcel_description": "LOT 48 THE VILLAGE AT WHITE BIRCH PLAT 1"
+}, {
+  "gp": "782519281048",
+  "parcel_description": "LOT 51 QUAIL VISTA TOWNHOMES PLAT 2"
+}, {
+  "gp": "792414126015",
+  "parcel_description": "LOT 7 DEAN HEIGHTS"
+}, {
+  "gp": "782401276013",
+  "parcel_description": "LOT 9 BLK 2 ELBERT \u0026 YORKS ADDITION"
+}, {
+  "gp": "782428483009",
+  "parcel_description": "LOTS 7 \u0026 8 PORTER PLACE"
+}, {
+  "gp": "792433327004",
+  "parcel_description": "LT 10 \u0026 -EX N 40F- LT 11 CURTIS BLUFF PARK ADD"
+}, {
+  "gp": "792512176010",
+  "parcel_description": "LT 17 WINWOOD PLAT 1"
+}, {
+  "gp": "802412176007",
+  "parcel_description": "LT 24 BRIARWOOD PLAT 12"
+}, {
+  "gp": "782508278001",
+  "parcel_description": "OUTLOT X ASHWORTH ESTATES PLAT 11; AND LOT 2 ASHWORTH ESTATES PLAT 9"
+}, {
+  "gp": "782315100013",
+  "parcel_description": "PARCEL D BEG 1694.84F S \u0026 480.22F NW OF N 1/4 COR THN SW 292.81F NW 383.4F NWLY 524.33F N 46.8F SE 882F TO POB LT 9 LYG S OF RD OP GL 3 W 1/2 N OF RIV SEC 15-78-23"
+}, {
+  "gp": "782421379028",
+  "parcel_description": "S 196 F LOT 42 AMEND PLACE"
+}, {
+  "gp": "782404462292",
+  "parcel_description": "UNIT 607 THE PLAZA"
+}, {
+  "gp": "792329277006",
+  "parcel_description": "W 1/2 LT 126 GRAND VIEW ACRES"
+}, {
+  "gp": "792313351010",
+  "parcel_description": "-EX W 8 F- N 80 F LT 21 PLEASANT VIEW ACRES"
+}, {
+  "gp": "792503126022",
+  "parcel_description": "E 300F LT 6 PROSPER HEIGHTS"
+}, {
+  "gp": "792433152039",
+  "parcel_description": "E 45.58 F LOT 5 LANDERS PLACE"
+}, {
+  "gp": "782406228006",
+  "parcel_description": "LOT 114 \u0026 E 1/2 LOT 115 KINGMAN PLACE"
+}, {
+  "gp": "792433403044",
+  "parcel_description": "LOT 14 CASES ADDITION TO NORTH DES MOINES"
+}, {
+  "gp": "792420451012",
+  "parcel_description": "LOT 15 HALLETT ACRES"
+}, {
+  "gp": "782425329001",
+  "parcel_description": "LOT 16 CULVER RIDGE ESTATES PLAT 1"
+}, {
+  "gp": "792330429013",
+  "parcel_description": "LOT 167 GRAND VIEW HEIGHTS"
+}, {
+  "gp": "782507103012",
+  "parcel_description": "LOT 18 ASHWORTH PARK"
+}, {
+  "gp": "792515454003",
+  "parcel_description": "LOT 18 BESTLAND ESTATES PLT 2"
+}, {
+  "gp": "792423453003",
+  "parcel_description": "LOT 2 BLK 1 HOFFMAN PLACE"
+}, {
+  "gp": "802424479002",
+  "parcel_description": "LOT 2 DELAWARE ESTATES PLAT 7"
+}, {
+  "gp": "802412455008",
+  "parcel_description": "LOT 2 NORTHBROOK PLAT 2"
+}, {
+  "gp": "782205129002",
+  "parcel_description": "LOT 2 SHELBY LYNN ESTATES"
+}, {
+  "gp": "782330301003",
+  "parcel_description": "LOT 20 EASTER LAKE SOUTH PLAT 1"
+}, {
+  "gp": "792324254003",
+  "parcel_description": "LOT 22 VENBURY PLAT 14"
+}, {
+  "gp": "802435276026",
+  "parcel_description": "LOT 24 SIENA HILLS PLAT 3"
+}, {
+  "gp": "782501252019",
+  "parcel_description": "LOT 26 BOULEVARD PLACE"
+}, {
+  "gp": "782511153017",
+  "parcel_description": "LOT 29 MURROWS 2ND ADD TO VALLEY JUNCTION"
+}, {
+  "gp": "792510126013",
+  "parcel_description": "LOT 31 CENTURY WOODS PLAT 1"
+}, {
+  "gp": "802501351026",
+  "parcel_description": "LOT 38 CROSSROADS AT THE LAKES PLAT 2"
+}, {
+  "gp": "792502101002",
+  "parcel_description": "LOT 41 AUGUSTINE"
+}, {
+  "gp": "802415401010",
+  "parcel_description": "LOT 41 COLLEGE PARK PLAZA NORTHWEST PLAT 1"
+}, {
+  "gp": "792532401017",
+  "parcel_description": "LOT 50 HICKORY HILLS LAKE PLT 1"
+}, {
+  "gp": "782517327034",
+  "parcel_description": "LOT 53 SOUTHWOODS KNOLLS TOWNHOMES PLAT 1"
+}, {
+  "gp": "792535129030",
+  "parcel_description": "LOT 53 SUNRISE PARK PLAT NO 5"
+}, {
+  "gp": "782509130007",
+  "parcel_description": "LOT 7 FAIRMEADOWS PLAT 7"
+}, {
+  "gp": "782511304021",
+  "parcel_description": "LOT 8 BLK 32 2ND ADD TO VALLEY JUNCTION"
+}, {
+  "gp": "792430126010",
+  "parcel_description": "LOT 8 HOLLYWOOD GARDENS"
+}, {
+  "gp": "802426128006",
+  "parcel_description": "LOT 9 HERITAGE VILLAGE AT PRAIRIE TRAIL PLAT 1"
+}, {
+  "gp": "782303103019",
+  "parcel_description": "LT 19 HAWKEYE SUNRISE PARK PLAT 5"
+}, {
+  "gp": "782428151014",
+  "parcel_description": "LT 2 KEE HEIGHTS"
+}, {
+  "gp": "782420301026",
+  "parcel_description": "LT 2 TOLEMAC ACRES"
+}, {
+  "gp": "782509354043",
+  "parcel_description": "LT 46 JORDAN GLEN PLAT 1"
+}, {
+  "gp": "792524101008",
+  "parcel_description": "LT 8 SUNGOLD MANOR PLAT NO 3"
+}, {
+  "gp": "802412226016",
+  "parcel_description": "LT 9 BRIARWOOD PLAT 6"
+}, {
+  "gp": "792433278055",
+  "parcel_description": "S 40F N 240F E 70F LOT 1 NORTH WASHINGTON PLACE"
+}, {
+  "gp": "802319352021",
+  "parcel_description": "UNIT 1305-5 VILLAS OF MEADOW RIDGE"
+}, {
+  "gp": "792433252040",
+  "parcel_description": "-EX E 15 F- LT 3 \u0026 -EX E 15 F- S 10 F LT 4 DOCKSTADER PLACE"
+}, {
+  "gp": "792432452019",
+  "parcel_description": "-EX N 23.14 F- W 21 F LT 37 \u0026 -EX N 49.62 F- E 29 F LT 36 CHETWYND"
+}, {
+  "gp": "792414352005",
+  "parcel_description": "E 104 FT LOT 140 HIGHLAND PARK ACRES"
+}, {
+  "gp": "792321477002",
+  "parcel_description": "E 114 F LOT 73 CAPITOL HEIGHTS NO 2"
+}, {
+  "gp": "792432128051",
+  "parcel_description": "E 56 F LOTS 47 \u0026 48 FAIRACRES"
+}, {
+  "gp": "792433302022",
+  "parcel_description": "LOT 10 BLK B INGHAMS ADDITION"
+}, {
+  "gp": "782418351021",
+  "parcel_description": "LOT 12 PARK AVENUE PLAZA WEST PLAT 2"
+}, {
+  "gp": "792313327005",
+  "parcel_description": "LOT 14 LYNN HEIGHTS PLAT 2"
+}, {
+  "gp": "792403452014",
+  "parcel_description": "LOT 14 PAUL AND JANES PLACE"
+}, {
+  "gp": "802411179005",
+  "parcel_description": "LOT 15 ASHLAND RIDGE PLAT 2"
+}, {
+  "gp": "802435304003",
+  "parcel_description": "LOT 16 SOMERSBY WEST PLAT 1"
+}, {
+  "gp": "782516451054",
+  "parcel_description": "LOT 18 GRAND WOODS PLAT 3"
+}, {
+  "gp": "782436253051",
+  "parcel_description": "LOT 2 THREE LAKES ESTATES PLAT 6"
+}, {
+  "gp": "792536286005",
+  "parcel_description": "LOT 23 FRANKLIN PARK"
+}, {
+  "gp": "792532252003",
+  "parcel_description": "LOT 24 HICKORY HILLS LAKE PLT 1"
+}, {
+  "gp": "782504301004",
+  "parcel_description": "LOT 3 WOODLAND HEIGHTS PLAT 2"
+}, {
+  "gp": "802306153023",
+  "parcel_description": "LOT 31 OTTER CREEK GOLF COURSE PLAT 6"
+}, {
+  "gp": "792313303023",
+  "parcel_description": "LOT 4 LYNN HEIGHTS PLAT NO 1"
+}, {
+  "gp": "792423352004",
+  "parcel_description": "LOT 4 ROENA"
+}, {
+  "gp": "782506302044",
+  "parcel_description": "LOT 4 SUN PRAIRIE WEST PLAT 2"
+}, {
+  "gp": "792501201030",
+  "parcel_description": "LOT 45 JOHNSTON COMMONS BROWNSTONES PLAT 1"
+}, {
+  "gp": "792433478012",
+  "parcel_description": "LOT 49 GARDEN ADDITION"
+}, {
+  "gp": "792429378006",
+  "parcel_description": "LOT 5 BLK 14 BROADMOOR"
+}, {
+  "gp": "802529401013",
+  "parcel_description": "LOT 5 HERITAGE AT GRIMES PLAT 6"
+}, {
+  "gp": "802418276005",
+  "parcel_description": "LOT 6 LAKE RIDGE HEIGHTS PLAT 1"
+}, {
+  "gp": "802435402005",
+  "parcel_description": "LOT 60 SIENA HILLS PLAT 4"
+}, {
+  "gp": "782504476013",
+  "parcel_description": "LOT 7 WESTLAND HEIGHTS PLAT 2"
+}, {
+  "gp": "792333353002",
+  "parcel_description": "LOT 71 BROADACRE"
+}, {
+  "gp": "792436452022",
+  "parcel_description": "LOT 9 BLK 3 STALFORDS ADDITION"
+}, {
+  "gp": "792312130017",
+  "parcel_description": "LOT 9 WOLF CREEK PLAT 2"
+}, {
+  "gp": "302319151047",
+  "parcel_description": "LT 1 MILL-POND PLAT 3"
+}, {
+  "gp": "792334201056",
+  "parcel_description": "LT 24 \u0026 PARCEL A BOOK 10863 PAGE 921 OUTLOT Y COPPER CREEK ESTATES PLAT 1"
+}, {
+  "gp": "792219126018",
+  "parcel_description": "LT 3 ALBRIGHT ADDITION"
+}, {
+  "gp": "782505451019",
+  "parcel_description": "LT 57 MAPLENOL PLAT 1"
+}, {
+  "gp": "792324404012",
+  "parcel_description": "LT 6 VENBURY PLAT 11"
+}, {
+  "gp": "792320176020",
+  "parcel_description": "N 1/2 LOT 43 LONGACRE"
+}, {
+  "gp": "792332176038",
+  "parcel_description": "N 25F LOT 72 \u0026 S 1/2 LOT 73 FAIR OAKS"
+}, {
+  "gp": "782422226010",
+  "parcel_description": "S 52.5F N 155F LT 20 \u0026 S 52.5F N 155F E 97F LOT 21 COLE PLACE"
+}, {
+  "gp": "792503127019",
+  "parcel_description": "SUBJ TO S 10F TRAIL EAS LOT 9 HIDDEN HILLS PLAT 1"
+}, {
+  "gp": "782519231004",
+  "parcel_description": "UNIT 104 VILLAS OF GREY HAWK CONDOMINIUMS"
+}, {
+  "gp": "782417326015",
+  "parcel_description": "UNIT 15 BRIARWOOD CONDOMINIUMS"
+}, {
+  "gp": "782320300006",
+  "parcel_description": "-EX BEG 200F S OF NW COR THN NELY 84.9F S 800.5F W 60F N 740.5F TO POB- N 17.87A W 23.87A SE 1/4 SW 1/4 S OF RY LESS .34A RD SEC 20-78-23"
+}, {
+  "gp": "792433251064",
+  "parcel_description": "-EX LYG E OF W ROW LN 22ND ST- S 4F LOT 7 \u0026 N 46F LOT 8 BLK 5 FOUNTAIN PLACE"
+}, {
+  "gp": "782423327048",
+  "parcel_description": "-EX NELY 6F MEAS PERPENDICULAR TO NELY LN- LOT 53 GRANDSHIRE"
+}, {
+  "gp": "782402179014",
+  "parcel_description": "-EX S 6F- LOT 3 CAVANAGH PLACE"
+}, {
+  "gp": "802226100006",
+  "parcel_description": "BEG 2214.21F E OF SW COR THN NLY 155.9F NELY 310F ELY 13.22F SLY 410.84F TO S LN W 184F TO POB NW 1/4 LESS .139A RD EAS SEC 26-80-22"
+}, {
+  "gp": "802532304016",
+  "parcel_description": "E 8F VAC ALLEY W \u0026 ADJ \u0026 LT 11 BLK 3 CHANNONS 2ND NORTH ADD TO GRIMES"
+}, {
+  "gp": "782423276055",
+  "parcel_description": "LOT 1 WHITE OAK PARK"
+}, {
+  "gp": "782516301005",
+  "parcel_description": "LOT 12 PARKHAVEN PLAT 3"
+}, {
+  "gp": "782401228014",
+  "parcel_description": "LOT 16 BLK 10 FARWELL PLACE"
+}, {
+  "gp": "792525128005",
+  "parcel_description": "LOT 18 ORCHARD VIEW"
+}, {
+  "gp": "792406178007",
+  "parcel_description": "LOT 19 HYPERION PLAZA PLAT 2"
+}, {
+  "gp": "802435303017",
+  "parcel_description": "LOT 20 SOMERSBY WEST PLAT 1"
+}, {
+  "gp": "792523304031",
+  "parcel_description": "LOT 21 ROLLING GREEN PLAT 2"
+}, {
+  "gp": "792330451008",
+  "parcel_description": "LOT 22 LEVERETT PARK PLAT NO 2"
+}, {
+  "gp": "802307155007",
+  "parcel_description": "LOT 23 BRIAR CREEK SOUTH"
+}, {
+  "gp": "792527126003",
+  "parcel_description": "LOT 23 PATRICIA PARK PLAT 15"
+}, {
+  "gp": "792536476017",
+  "parcel_description": "LOT 23 WALDRON PLACE"
+}, {
+  "gp": "792427277008",
+  "parcel_description": "LOT 25 TREMONT PLACE"
+}, {
+  "gp": "792523405008",
+  "parcel_description": "LOT 27 RICHARDS PARK PLAZA PLAT 5"
+}, {
+  "gp": "802416426037",
+  "parcel_description": "LOT 32 BOULDER BROOK PLAT 11"
+}, {
+  "gp": "792514453016",
+  "parcel_description": "LOT 34 SYLVAN RIDGE"
+}, {
+  "gp": "782516103011",
+  "parcel_description": "LOT 36 JORDAN GROVE"
+}, {
+  "gp": "792513477013",
+  "parcel_description": "LOT 43 TIMBER VIEW ESTATES"
+}, {
+  "gp": "802416276091",
+  "parcel_description": "LOT 5 BOULDER BROOK PLAT 10"
+}, {
+  "gp": "802502428009",
+  "parcel_description": "LOT 53 EDGEWATER POINTE PLAT 2"
+}, {
+  "gp": "782419226022",
+  "parcel_description": "LOT 7 DEER CREEK PLACE"
+}, {
+  "gp": "782509251005",
+  "parcel_description": "LOT 7 FAIRMEADOWS PLAT 13"
+}, {
+  "gp": "782407303066",
+  "parcel_description": "LOT 7 RIVER WOODS PLAT 4"
+}, {
+  "gp": "782511304003",
+  "parcel_description": "LOT 82 BUTLERS ADD TO VALLEY JUNCTION"
+}, {
+  "gp": "802415331014",
+  "parcel_description": "LOT 91 WESTWOOD-ANKENY PLAT 1"
+}, {
+  "gp": "782428102016",
+  "parcel_description": "LOTS 37 \u0026 38 BLK 1 PINEHURST"
+}, {
+  "gp": "792322376013",
+  "parcel_description": "LT 2 FENANNA PLACE"
+}, {
+  "gp": "782508179009",
+  "parcel_description": "LT 20 WESTGATE PLAT 1"
+}, {
+  "gp": "792411402007",
+  "parcel_description": "LT 34 WOODSIDE ESTATES PLAT 4"
+}, {
+  "gp": "782413301009",
+  "parcel_description": "LT 35 WOODS ON THE RIVER PLAT 1"
+}, {
+  "gp": "782509430049",
+  "parcel_description": "LT 40 THE TOWNHOMES OF MEADOW POINT"
+}, {
+  "gp": "802330101013",
+  "parcel_description": "LT 8 BLK B PRAIRIE GLEN PLAT 1"
+}, {
+  "gp": "782510476048",
+  "parcel_description": "LT 9 VALLEY GREEN TOWNHOMES"
+}, {
+  "gp": "782421379008",
+  "parcel_description": "N 1/2 LOT 39 AMEND PLACE"
+}, {
+  "gp": "792525402087",
+  "parcel_description": "S 75 F LT 1 WESTOVER PLAT NO 5"
+}, {
+  "gp": "792524328011",
+  "parcel_description": "S 8 F LT 61 \u0026 N 46 F LT 62 CLEAR VIEW SUBDIV"
+}, {
+  "gp": "782402257023",
+  "parcel_description": "W 38 F E 40 F LOT 8 BLK A EAST PARK PLACE"
+}, {
+  "gp": "782421451027",
+  "parcel_description": "W 60 F S 140 F LT 8 B PARKS PLACE"
+}, {
+  "gp": "782406328028",
+  "parcel_description": "W 65 F LT 48 MILLER HEIGHTS"
+}, {
+  "gp": "782421183020",
+  "parcel_description": "-EX S 11F- LOT 194 WATROUS PARK"
+}, {
+  "gp": "782507178016",
+  "parcel_description": "-EX W 5F- LT 12 MEADOW BROOK PLAT 5"
+}, {
+  "gp": "782502232013",
+  "parcel_description": "E 31.4 F LT 53 \u0026 ALL LTS 54 THRU 56 WAVELAND HILLS"
+}, {
+  "gp": "782407228009",
+  "parcel_description": "E 66 F LOT 9 OWLS HEAD"
+}, {
+  "gp": "802436152016",
+  "parcel_description": "LOT 1 SPRINGWOOD TERRACE PLAT 2"
+}, {
+  "gp": "782509204012",
+  "parcel_description": "LOT 10 CROWN FLAIR ESTATES"
+}, {
+  "gp": "792525253031",
+  "parcel_description": "LOT 12 DANA ADDITION"
+}, {
+  "gp": "782402251019",
+  "parcel_description": "LOT 128 GOODE \u0026 LIKES ADDITION"
+}, {
+  "gp": "792328104032",
+  "parcel_description": "LOT 13 BRIARHILL HEIGHTS"
+}, {
+  "gp": "802434276036",
+  "parcel_description": "LOT 13 THE VILLAGE AT WHITE BIRCH PLAT 1"
+}, {
+  "gp": "792432151018",
+  "parcel_description": "LOT 14 HAZELWOOD"
+}, {
+  "gp": "792513403013",
+  "parcel_description": "LOT 21 THE WOODS"
+}, {
+  "gp": "792513152010",
+  "parcel_description": "LOT 24 BROOK RIDGE ESTS PLAT 2"
+}, {
+  "gp": "782413306010",
+  "parcel_description": "LOT 26 WOODS ON THE RIVER PLAT 8"
+}, {
+  "gp": "792527428010",
+  "parcel_description": "LOT 27 OLDHAM PARK PLAT NO 1"
+}, {
+  "gp": "792427277010",
+  "parcel_description": "LOT 27 TREMONT PLACE"
+}, {
+  "gp": "802434402015",
+  "parcel_description": "LOT 28 SAWGRASS PARK PLAT 3"
+}, {
+  "gp": "782428303012",
+  "parcel_description": "LOT 34 CORENE ACRES"
+}, {
+  "gp": "782401479015",
+  "parcel_description": "LOT 35 LINCOLN PARK"
+}, {
+  "gp": "792429353028",
+  "parcel_description": "LOT 4 BLK E MARYLAND PARK"
+}, {
+  "gp": "802411384028",
+  "parcel_description": "LOT 4 STONECREST MEADOWS TOWNHOMES PLAT 1"
+}, {
+  "gp": "792230227029",
+  "parcel_description": "LOT 40 SPRING CREEK RIDGE NORTH PLAT 1"
+}, {
+  "gp": "782519228008",
+  "parcel_description": "LOT 44 FIELDSTONE PLAT NO. 3"
+}, {
+  "gp": "782309229010",
+  "parcel_description": "LOT 52 ARBOR LAKE PLAT 1"
+}, {
+  "gp": "802401378007",
+  "parcel_description": "LOT 7 THE WOODLAND RESERVE PLAT 1"
+}, {
+  "gp": "792407402004",
+  "parcel_description": "LT 1 BRENNAN HEIGHTS"
+}, {
+  "gp": "792334301001",
+  "parcel_description": "LT 10 COPPER CREEK PLAT NO 2"
+}, {
+  "gp": "802536477007",
+  "parcel_description": "LT 61 RITTGERS OAKS AT HYPERION PLAT 1"
+}, {
+  "gp": "792532327010",
+  "parcel_description": "LT 63 WELLINGTON RIDGE PLAT 3"
+}, {
+  "gp": "782406205022",
+  "parcel_description": "S 130 FT LOT 5 J B LOCKES SUB-DIV"
+}, {
+  "gp": "792420307006",
+  "parcel_description": "S 20 F LOT 47 \u0026 N 40 F LOT 48 GLEN ECHO"
+}, {
+  "gp": "792430377004",
+  "parcel_description": "S 41 F N 86 F LOT 28 DEERFOOT ACRES"
+}, {
+  "gp": "802401477106",
+  "parcel_description": "UNIT 1011 LOT 11 THE VILLAS AT GREENVIEW CROSSING"
+}, {
+  "gp": "792512476013",
+  "parcel_description": "UNIT 13 MEADOW PARK TOWNHOMES CONDO"
+}, {
+  "gp": "792509204062",
+  "parcel_description": "UNIT 14 BLDG 4 ADAM RIDGE CONDOMINIUMS"
+}, {
+  "gp": "792514302119",
+  "parcel_description": "UNIT 17 BLDG D PLUMWOOD TERRACE CONDO"
+}, {
+  "gp": "802319103135",
+  "parcel_description": "UNIT 302 BLDG 5 MAPLEWOOD VILLAGE CONDOS"
+}, {
+  "gp": "792521203014",
+  "parcel_description": "UNIT 6 LT 3 VILLAS OF MEREDITH POINTE"
+}, {
+  "gp": "782423227021",
+  "parcel_description": "W 1/2 LOT 58 EVERGREEN PARK"
+}, {
+  "gp": "792523101092",
+  "parcel_description": "WLY 40F MEAS ON N LN LT 38 PARKVIEW PLAT 1"
+}, {
+  "gp": "792430401074",
+  "parcel_description": "-EX S 60F- LOT 7 DEE\u0027S MANOR"
+}, {
+  "gp": "782511227032",
+  "parcel_description": "E 187F N 59.65F LOT 8 WALNUT HILL PLACE"
+}, {
+  "gp": "792313104046",
+  "parcel_description": "LOT 1 DONNA VUE HEIGHTS PLAT 1"
+}, {
+  "gp": "782407226025",
+  "parcel_description": "LOT 1 SOUTH OF GRAND ESTATES"
+}, {
+  "gp": "792536282012",
+  "parcel_description": "LOT 105 FRANKLIN PARK PLAT 2"
+}, {
+  "gp": "792426281006",
+  "parcel_description": "LOT 12 BLK 8 KRYSHERS 2ND ADD PLAT 3"
+}, {
+  "gp": "802317328006",
+  "parcel_description": "LOT 13 THE CROSSINGS AT DEER CREEK PLAT 1"
+}, {
+  "gp": "792534278019",
+  "parcel_description": "LOT 15 WESTVIEW BEND PLAT NO 2"
+}, {
+  "gp": "782428326002",
+  "parcel_description": "LOT 18 FORT DES MOINES GARDENS"
+}, {
+  "gp": "792332301022",
+  "parcel_description": "LOT 25 BLK 3 OUT-LOOK PARK"
+}, {
+  "gp": "792520180016",
+  "parcel_description": "LOT 27 SUBJ TO SWLY 5F BIKE TRAIL EAS DAYS RUN PLAT 2"
+}, {
+  "gp": "802414327042",
+  "parcel_description": "LOT 3 PARRISH PARK PLAT 1"
+}, {
+  "gp": "812536327029",
+  "parcel_description": "LOT 3 WOLF CREEK TOWNHOMES PLAT 9"
+}, {
+  "gp": "782518183011",
+  "parcel_description": "LOT 33 VILLAGE OF PONDEROSA PLAT 9"
+}, {
+  "gp": "792505303044",
+  "parcel_description": "LOT 43 MEADOWLARK SOUTH PLAT 1"
+}, {
+  "gp": "792531429004",
+  "parcel_description": "LOT 46 HUNTINGTON RIDGE PLAT 1"
+}, {
+  "gp": "792422358007",
+  "parcel_description": "LOT 46 L M MANNS 1ST ADD TO OAK PARK"
+}, {
+  "gp": "792510252080",
+  "parcel_description": "LOT 5 COURTYARDS AT WINDSOR PLAT 1"
+}, {
+  "gp": "792506129011",
+  "parcel_description": "LOT 5 KENNYBROOK ESTATES PLAT 15"
+}, {
+  "gp": "782509408017",
+  "parcel_description": "LOT 5 MEADOW POINT PLAT 3"
+}, {
+  "gp": "792218380014",
+  "parcel_description": "LOT 68 FAIRLANE ADD PLAT NO 3"
+}, {
+  "gp": "792329154008",
+  "parcel_description": "LOT 7 WEDDING PLACE"
+}, {
+  "gp": "782433128007",
+  "parcel_description": "LOTS 20 \u0026 21 BLK 5 RODGERS PLACE"
+}, {
+  "gp": "782330176003",
+  "parcel_description": "LT 1 EASTER LAKE ESTATES PLAT 1"
+}, {
+  "gp": "812535380046",
+  "parcel_description": "LT 10 INDIAN POINT"
+}, {
+  "gp": "812535380047",
+  "parcel_description": "LT 11 INDIAN POINT"
+}, {
+  "gp": "792503451032",
+  "parcel_description": "LT 19 WATERFORD TOWNHOMES"
+}, {
+  "gp": "802416378012",
+  "parcel_description": "LT 5 SEASONS RIDGE PLAT 4"
+}, {
+  "gp": "792319326020",
+  "parcel_description": "LT 6 EASTVIEW MANOR PLAT 3"
+}, {
+  "gp": "802434452010",
+  "parcel_description": "LT 6 SAYLOR HEIGHTS"
+}, {
+  "gp": "782428482007",
+  "parcel_description": "S 7.5F E 117F LT 27 \u0026 -EX N 22.5F W 80F- LTS 28,29 \u0026 30 PORTER PLACE"
+}, {
+  "gp": "782501379011",
+  "parcel_description": "S 75F LOTS 8 \u0026 9 ORP LOTS 19 THRU 24, 37 THRU 40, 42 \u0026 43 GRAND AVE HEIGHTS"
+}, {
+  "gp": "792423178003",
+  "parcel_description": "S 77 F LOTS 29 \u0026 30 LIBERTY ACRES"
+}, {
+  "gp": "792428302030",
+  "parcel_description": "W 1/2 S 128F LOT 47 ARNOLD\u0027S PLACE"
+}, {
+  "gp": "792407377001",
+  "parcel_description": "W 139F LOT 14 BEAVER FARMS"
+}, {
+  "gp": "782406108007",
+  "parcel_description": "W 150 F LOT 40 FAGEN PLACE"
+}, {
+  "gp": "792420351004",
+  "parcel_description": "W 160 F S 1/2 LOT 114 GLEN ECHO"
+}, {
+  "gp": "782410382004",
+  "parcel_description": "W 30F LT 6 OP LT 14 OP W 1/2 SEC 10-78-24 AND; E 80F N 1/2 LT 15 OP W 1/2 S OF D M RIVER SEC 10-78-24"
+}, {
+  "gp": "792433407013",
+  "parcel_description": "-EX S 2 F- LT 5 OP LT 46 SEC 33-79-24"
+}, {
+  "gp": "782527451003",
+  "parcel_description": "BEG 874F N OF SE COR THN W 231.95F SW 209.18F W 261.15F TO W LN N 574.77F E 665.15F S 450.3F TO POB E 1/2 SW 1/4 SE 1/4 LESS .465A RD SEC 27-78-25"
+}, {
+  "gp": "792534226023",
+  "parcel_description": "LOT 1 SUMMIT HEIGHTS PLT 1"
+}, {
+  "gp": "792432431003",
+  "parcel_description": "LOT 10 BLK 6 MERRITT \u0026 FISCHERS PARK"
+}, {
+  "gp": "782526103042",
+  "parcel_description": "LOT 10 SCHIEFFELIN ESTATES PLAT 1"
+}, {
+  "gp": "782421182014",
+  "parcel_description": "LOT 121 WATROUS PARK"
+}, {
+  "gp": "802412328008",
+  "parcel_description": "LOT 14 BRIARWOOD SOUTH PLAT 5"
+}, {
+  "gp": "792327262005",
+  "parcel_description": "LOT 14 BROOK RUN VILLAGE PLAT 7"
+}, {
+  "gp": "792429352005",
+  "parcel_description": "LOT 15 BLK F MARYLAND PARK"
+}, {
+  "gp": "792420177003",
+  "parcel_description": "LOT 16 MONTEREY PARK PLAT NO 3"
+}, {
+  "gp": "792331176035",
+  "parcel_description": "LOT 17 BLK 9 EASTON PLACE"
+}, {
+  "gp": "782505378014",
+  "parcel_description": "LOT 24 WESTERN TRAILS PLAT 1"
+}, {
+  "gp": "782405159008",
+  "parcel_description": "LOT 28 IRA P WETMORES ADDITION"
+}, {
+  "gp": "792431307034",
+  "parcel_description": "LOT 298 UNIVERSITY HEIGHTS PLAT 2"
+}, {
+  "gp": "792219356003",
+  "parcel_description": "LOT 3 COUNTRY COVE PLAT 7"
+}, {
+  "gp": "802425231019",
+  "parcel_description": "LOT 3 COUNTRY CROSSING PLAT 5"
+}, {
+  "gp": "792314428016",
+  "parcel_description": "LOT 32 ADVENTURELAND ESTATES PLAT 9"
+}, {
+  "gp": "792426259015",
+  "parcel_description": "LOT 32 WRIGHTS GROVE"
+}, {
+  "gp": "792429126030",
+  "parcel_description": "LOT 38 KNAPP PLACE"
+}, {
+  "gp": "802417478002",
+  "parcel_description": "LOT 41 CHERRY GLEN ESTATES PLAT 4"
+}, {
+  "gp": "802530126008",
+  "parcel_description": "LOT 43 WILLOW HILLS NORTH PLAT 1"
+}, {
+  "gp": "782436253039",
+  "parcel_description": "LOT 46 THREE LAKES ESTATES PLAT 5"
+}, {
+  "gp": "792218330005",
+  "parcel_description": "LOT 5 DENNISTON AND PARTRIDGE PLACE #2"
+}, {
+  "gp": "792324432005",
+  "parcel_description": "LOT 5 VENBURY PLAT 13"
+}, {
+  "gp": "802530477014",
+  "parcel_description": "LOT 7 BEAVERBROOKE WEST PLAT FOUR"
+}, {
+  "gp": "792403205015",
+  "parcel_description": "LOT 75 GOLDEN ACRES"
+}, {
+  "gp": "792523327001",
+  "parcel_description": "LOT 8 HOLLY J MANOR PLAT 8"
+}, {
+  "gp": "782414302042",
+  "parcel_description": "LOT 85 SUMMIT VIEW"
+}, {
+  "gp": "802434255001",
+  "parcel_description": "LOT 88 WHITE BIRCH PLAT 1"
+}, {
+  "gp": "792430454007",
+  "parcel_description": "LOT 9 THELMA PLACE"
+}, {
+  "gp": "792419301024",
+  "parcel_description": "LOTS 30 \u0026 31 BLK H AVIATION PARK"
+}, {
+  "gp": "802532179006",
+  "parcel_description": "LT 12 TAYLOR ESTATES PLAT NO 6"
+}, {
+  "gp": "792312377158",
+  "parcel_description": "LT 34 MEADOW VIEW PLAT 8"
+}, {
+  "gp": "792436458017",
+  "parcel_description": "LT 5 \u0026 N 1/2 LT 6 BLK 7 DE WOLFS ADDITION"
+}, {
+  "gp": "792421306014",
+  "parcel_description": "NELY 58F LT 31 \u0026 SWLY 2F LT 32 LYNNER HEIGHTS PLAT 6"
+}, {
+  "gp": "292336200010",
+  "parcel_description": "PARCEL C BK 15423 PG 285 PRT OF N 1/2 NE 1/4 LYG NW OF RD SEC 36-79-23"
+}, {
+  "gp": "782422203017",
+  "parcel_description": "S 1/2 LOT 80 MORNINGSIDE"
+}, {
+  "gp": "782304206014",
+  "parcel_description": "S 100 F LOT 11 ELLISON KNOLLS"
+}, {
+  "gp": "782512476019",
+  "parcel_description": "S 100 FT LOT 91 LINDEN HEIGHTS"
+}, {
+  "gp": "792524102008",
+  "parcel_description": "UNIT 4532 HOMES OF SUNGOLD COND0"
+}, {
+  "gp": "812317227010",
+  "parcel_description": "W 40F N 270.5F LT 4 LESS RD OP NW 1/4 SEC 16-81-23; AND BEG NE COR OF SEC THN W 147.8F NWLY 132.6F S 280.6F E 320F N 270.5F W 40F TO POB LTS 1 \u0026 2 LESS RD OP NE 1/4 SEC 17-81-23"
+}, {
+  "gp": "782421205009",
+  "parcel_description": "-EX N 8.5F ST- LOT 14 TAYLOR PLACE"
+}, {
+  "gp": "792332102024",
+  "parcel_description": "BEG 145F S \u0026 140F E OF NW COR THN S TO S LN SWLY TO PT 75F E OF W LN N TO PT 205F S OF N LN E 25F N 60F E 40F TO POB LT 10 PATTERSON PLACE"
+}, {
+  "gp": "812328485001",
+  "parcel_description": "LOT 1 BLK 5 TOWN OF ELKHART"
+}, {
+  "gp": "792430478025",
+  "parcel_description": "LOT 1 BLK 7 HICKMAN PLACE"
+}, {
+  "gp": "802425202010",
+  "parcel_description": "LOT 1 COUNTRY CROSSING PLAT 8"
+}, {
+  "gp": "792319252031",
+  "parcel_description": "LOT 10 DOUGLAS ACRES PLAT 8"
+}, {
+  "gp": "792526278003",
+  "parcel_description": "LOT 11 BLK F KAREN ACRES PLAT 2"
+}, {
+  "gp": "802230303058",
+  "parcel_description": "LOT 11 PLEASANT GROVE PLAT 4"
+}, {
+  "gp": "782417376002",
+  "parcel_description": "LOT 11 WILLOWMERE"
+}, {
+  "gp": "792328153010",
+  "parcel_description": "LOT 110 SHERIDAN PARK PLAT NO 2"
+}, {
+  "gp": "792220101046",
+  "parcel_description": "LOT 13 TUSCANY PLAT 2"
+}, {
+  "gp": "802505280001",
+  "parcel_description": "LOT 14 JESTER GLEN ESTATES PLAT FOUR"
+}, {
+  "gp": "782422253053",
+  "parcel_description": "LOT 15 SOUTHERN KNOLLS PLAT 3"
+}, {
+  "gp": "802307101137",
+  "parcel_description": "LOT 19 RENAISSANCE VILLAS PLAT 3"
+}, {
+  "gp": "802532183004",
+  "parcel_description": "LOT 19 TAYLOR ESTATES PLAT 9"
+}, {
+  "gp": "782312276004",
+  "parcel_description": "LOT 2 MEADOW LARK ESTATES"
+}, {
+  "gp": "802409252016",
+  "parcel_description": "LOT 2 TRESTLE RIDGE ESTATES PLAT 5"
+}, {
+  "gp": "792330251003",
+  "parcel_description": "LOT 20 FAIRMOUNT PARK PLAT NO 3"
+}, {
+  "gp": "782424102056",
+  "parcel_description": "LOT 26 WOODS EDGE PLAT 1"
+}, {
+  "gp": "802413127007",
+  "parcel_description": "LOT 29 WINBURY PLACE PLAT 3"
+}, {
+  "gp": "792220160007",
+  "parcel_description": "LOT 3 TUSCANY TOWNHOMES PLAT 2"
+}, {
+  "gp": "792529326004",
+  "parcel_description": "LOT 3 WILSON GARDENS"
+}, {
+  "gp": "802325279014",
+  "parcel_description": "LOT 35 SANKEY SUMMIT PLAT 2"
+}, {
+  "gp": "782423254003",
+  "parcel_description": "LOT 37 EVERGREEN PLAT NO 1"
+}, {
+  "gp": "792434476012",
+  "parcel_description": "LOT 46 RUTHERFURD HEIGHTS"
+}, {
+  "gp": "782405484038",
+  "parcel_description": "LOT 5 ARTISAN ROW PLAT 1"
+}, {
+  "gp": "802423254001",
+  "parcel_description": "LOT 6 ANKENY VILLAGE PLAT 3"
+}, {
+  "gp": "782511329017",
+  "parcel_description": "LOT 7 BLK 26 2ND ADD TO VALLEY JUNCTION PLAT 2"
+}, {
+  "gp": "802401276018",
+  "parcel_description": "LOT 8 CREEKSIDE PLAT 3"
+}, {
+  "gp": "782432426013",
+  "parcel_description": "LOT 90 HIGHLAND HILLS PLAT 5"
+}, {
+  "gp": "782401130023",
+  "parcel_description": "LOTS 41 \u0026 42 BLK 16 YORKS CHOICE"
+}, {
+  "gp": "802411476025",
+  "parcel_description": "LT 21 GEORGETOWN PLAT 3"
+}, {
+  "gp": "792334201023",
+  "parcel_description": "LT 23 COPPER CREEK ESTATES PLAT 1"
+}, {
+  "gp": "792434383019",
+  "parcel_description": "LT 3 \u0026 N 6.7F LT 4 HALLETTS SUB DIV"
+}, {
+  "gp": "792506251029",
+  "parcel_description": "LT 6 KENNYBROOK ESTATES PLAT 9"
+}, {
+  "gp": "792317352039",
+  "parcel_description": "N 1/2 LOT 61 DOUGLAS ACRES PLAT 6"
+}, {
+  "gp": "802414201008",
+  "parcel_description": "PARCEL A LT 6 \u0026 BEG WLY COR THN NE 64.86F SWLY 66.05F TO POB LT 7 PARKVIEW CAMPUS PLAT 7"
+}, {
+  "gp": "782406381010",
+  "parcel_description": "UNIT 10 3667 GRAND (CONDO)"
+}, {
+  "gp": "782510354060",
+  "parcel_description": "UNIT 60 JORDAN SQUARE TOWNHOUSE CONDOMINIUMS"
+}, {
+  "gp": "802536451003",
+  "parcel_description": "W 33F N 161F S 211F LT 3 OP SE 1/4 SEC 36-80-25; AND LT 2 \u0026 S161F N247F LT A HYPERION ESTATES"
+}, {
+  "gp": "782406254024",
+  "parcel_description": "-EX E 8F S LN \u0026 E 2F N LN- E 100F LOT 4 BLK 1 PLEASANT VIEW"
+}, {
+  "gp": "792319452056",
+  "parcel_description": "-EX N 167F- E 60F LT 254 DOUGLAS ACRES PLAT 2"
+}, {
+  "gp": "782408103003",
+  "parcel_description": "-EX PT W OF LINE DRAWN FROM SW COR TO PT ON N LINE 20F E OF NW COR- LOT 28 THE POLK \u0026 HUBBELL PARK"
+}, {
+  "gp": "782512476021",
+  "parcel_description": "-EX S 100F- LOT 93 LINDEN HEIGHTS"
+}, {
+  "gp": "792429202033",
+  "parcel_description": "-EX W 165 F- LT 19 KINGMANS ORCHARD"
+}, {
+  "gp": "792312251016",
+  "parcel_description": "LOT 10 WOLF CREEK PLAT 8"
+}, {
+  "gp": "802401203026",
+  "parcel_description": "LOT 13B LEDGESTONE PLAT 4"
+}, {
+  "gp": "792332431015",
+  "parcel_description": "LOT 148 GRAYS WOODS"
+}, {
+  "gp": "792230102011",
+  "parcel_description": "LOT 16 PRAIRIE VISTA PLAT 3"
+}, {
+  "gp": "802413428006",
+  "parcel_description": "LOT 18 CRESTBRUCK ACRES PLAT 3"
+}, {
+  "gp": "792433255005",
+  "parcel_description": "LOT 22 BLK 2 INGLESIDE"
+}, {
+  "gp": "792330277019",
+  "parcel_description": "LOT 27 FAIRMOUNT PARK PLAT NO 1"
+}, {
+  "gp": "792327257011",
+  "parcel_description": "LOT 29 BROOK RUN VILLAGE PLAT 7"
+}, {
+  "gp": "782507203005",
+  "parcel_description": "LOT 3 MEADOW RUE PLAT 2"
+}, {
+  "gp": "782511278012",
+  "parcel_description": "LOT 35 GRAND AVE PLACE"
+}, {
+  "gp": "792420303002",
+  "parcel_description": "LOT 38 BETTS-MC CABE PLAT NO 1"
+}, {
+  "gp": "802421128007",
+  "parcel_description": "LOT 4 CAMDEN WOODS PLAT 3"
+}, {
+  "gp": "802416102032",
+  "parcel_description": "LOT 44 THE VILLAGE AT THE GROVE PLAT 1"
+}, {
+  "gp": "792520177005",
+  "parcel_description": "LOT 49 DAYS RUN PLAT 4"
+}, {
+  "gp": "792524302009",
+  "parcel_description": "LOT 54 MACRAE HIGHLANDS PLAT 2"
+}, {
+  "gp": "802307101031",
+  "parcel_description": "LOT 56 RENAISSANCE VILLAS"
+}, {
+  "gp": "792526252015",
+  "parcel_description": "LOT 66 KAREN ACRES PLAT 10"
+}, {
+  "gp": "792515379006",
+  "parcel_description": "LOT 70 GLEN EAGLES"
+}, {
+  "gp": "792436151008",
+  "parcel_description": "LOT 8 DEL-MAR PLACE"
+}, {
+  "gp": "802504151011",
+  "parcel_description": "LOT 8 JESTER GLEN ESTATES PLAT FOUR"
+}, {
+  "gp": "782511452016",
+  "parcel_description": "LOTS 17 \u0026 18 BLK C NATIONAL PARK ADDITION"
+}, {
+  "gp": "782415476008",
+  "parcel_description": "LOTS 49 \u0026 50 JEFFERSON HEIGHTS REPLAT"
+}, {
+  "gp": "792510401031",
+  "parcel_description": "LT 20 GREENWOOD HILLS PLAT 4"
+}, {
+  "gp": "782520176006",
+  "parcel_description": "LT 21 QUAIL PARK WEST"
+}, {
+  "gp": "792529152003",
+  "parcel_description": "LT 25 TIMBERLINE PLAT 6"
+}, {
+  "gp": "792524127022",
+  "parcel_description": "LT 26 WESTWIND PLAT 2"
+}, {
+  "gp": "792420352018",
+  "parcel_description": "S 1/2 LOT 101 GLEN ECHO"
+}, {
+  "gp": "782512102031",
+  "parcel_description": "THAT PT LT 36 N OF ROBERTSON DR \u0026 E 299.7F LT 37 LESS RD WESTWOOD"
+}, {
+  "gp": "782435428009",
+  "parcel_description": "UNIT 201 THE MEADOWLANDS CONDOMINIUMS"
+}, {
+  "gp": "802531427018",
+  "parcel_description": "UNIT 302 BLDG 101 HIDDEN HILLS CONDOMINIUMS"
+}, {
+  "gp": "782435428044",
+  "parcel_description": "UNIT 706 THE MEADOWLANDS CONDOMINIUMS"
+}, {
+  "gp": "782406227002",
+  "parcel_description": "W 1/2 LOT 73 \u0026 E 1/2 LOT 74 KINGMAN PLACE"
+}, {
+  "gp": "782414401114",
+  "parcel_description": "W 32.4F ON N LN \u0026 W 32.02F ON S LN LOT 36 PARK FOREST PLAT 3"
+}, {
+  "gp": "792430481025",
+  "parcel_description": "-EX S 15F- LT 1 BLK 3 HICKMAN PLACE"
+}, {
+  "gp": "792432377032",
+  "parcel_description": "E 1/2 LOT 70 CHETWYND"
+}, {
+  "gp": "792423329023",
+  "parcel_description": "E1/2 LT H W \u0026 ADJ \u0026 LT 8 BLK 1 OP NE 1/4 SW 1/4 -EX E 830.4F S 1/2- SEC 23-79-24"
+}, {
+  "gp": "792531279007",
+  "parcel_description": "LOT 1 THE WOODLANDS PLAT NO 1"
+}, {
+  "gp": "802434153023",
+  "parcel_description": "LOT 10 TRADITION GREENS PLAT 2"
+}, {
+  "gp": "802533104014",
+  "parcel_description": "LOT 11 NORTH POINTE TOWNHOMES PLAT 1"
+}, {
+  "gp": "792407177001",
+  "parcel_description": "LOT 13 PINEWOOD GLEN PLAT 3"
+}, {
+  "gp": "792410252014",
+  "parcel_description": "LOT 13 WOODSIDE ESTATES WEST PLAT 1"
+}, {
+  "gp": "782421103015",
+  "parcel_description": "LOT 149 GOODELL PLACE"
+}, {
+  "gp": "802306102010",
+  "parcel_description": "LOT 2 OTTER CREEK GOLF COURSE PLAT 8"
+}, {
+  "gp": "792434331006",
+  "parcel_description": "LOT 20 BLK A ALBERT KRYSHERS ADDITION TO NORTH DES MOINES"
+}, {
+  "gp": "802409453011",
+  "parcel_description": "LOT 24 TRESTLE POINT PLAT 3"
+}, {
+  "gp": "802512127032",
+  "parcel_description": "LOT 29 MARINA COVE PLAT 2"
+}, {
+  "gp": "782521302018",
+  "parcel_description": "LOT 29 SCENIC VALLEY PLAT 3"
+}, {
+  "gp": "802306102011",
+  "parcel_description": "LOT 3 OTTER CREEK GOLF COURSE PLAT 8"
+}, {
+  "gp": "792435480010",
+  "parcel_description": "LOT 309 CAPITAL PARK"
+}, {
+  "gp": "802414304036",
+  "parcel_description": "LOT 36 VILLAGE PARK PLAT NO 6"
+}, {
+  "gp": "792329126020",
+  "parcel_description": "LOT 377 DOUGLAS ACRES PLAT 4"
+}, {
+  "gp": "782304330001",
+  "parcel_description": "LOT 38 PLEASANT HILL ESTATES PLAT 5"
+}, {
+  "gp": "782519281008",
+  "parcel_description": "LOT 38 QUAIL VISTA TOWNHOMES PLAT 1"
+}, {
+  "gp": "792530151009",
+  "parcel_description": "LOT 4 CARMEL SUBDIVISION"
+}, {
+  "gp": "782511454011",
+  "parcel_description": "LOT 41 HOMELAND"
+}, {
+  "gp": "792330476006",
+  "parcel_description": "LOT 46 LUTZ \u0026 MC KEES GRAND VIEW HEIGHTS"
+}, {
+  "gp": "792421302026",
+  "parcel_description": "LOT 47 \u0026 N 30 F LOT 48 LYNNER HEIGHTS PLAT 1"
+}, {
+  "gp": "792419203005",
+  "parcel_description": "LOT 5 BEL AIRE WEST PLAT NO 3"
+}, {
+  "gp": "792331228008",
+  "parcel_description": "LOT 51 CASS GRAND VIEW PLACE"
+}, {
+  "gp": "782401203006",
+  "parcel_description": "LOT 8 BLK 3 FARWELL PLACE"
+}, {
+  "gp": "782420429010",
+  "parcel_description": "LOT 81 WAKONDA MANOR"
+}, {
+  "gp": "782401232008",
+  "parcel_description": "LOT 9 BLK 8 FARWELL PLACE"
+}, {
+  "gp": "802415152009",
+  "parcel_description": "LOT 9 NORTH CREEK PLAT 3"
+}, {
+  "gp": "792531105014",
+  "parcel_description": "LOT 93 COUNTRY CLUB PLAT 7"
+}, {
+  "gp": "782509354033",
+  "parcel_description": "LT 11 JORDAN GLEN PLAT 1"
+}, {
+  "gp": "802436153045",
+  "parcel_description": "LT 31 SPRINGWOOD PLAT 8"
+}, {
+  "gp": "792511328013",
+  "parcel_description": "LT 35 GREEN MEADOWS WEST PLAT 8"
+}, {
+  "gp": "802529227001",
+  "parcel_description": "LT 5 TIMBERBROOKE PLAT 1"
+}, {
+  "gp": "782405152002",
+  "parcel_description": "N 44 F LOT 247 UNIVERSITY LAND COS 1ST ADDITION"
+}, {
+  "gp": "782406253030",
+  "parcel_description": "S 90 FT LOT 51 MERRILL PLACE"
+}, {
+  "gp": "782406382038",
+  "parcel_description": "UNIT 408 WEST GRAND TOWERS CONDO"
+}, {
+  "gp": "782505305008",
+  "parcel_description": "UNIT 8 WYNDHAM HOUSE CONDO"
+}, {
+  "gp": "782435430069",
+  "parcel_description": "UNIT 903 BLDG 9 MEADOWRIDGE TOWNHOMES"
+}, {
+  "gp": "782526103004",
+  "parcel_description": "-EX BEG NW COR THN SE13F SW TO PT ON W LN N 7F TO POB- LT 1 JULIANN ESTATES PLAT 2"
+}, {
+  "gp": "782412228001",
+  "parcel_description": "-EX E 66 F- LOTS 1 \u0026 2 YORKS ADDITION TO CHESTERFIELD"
+}, {
+  "gp": "782410382010",
+  "parcel_description": "E 1/2 LOT 1 OP OF LT 14 OP OF W 1/2 SEC 10-78-24"
+}, {
+  "gp": "782507203003",
+  "parcel_description": "LOT 1 MEADOW RUE PLAT 2"
+}, {
+  "gp": "802531203009",
+  "parcel_description": "LOT 105 BEAVERBROOKE WEST PLAT EIGHT"
+}, {
+  "gp": "782512427007",
+  "parcel_description": "LOT 109 LINDEN HEIGHTS"
+}, {
+  "gp": "792331427004",
+  "parcel_description": "LOT 112 BOULEVARD ADDITION"
+}, {
+  "gp": "792332454003",
+  "parcel_description": "LOT 12 FAIRVIEW HEIGHTS"
+}, {
+  "gp": "792505376019",
+  "parcel_description": "LOT 15 MEADOWLARK SOUTH PLAT 2"
+}, {
+  "gp": "782404152035",
+  "parcel_description": "LOT 19 CITYVIEW 34"
+}, {
+  "gp": "802410327005",
+  "parcel_description": "LOT 20 CENTENNIAL RIDGE PLAT 2"
+}, {
+  "gp": "782510126023",
+  "parcel_description": "LOT 24 \u0026 E 20F LOT 25 MOUNTAIN PLACE PLAT 2"
+}, {
+  "gp": "792433256011",
+  "parcel_description": "LOT 26 WILLIAMS 3RD ADDITION TO DES MOINES"
+}, {
+  "gp": "802436302017",
+  "parcel_description": "LOT 28 WILLOW RUN PLAT 2"
+}, {
+  "gp": "802434153044",
+  "parcel_description": "LOT 30 TRADITION GREENS PLAT 2"
+}, {
+  "gp": "792431106025",
+  "parcel_description": "LOT 31 BILLIES PLACE"
+}, {
+  "gp": "782517130009",
+  "parcel_description": "LOT 34 ABBEY HEALTHCARE"
+}, {
+  "gp": "792326102012",
+  "parcel_description": "LOT 34 WOODBURY PLAT 1"
+}, {
+  "gp": "802416402007",
+  "parcel_description": "LOT 35 BOULDER BROOK PLAT 14"
+}, {
+  "gp": "792525427017",
+  "parcel_description": "LOT 5 WILLARD HEIGHTS"
+}, {
+  "gp": "802414381018",
+  "parcel_description": "LOT 58 NORTHLAWN PLAT NO 6"
+}, {
+  "gp": "802424128026",
+  "parcel_description": "LOT 6 TRIPLETT VILLAGE PLAT 3"
+}, {
+  "gp": "782415404022",
+  "parcel_description": "LOT 60 SOUTHERN HEIGHTS"
+}, {
+  "gp": "802531281002",
+  "parcel_description": "LOT 9 BEAVERBROOKE WEST PLAT 2"
+}, {
+  "gp": "792522128003",
+  "parcel_description": "LOT 9 GOLF VIEW ESTATES PLAT 18"
+}, {
+  "gp": "792218351035",
+  "parcel_description": "LOTS 12 \u0026 13 LANGDON PORTER PLACE"
+}, {
+  "gp": "782425284010",
+  "parcel_description": "LT 16 EASTER LAKE ESTATES PLAT 6"
+}, {
+  "gp": "792521277012",
+  "parcel_description": "LT 2 BENNETT WOODS PLAT 2"
+}, {
+  "gp": "792516478014",
+  "parcel_description": "LT 20 FOXDALE PLAT 1"
+}, {
+  "gp": "782509378006",
+  "parcel_description": "LT 28 JORDAN POINTE"
+}, {
+  "gp": "782509352012",
+  "parcel_description": "LT 8 ASHAWA ESTATES PLAT 6"
+}, {
+  "gp": "782415455002",
+  "parcel_description": "N 1/2 LOT 63 \u0026 ALL LOTS 64 \u0026 65 BLK A JEFFERSON HEIGHTS NO 2"
+}, {
+  "gp": "782406480005",
+  "parcel_description": "N 8F VAC ALLEY S \u0026 ADJ \u0026 S 6F VAC HIGH ST N \u0026 ADJ \u0026 LOT 5 BLK 4 MC CAIN PLACE"
+}, {
+  "gp": "782312276016",
+  "parcel_description": "PARCEL A BK 10094 PG 754 BEG NE COR THN S 300F NW 150F N 300F SE 150F TO POB LOT 5 MEADOW LARK ESTATES"
+}, {
+  "gp": "792430327024",
+  "parcel_description": "S 27 F LOT 45 \u0026 N 27 F LOT 46 DEERFOOT ACRES PLAT 2"
+}, {
+  "gp": "792332326016",
+  "parcel_description": "W 48F E 96F LTS 21, 22 \u0026 23 BLK 1 OUT-LOOK PARK"
+}, {
+  "gp": "782419279028",
+  "parcel_description": "-EX N 25F- LT 87 \u0026 -EX S 45F- LT 88 CAMELOT SOUTH"
+}, {
+  "gp": "792430276020",
+  "parcel_description": "-EX S 50F- LOT 26 CHELSEA ACRES"
+}, {
+  "gp": "782502429045",
+  "parcel_description": "-EX S 65 F- LOT 13 \u0026 ALL LOT 14 WATERBURY PARK"
+}, {
+  "gp": "782402135007",
+  "parcel_description": "E 1/2 LOT 19 BLK 66 STEWARTS ADDITION"
+}, {
+  "gp": "792505253007",
+  "parcel_description": "LOT 11 MEADOWLARK POINTE PLAT NO. 4"
+}, {
+  "gp": "792426258004",
+  "parcel_description": "LOT 112 WRIGHTS GROVE"
+}, {
+  "gp": "802317151007",
+  "parcel_description": "LOT 19 THE CROSSINGS AT DEER CREEK PLAT 4"
+}, {
+  "gp": "782511278005",
+  "parcel_description": "LOT 28 GRAND AVE PLACE"
+}, {
+  "gp": "792509427007",
+  "parcel_description": "LOT 3 GLENSTONE TRAIL PLAT 5"
+}, {
+  "gp": "802421402014",
+  "parcel_description": "LOT 37 COUNTRY CLUB COURT PLAT 2"
+}, {
+  "gp": "782422226032",
+  "parcel_description": "LOT 4 SOUTHERN KNOLLS PLAT 2"
+}, {
+  "gp": "792519228027",
+  "parcel_description": "LOT 44 DAY\u0027S RUN WEST PLAT 2"
+}, {
+  "gp": "782517327046",
+  "parcel_description": "LOT 45 SOUTHWOODS KNOLLS TOWNHOMES PLAT 1"
+}, {
+  "gp": "802412426016",
+  "parcel_description": "LOT 5 BRIAR RIDGE EQUESTRIAN MANOR"
+}, {
+  "gp": "782425176014",
+  "parcel_description": "LOT 5 CARMAN ESTATES PLAT 1"
+}, {
+  "gp": "782416351026",
+  "parcel_description": "LOT 5 SHULL PLACE"
+}, {
+  "gp": "802509252004",
+  "parcel_description": "LOT 61 KNAPP GARDENS PLAT 3"
+}, {
+  "gp": "802412451002",
+  "parcel_description": "LOT 8 NORTHBROOK PLAT 1"
+}, {
+  "gp": "782519151046",
+  "parcel_description": "LOT 9 \u0026 PARCEL A BEG NE COR THN SW 123.99F NW24F NE 146.1F TO POB LOT 8 \u0026 PARCEL B BEG NW COR THN SE 92F NW 67.95F NLY 49.81F TO POB LOT 8 THE GALLERY"
+}, {
+  "gp": "802413254011",
+  "parcel_description": "LOT 9 BARCLAY PLAT 2"
+}, {
+  "gp": "782401203007",
+  "parcel_description": "LOT 9 BLK 3 FARWELL PLACE"
+}, {
+  "gp": "782421177018",
+  "parcel_description": "LOTS 57 \u0026 58 WATROUS PARK"
+}, {
+  "gp": "792503377004",
+  "parcel_description": "LT 112 NEWPORT RIDGE PLAT 1"
+}, {
+  "gp": "802411380008",
+  "parcel_description": "LT 39 ASHLAND MEADOWS PLAT 2"
+}, {
+  "gp": "792406180006",
+  "parcel_description": "LT 6 HYPERION PLAZA PLAT 4"
+}, {
+  "gp": "302507100008",
+  "parcel_description": "PARCEL D BEG 102.3F E \u0026 670.4F NWLY OF SW COR THN NWLY 268.1F N 404.4F E 1369.06F S 661.8F W 1339.7F TO POB SW 1/4 NW 1/4 SEC 7-80-25"
+}, {
+  "gp": "782402237030",
+  "parcel_description": "PARCEL F BK 9824 PG 493 AFF BK 9828 PG 547 BEG 16F E OF SW COR LT 19 THN N 118.86F E 24F N 7F E 42.01F S 126F W 65.67F ALNG S LN TO POB LTS 17,18 \u0026 19 \u0026 PRT VAC E/W ALLEY N \u0026 ADJ BLK 18 SUNNYSIDE ADDITION"
+}, {
+  "gp": "792320476012",
+  "parcel_description": "S 152F N 892F -EX E 30F ST- E 10A SE 1/4 SE 1/4 SEC 20-79-23"
+}, {
+  "gp": "792535178016",
+  "parcel_description": "S 5 F LT 9 \u0026 ALL LT 10 PLAZA HEIGHTS"
+}, {
+  "gp": "792536253022",
+  "parcel_description": "S 75F E 240F LOT 59 SUBURBAN FARMS"
+}, {
+  "gp": "792428302032",
+  "parcel_description": "W 50F S 150F LOT 48 ARNOLD\u0027S PLACE"
+}, {
+  "gp": "782422101057",
+  "parcel_description": "W 70F S 119F LOT 9 SMITHS ACRES"
+}, {
+  "gp": "782415176015",
+  "parcel_description": "-EX BEG NW COR THN E 5.77F SE 55.3F W 5.76F NW 55.32F- LOT 9 BURR OAK"
+}, {
+  "gp": "782305228005",
+  "parcel_description": "-EX E 22F RD EAS- LOT 6 ORP SEC 5-78-23; AND -EX E 220 F- LT 11 BOGGS PLACE"
+}, {
+  "gp": "792426155014",
+  "parcel_description": "E 85.75 F LOT 1 BLK 28 AUBURN HEIGHTS PLT 1"
+}, {
+  "gp": "802317276042",
+  "parcel_description": "LOT 12 CANYON LANDING DUPLEXES PLAT 2"
+}, {
+  "gp": "802512103004",
+  "parcel_description": "LOT 12 MARINA COVE PLAT 1"
+}, {
+  "gp": "792431351048",
+  "parcel_description": "LOT 132 UNIVERSITY HEIGHTS"
+}, {
+  "gp": "792325405015",
+  "parcel_description": "LOT 15 BROOKHAVEN ESTATES PLAT 1"
+}, {
+  "gp": "802434176007",
+  "parcel_description": "LOT 16 DIAMOND HILLS PLAT 1"
+}, {
+  "gp": "802434451045",
+  "parcel_description": "LOT 17 SAWGRASS PARK PLAT 4"
+}, {
+  "gp": "792531376013",
+  "parcel_description": "LOT 18 COUNTRY CLUB COVE PLAT 2"
+}, {
+  "gp": "792509277119",
+  "parcel_description": "LOT 19 VILLAS AT GLENSTONE RIDGE PLAT 4"
+}, {
+  "gp": "802501302036",
+  "parcel_description": "LOT 2 CROSSROADS AT THE LAKES PLAT 3"
+}, {
+  "gp": "792520305016",
+  "parcel_description": "LOT 20 TIMBERLINE PARK"
+}, {
+  "gp": "802231377010",
+  "parcel_description": "LOT 29 MEADOW BROOK NORTH PLAT 2"
+}, {
+  "gp": "802403377021",
+  "parcel_description": "LOT 32 COURTYARDS AT ROCK CREEK PLAT 3"
+}, {
+  "gp": "782418378008",
+  "parcel_description": "LOT 35 SOUTHERN HILLS PLAT 1"
+}, {
+  "gp": "792509252020",
+  "parcel_description": "LOT 37 GLENSTONE RIDGE"
+}, {
+  "gp": "792510426008",
+  "parcel_description": "LOT 45 GREENWOOD HILLS PLAT 2"
+}, {
+  "gp": "802424427012",
+  "parcel_description": "LOT 5 DELAWARE ESTATES PLAT 9"
+}, {
+  "gp": "792433152029",
+  "parcel_description": "LOT 5 FIVE OAKS"
+}, {
+  "gp": "792511326009",
+  "parcel_description": "LOT 57 GREEN MEADOWS WEST PLT 5"
+}, {
+  "gp": "812535303021",
+  "parcel_description": "LOT 7 \u0026 OUTLOT Y LOST LAKE ESTATES PLAT 3"
+}, {
+  "gp": "792419126074",
+  "parcel_description": "LOT 74 WESTCHESTER MANOR PLAT 5"
+}, {
+  "gp": "792434130006",
+  "parcel_description": "LOT 77 THIRD PLAT PROSPECT PARK"
+}, {
+  "gp": "802502131016",
+  "parcel_description": "LOT 8 WOODHAVEN PLAT 2"
+}, {
+  "gp": "792429458008",
+  "parcel_description": "LOTS 15 \u0026 16 BLK 4 HIGHLAWN"
+}, {
+  "gp": "782422303015",
+  "parcel_description": "LOTS 42 \u0026 43 SUNNYCREST"
+}, {
+  "gp": "782416229016",
+  "parcel_description": "LT 17 OP OL A \u0026 50F E \u0026 ADJ N 380 F 1ST PLAT CLIFTON HEIGHTS"
+}, {
+  "gp": "802411327004",
+  "parcel_description": "LT 3 ASHLAND MEADOWS PLAT 2"
+}, {
+  "gp": "782507477039",
+  "parcel_description": "LT 3 BLK 1 SOUTHWOODS WEST PLAT 3"
+}, {
+  "gp": "782504352005",
+  "parcel_description": "LT 32 WOODLAND HEIGHTS PLAT 3"
+}, {
+  "gp": "802502203012",
+  "parcel_description": "LT 36 FOREST HEIGHTS PLAT 3"
+}, {
+  "gp": "792406153008",
+  "parcel_description": "LT 38 HYPERION HEIGHTS PLAT 1"
+}, {
+  "gp": "792525377023",
+  "parcel_description": "LT 5 ROCKLYN ESTATES PLAT 2"
+}, {
+  "gp": "782334108002",
+  "parcel_description": "LTS 5 \u0026 6 BLK C LAKE AVON"
+}, {
+  "gp": "792433256024",
+  "parcel_description": "LTS 6 \u0026 7 BLK 4 SHEPHERDSONS ADD TO DES MOINES"
+}, {
+  "gp": "792524380008",
+  "parcel_description": "N 1/2 LOT 12 BURNSTEDT ACRES"
+}, {
+  "gp": "792433401012",
+  "parcel_description": "N 19 F LOT 17 \u0026 ALL LOT 18 WILLIAMSON PLACE"
+}, {
+  "gp": "782518203033",
+  "parcel_description": "UNIT 1005 VILLAS OF BERKSHIRE HILLS CONDO"
+}, {
+  "gp": "782519231111",
+  "parcel_description": "UNIT 605 VILLAS OF GREY HAWK CONDOMINIUMS"
+}, {
+  "gp": "782404469039",
+  "parcel_description": "UNIT 902 KIRKWOOD COMMONS CONDOMINIUMS"
+}, {
+  "gp": "792531354046",
+  "parcel_description": "UNIT C-3-206 THE PINNACLE CONDO"
+}, {
+  "gp": "792217301001",
+  "parcel_description": "-EX E 342.9F- \u0026 -EX W 208.7F E 551.6F N 417.6F- N 1/2 SW 1/4 LESS RD SEC 17-79-22"
+}, {
+  "gp": "792428153011",
+  "parcel_description": "-EX S 100 F- W 80 F LOT 6 ARNOLD\u0027S PLACE"
+}, {
+  "gp": "782304228005",
+  "parcel_description": "-EX SWLY 8F- LOT 3 PLEASANT HILL MANOR PLAT 3"
+}, {
+  "gp": "792426478001",
+  "parcel_description": "21.3F W \u0026 ADJ \u0026 ALL W 38F LTS 47 \u0026 48 SHOPES ADDITION"
+}, {
+  "gp": "792433278062",
+  "parcel_description": "E 60F LOTS 2, 3, 4 \u0026 5 GRACE PLACE SUB DIV"
+}, {
+  "gp": "792428330002",
+  "parcel_description": "LOT 100 GLEN OAKS"
+}, {
+  "gp": "792332154028",
+  "parcel_description": "LOT 13 ELIHU PLACE PLAT 2"
+}, {
+  "gp": "782421401012",
+  "parcel_description": "LOT 13 WATROUS HEIGHTS PLAT 1"
+}, {
+  "gp": "802317152006",
+  "parcel_description": "LOT 14 THE CROSSINGS AT DEER CREEK PLAT 7"
+}, {
+  "gp": "792431351009",
+  "parcel_description": "LOT 163 UNIVERSITY HEIGHTS"
+}, {
+  "gp": "802317179007",
+  "parcel_description": "LOT 18 THE CROSSINGS AT DEER CREEK PLAT 8"
+}, {
+  "gp": "792427228005",
+  "parcel_description": "LOT 20 BLK 20 HIGHLAND PARK"
+}, {
+  "gp": "782507477048",
+  "parcel_description": "LOT 3 BLK 3 SOUTHWOODS WEST PLAT 5"
+}, {
+  "gp": "812436304015",
+  "parcel_description": "LOT 30 HARVEST RIDGE PLAT 1"
+}, {
+  "gp": "802501352001",
+  "parcel_description": "LOT 30 PINE RIDGE ESTATES"
+}, {
+  "gp": "792407129002",
+  "parcel_description": "LOT 30 PINEWOOD GLEN PLAT 3"
+}, {
+  "gp": "792426401035",
+  "parcel_description": "LOT 36 BLK 3 GRAND VIEW"
+}, {
+  "gp": "792432202015",
+  "parcel_description": "LOT 36 HICKMAN HEIGHTS"
+}, {
+  "gp": "802412276007",
+  "parcel_description": "LOT 38 BRIARWOOD PLAT 1"
+}, {
+  "gp": "782304280031",
+  "parcel_description": "LOT 45 PINE VALLEY PLAT 1"
+}, {
+  "gp": "792332305012",
+  "parcel_description": "LOT 5 BLK 2 OUT-LOOK PARK"
+}, {
+  "gp": "782416276030",
+  "parcel_description": "LOT 57 FRUITA"
+}, {
+  "gp": "812517201007",
+  "parcel_description": "LOT 6 SANDHOUSE ESTATES PLAT 3"
+}, {
+  "gp": "782512428002",
+  "parcel_description": "LOT 70 LINDEN HEIGHTS"
+}, {
+  "gp": "782414302030",
+  "parcel_description": "LOT 73 SUMMIT VIEW"
+}, {
+  "gp": "792510452013",
+  "parcel_description": "LOT 9 LONGVIEW GREENS PLAT 3"
+}, {
+  "gp": "792505326014",
+  "parcel_description": "LOT 91 MEADOWLARK SOUTH PLAT 1"
+}, {
+  "gp": "792219229007",
+  "parcel_description": "LT 2 FALCON RIDGE PLAT 9"
+}, {
+  "gp": "802433404002",
+  "parcel_description": "LT 2 TIARA HEIGHTS PLAT 5"
+}, {
+  "gp": "782422451004",
+  "parcel_description": "LT 21 KARY J MANOR PLAT NO 3"
+}, {
+  "gp": "802413326008",
+  "parcel_description": "LT 22 HENDERSON PARK PLAT 14"
+}, {
+  "gp": "782420476017",
+  "parcel_description": "LT 50 \u0026 W 1 F LT 51 WAKONDA MANOR PLAT NO 2 REPLAT"
+}, {
+  "gp": "802416378023",
+  "parcel_description": "LT 8 SEASONS RIDGE PLAT 6"
+}, {
+  "gp": "802530400004",
+  "parcel_description": "NE 1/4 SE 1/4 LESS 2.392A RD SEC 30-80-25"
+}, {
+  "gp": "782409238028",
+  "parcel_description": "UNIT 212 BROWN CAMP LOFTS CONDO"
+}, {
+  "gp": "782417326035",
+  "parcel_description": "UNIT 35 BRIARWOOD CONDOMINIUMS"
+}, {
+  "gp": "802412303031",
+  "parcel_description": "UNIT 7 BLDG 4 THE VILLAGE AT BRIARWOOD PARK"
+}, {
+  "gp": "792320402003",
+  "parcel_description": "W 1/2 LOT 340 DOUGLAS ACRES PLAT 3"
+}, {
+  "gp": "792422176020",
+  "parcel_description": "-SUBJ TO RD EAS- E 120F S 200F \u0026 PARCEL A BK 16056 PG 606 COM NE COR LT 30 THN S 100.54F TO POB THN S 30.48F W 120F N 30.4F E 120F TO POB LOT 30 OP N 3/4 SEC 22-79-24"
+}, {
+  "gp": "802413253024",
+  "parcel_description": "LOT 1 BARCLAY PLAT 4"
+}, {
+  "gp": "802401280203",
+  "parcel_description": "LOT 10 CREEKSIDE BROWNSTONES PLAT 2"
+}, {
+  "gp": "792420404008",
+  "parcel_description": "LOT 10 RONNAS ACRES PLAT NO 3"
+}, {
+  "gp": "792426128004",
+  "parcel_description": "LOT 11 BLK 2 PLAT 1 COLLEGE ADD TO HIGHLAND PARK"
+}, {
+  "gp": "782501301014",
+  "parcel_description": "LOT 13 BLK I COUNTRY CLUB KNOLLS"
+}, {
+  "gp": "802427259003",
+  "parcel_description": "LOT 17 PRECEDENCE AT PRAIRIE TRAIL PLAT 2"
+}, {
+  "gp": "782304381002",
+  "parcel_description": "LOT 17 WHISPERING PINES EAST PLAT 2"
+}, {
+  "gp": "782505377032",
+  "parcel_description": "LOT 2 BLOCK 2 WOODLAND PARK WDM PLAT 8 REPLAT"
+}, {
+  "gp": "782436201003",
+  "parcel_description": "LOT 2 THREE LAKES ESTATES PLAT 1"
+}, {
+  "gp": "792431428038",
+  "parcel_description": "LOT 21 WHITCOMB"
+}, {
+  "gp": "782521201006",
+  "parcel_description": "LOT 24 GRAND WOODS PLAT 4"
+}, {
+  "gp": "782521201009",
+  "parcel_description": "LOT 27 GRAND WOODS PLAT 4"
+}, {
+  "gp": "782405484040",
+  "parcel_description": "LOT 3 ARTISAN ROW PLAT 1"
+}, {
+  "gp": "792436104037",
+  "parcel_description": "LOT 36 DEL-MAR PLACE"
+}, {
+  "gp": "802529304012",
+  "parcel_description": "LOT 4 CHEVALIA TRACE PLAT 2"
+}, {
+  "gp": "782517102003",
+  "parcel_description": "LOT 41 SOUTHWOODS EAST PLAT 2"
+}, {
+  "gp": "792332177029",
+  "parcel_description": "LOT 43 FAIR OAKS"
+}, {
+  "gp": "782509328002",
+  "parcel_description": "LOT 46 MEADOW POINT PLAT 10"
+}, {
+  "gp": "792531129007",
+  "parcel_description": "LOT 48 COUNTRY CLUB PLAT 5"
+}, {
+  "gp": "792531477008",
+  "parcel_description": "LOT 49 HUNTINGTON RIDGE PLAT 3"
+}, {
+  "gp": "792513352052",
+  "parcel_description": "LOT 50 TIMBER GLEN PLAT 1"
+}, {
+  "gp": "782417102006",
+  "parcel_description": "LOT 6 VALLEY GARDENS"
+}, {
+  "gp": "792512251023",
+  "parcel_description": "LOT 64 WINWOOD PLAT 3"
+}, {
+  "gp": "782416277009",
+  "parcel_description": "LOT 69 FRUITA"
+}, {
+  "gp": "792427206005",
+  "parcel_description": "LOT 8 BLK 3 OAK PARK"
+}, {
+  "gp": "802402377012",
+  "parcel_description": "LOT 9 GREYSTONE AT PRAIRIE RIDGE"
+}, {
+  "gp": "792422426003",
+  "parcel_description": "LOT 94 COLLEGE PARK"
+}, {
+  "gp": "782410408010",
+  "parcel_description": "LOTS 13 \u0026 14 BLK 29 SECOND PLAT OF CLIFTON HEIGHTS"
+}, {
+  "gp": "802411427023",
+  "parcel_description": "LT 24 \u0026 G-24 CORNERSTONE AT GEORGETOWN"
+}, {
+  "gp": "802411404002",
+  "parcel_description": "LT 26 GEORGETOWN PLAT 1"
+}, {
+  "gp": "802318451003",
+  "parcel_description": "LT 3 GREENWOOD ACRES PLAT 3"
+}, {
+  "gp": "792512401005",
+  "parcel_description": "LT 5 WINWOOD PLAT 1"
+}, {
+  "gp": "792216400003",
+  "parcel_description": "PARCEL A BEG 1031.3F W OF SE COR THN W 460.54F N 208.59F E 73.94F N 85F E 354.32F S 290.59F TO POB SE 1/4 LESS .61A RD SEC 16-79-22"
+}, {
+  "gp": "782422203029",
+  "parcel_description": "S 93.33F N 186.67F W 97F LOT 17 COLE PLACE"
+}, {
+  "gp": "792516480112",
+  "parcel_description": "UNIT 2 BLDG 6 FOXDALE CONDOMINIUMS"
+}, {
+  "gp": "792509455037",
+  "parcel_description": "UNIT 302 GLENSTONE TRAIL CONDOMINIUMS"
+}, {
+  "gp": "782406109001",
+  "parcel_description": "W 1/2 S 150F N 170F LTS 98, 99, 100 \u0026 101 CAMPBELL PLACE"
+}, {
+  "gp": "792330430001",
+  "parcel_description": "W 16F LOT 94 \u0026 ALL LOTS 95 \u0026 96 GRAND VIEW HEIGHTS"
+}, {
+  "gp": "782407151001",
+  "parcel_description": "W 76 F N 150 F LOT 7 BROWNS WOODS"
+}, {
+  "gp": "782416455013",
+  "parcel_description": "-EX E 7F- LOT 24 BAGG PLACE PLAT 2"
+}, {
+  "gp": "792332429007",
+  "parcel_description": "-EX N 145F ON ELY LN \u0026 N 122.75F ON W LN- LT 115 GRAYS WOODS"
+}, {
+  "gp": "792430102049",
+  "parcel_description": "-EX N 33F W 90F E 100F- \u0026 -EX N 15F E 10F- S 65F LOT 3 KINGMAN ACRES PLAT 3"
+}, {
+  "gp": "802206100021",
+  "parcel_description": "-EX PARCEL A BEG SW COR LT 3 THN E 399.82F S 109.36F W 396.94F TO W LN N 109.4F TO POB- LT 2 WOODLAND BLUFF ESTATES"
+}, {
+  "gp": "782402231012",
+  "parcel_description": "LOT 11 BLK 2 EASDALE"
+}, {
+  "gp": "792427427006",
+  "parcel_description": "LOT 124 BLK 6 LAKE PARK"
+}, {
+  "gp": "792431153021",
+  "parcel_description": "LOT 128 MESA PARK PLAT 2"
+}, {
+  "gp": "802433203035",
+  "parcel_description": "LOT 13 GLENBROOKE PLAT 4"
+}, {
+  "gp": "792321378028",
+  "parcel_description": "LOT 149 CASTALIA PLAZA"
+}, {
+  "gp": "782428201017",
+  "parcel_description": "LOT 15 MEADOWBROOK PLACE"
+}, {
+  "gp": "782414401036",
+  "parcel_description": "LOT 15 WOODS PARK"
+}, {
+  "gp": "792431478021",
+  "parcel_description": "LOT 16 HOMELAND PLACE"
+}, {
+  "gp": "782416427035",
+  "parcel_description": "LOT 2 HATTON ACRES PLAT 4"
+}, {
+  "gp": "802329400004",
+  "parcel_description": "LOT 2 J.A.D. FARMS PLAT 1"
+}, {
+  "gp": "782415202021",
+  "parcel_description": "LOT 2 LECKBANDS SUB-DIVISION"
+}, {
+  "gp": "802416301061",
+  "parcel_description": "LOT 2 WATERCREST PLAT 5"
+}, {
+  "gp": "792506201017",
+  "parcel_description": "LOT 22 KENNYBROOK ESTATES PLT 6"
+}, {
+  "gp": "792313176012",
+  "parcel_description": "LOT 23 ALTOONA ESTATES PLAT 2"
+}, {
+  "gp": "792510126019",
+  "parcel_description": "LOT 25 CENTURY WOODS PLAT 1"
+}, {
+  "gp": "792502154008",
+  "parcel_description": "LOT 26 AUGUSTINE"
+}, {
+  "gp": "792325204005",
+  "parcel_description": "LOT 28 IRONWOOD SOUTH PLAT 3"
+}, {
+  "gp": "782507155003",
+  "parcel_description": "LOT 3 MEADOW BROOK PLAT 8"
+}, {
+  "gp": "782518228008",
+  "parcel_description": "LOT 3 SOUTHWOODS WEST PLAT 2"
+}, {
+  "gp": "792431428023",
+  "parcel_description": "LOT 3 WAVELAND HEIGHTS NO 2"
+}, {
+  "gp": "782520354012",
+  "parcel_description": "LOT 32 QUAIL PARK RIDGE"
+}, {
+  "gp": "792423455004",
+  "parcel_description": "LOT 4 \u0026 N 52F S 104F LOT 28 BLK 4 HOFFMAN PLACE"
+}, {
+  "gp": "782427176023",
+  "parcel_description": "LOT 4 SHARON HILLS PLAT 4"
+}, {
+  "gp": "782401105022",
+  "parcel_description": "LOT 41 \u0026 W 8 1/3 F LOT 42 BLK 22 YORKS CHOICE"
+}, {
+  "gp": "792328251011",
+  "parcel_description": "LOT 43 PATRICIA ANN ESTATES PLAT 2"
+}, {
+  "gp": "792313202030",
+  "parcel_description": "LOT 5 TERRACE VIEW ESTATES PLAT 7"
+}, {
+  "gp": "802413105019",
+  "parcel_description": "LOT 5 TERRELL MANOR PLAT 6"
+}, {
+  "gp": "792432178010",
+  "parcel_description": "LOT 6 OAK LEE REPLAT"
+}, {
+  "gp": "782518277037",
+  "parcel_description": "LOT 7 CARRIAGE HOMES OF WEST DES MOINES"
+}, {
+  "gp": "782420429018",
+  "parcel_description": "LOT 73 WAKONDA MANOR"
+}, {
+  "gp": "802401226015",
+  "parcel_description": "LOT 8 LEDGESTONE PLAT 1"
+}, {
+  "gp": "792327327009",
+  "parcel_description": "LOT 8 THE WOODS OF COPPER CREEK PLAT 5"
+}, {
+  "gp": "792419376034",
+  "parcel_description": "LOTS 26 \u0026 27 BLK L AVIATION PARK"
+}, {
+  "gp": "782433330009",
+  "parcel_description": "LT 23 \u0026 N 33.08F LT 24 VALLEY ACRES"
+}, {
+  "gp": "792430377016",
+  "parcel_description": "N 75 F LOT 20 DEERFOOT ACRES"
+}, {
+  "gp": "792434305016",
+  "parcel_description": "S 1/2 ALLEY N \u0026 ADJ \u0026 LT 7 BLK 2 LAYMANS 4TH ADD"
+}, {
+  "gp": "782426377007",
+  "parcel_description": "S 115F N 229F LT 35 NEW HOPE"
+}, {
+  "gp": "782417453051",
+  "parcel_description": "UNIT 704 THE PARK FLEUR"
+}, {
+  "gp": "792411451002",
+  "parcel_description": "W 150F E 345F S 183F S 15A W 1/2 SE 1/4 LESS RD SEC 11-79-24"
+}, {
+  "gp": "792514352002",
+  "parcel_description": "-EX E 18F- LOT 24 \u0026 E18F LOT 25 OAKWOODS PLAT 1"
+}, {
+  "gp": "792319202001",
+  "parcel_description": "-EX N10F RD- LTS 18 \u0026 19 NUGENT PLACE"
+}, {
+  "gp": "802415478006",
+  "parcel_description": "-EX S 5F- LOT 12 FRONTIER VILLAGE PLAT 8"
+}, {
+  "gp": "792522452028",
+  "parcel_description": "-EX S1F- LT 2 \u0026 S1F LT 3 KINGSBURY PLAT 1"
+}, {
+  "gp": "782435201003",
+  "parcel_description": "E 1/2 W 1/2 NW 1/4 NE1/4 LESS RD SEC 35-78-24"
+}, {
+  "gp": "782304227006",
+  "parcel_description": "LOT 1 \u0026 E 2.8F LOT 2 PLEASANT HILL MANOR PLAT 2"
+}, {
+  "gp": "792332152001",
+  "parcel_description": "LOT 1 TOM\u0027S HEIGHTS PLAT NO 1"
+}, {
+  "gp": "782504353036",
+  "parcel_description": "LOT 11 WOODLAND HEIGHTS PLAT 4"
+}, {
+  "gp": "792514329001",
+  "parcel_description": "LOT 12 MEREDITH PARK PLAT NO 3"
+}, {
+  "gp": "792531302008",
+  "parcel_description": "LOT 13 COUNTRY CLUB PLAT 8"
+}, {
+  "gp": "782423202014",
+  "parcel_description": "LOT 15 PARK PLAZA EAST PLAT 1"
+}, {
+  "gp": "792505252006",
+  "parcel_description": "LOT 19 MEADOWLARK POINTE PLAT NO 1"
+}, {
+  "gp": "802421151068",
+  "parcel_description": "LOT 2 CAMDEN WEST PLAT 7"
+}, {
+  "gp": "792511329005",
+  "parcel_description": "LOT 2 GREEN MEADOWS WEST PLAT 10"
+}, {
+  "gp": "802416203034",
+  "parcel_description": "LOT 2 PINE VIEW ESTATES PLAT 3"
+}, {
+  "gp": "802434201020",
+  "parcel_description": "LOT 2 REUNION PLAT 2"
+}, {
+  "gp": "782309401010",
+  "parcel_description": "LOT 20 PLEASANT RIDGE ESTATES PLAT 2"
+}, {
+  "gp": "792426276004",
+  "parcel_description": "LOT 21 BLK 4 KRYSHERS 2ND ADD PLAT 4"
+}, {
+  "gp": "792219202023",
+  "parcel_description": "LOT 21 FALCON RIDGE VILLAGE"
+}, {
+  "gp": "792432230010",
+  "parcel_description": "LOT 21 MONROE PLACE"
+}, {
+  "gp": "802417178011",
+  "parcel_description": "LOT 23 KIDMAN ESTATES PLAT 1"
+}, {
+  "gp": "802523476016",
+  "parcel_description": "LOT 23 SUNSET RIDGE POINTE PLAT 1"
+}, {
+  "gp": "802413251004",
+  "parcel_description": "LOT 3 BARCLAY PLAT 3"
+}, {
+  "gp": "802512128020",
+  "parcel_description": "LOT 3 MARINA COVE PLAT 2"
+}, {
+  "gp": "802532131003",
+  "parcel_description": "LOT 31 BEAVERBROOKE POINTE PLAT 2"
+}, {
+  "gp": "792419178007",
+  "parcel_description": "LOT 33 WESTCHESTER MANOR PLAT 3"
+}, {
+  "gp": "792536407023",
+  "parcel_description": "LOT 4 ERIC PLACE"
+}, {
+  "gp": "782310202002",
+  "parcel_description": "LOT 6 VAL HALLA ESTATES"
+}, {
+  "gp": "792509403002",
+  "parcel_description": "LOT 8 GLENSTONE TRAIL PLAT 1"
+}, {
+  "gp": "792514427037",
+  "parcel_description": "LOT 83 SYLVAN RIDGE"
+}, {
+  "gp": "782519277007",
+  "parcel_description": "LT 36 QUAIL VISTA"
+}, {
+  "gp": "792535126026",
+  "parcel_description": "LT 5 \u0026 E 2.5F LT 6 HOWE PLACE PLAT NO 1"
+}, {
+  "gp": "782422401044",
+  "parcel_description": "LT 9 KARY J MANOR PLAT NO 3"
+}, {
+  "gp": "792431476002",
+  "parcel_description": "N 46F LOT 23 \u0026 S 8F LOT 24 ROYAL PLACE"
+}, {
+  "gp": "782433182014",
+  "parcel_description": "N 50 F LTS 29, 30, 31 \u0026 32 BLK 14 RODGERS PLACE"
+}, {
+  "gp": "782409238084",
+  "parcel_description": "UNIT 504 BROWN CAMP LOFTS CONDO"
+}, {
+  "gp": "792522153001",
+  "parcel_description": "W 35F LOT 15 GOLF VIEW ESTATES PLAT 8; AND LOT 28 GOLF VIEW ESTATES PLAT 7"
+}, {
+  "gp": "782416427027",
+  "parcel_description": "-EX N 150F- \u0026 EX S 25F- W 65F LT 27 HATTON ACRES"
+}, {
+  "gp": "782429276009",
+  "parcel_description": "E 79.45 F LOT 137 WAKONDA MANOR PLAT NO 5"
+}, {
+  "gp": "792422404017",
+  "parcel_description": "LOT 10 BROOKFIELD"
+}, {
+  "gp": "802435305005",
+  "parcel_description": "LOT 11 SOMERSBY WEST PLAT 2"
+}, {
+  "gp": "792426230023",
+  "parcel_description": "LOT 14 MANNS 2ND ADD HIGHLAND PARK"
+}, {
+  "gp": "802415151013",
+  "parcel_description": "LOT 17 NORTH CREEK PLAT 1"
+}, {
+  "gp": "802424202030",
+  "parcel_description": "LOT 18 UEHLAMAR PLAT 7"
+}, {
+  "gp": "792330251004",
+  "parcel_description": "LOT 19 FAIRMOUNT PARK PLAT NO 3"
+}, {
+  "gp": "792419451004",
+  "parcel_description": "LOT 22 SENGA PLACE"
+}, {
+  "gp": "782510401023",
+  "parcel_description": "LOT 23 NUTTALL ACRES PLAT 2"
+}, {
+  "gp": "792512253035",
+  "parcel_description": "LOT 23 WINWOOD PLAT 3"
+}, {
+  "gp": "782413309007",
+  "parcel_description": "LOT 26 WOODS ON THE RIVER PLAT 9"
+}, {
+  "gp": "792327202007",
+  "parcel_description": "LOT 28 BROOK RUN VILLAGE PLAT 1"
+}, {
+  "gp": "792201479014",
+  "parcel_description": "LOT 28 DEER RUN PLAT 1"
+}, {
+  "gp": "782304151022",
+  "parcel_description": "LOT 30 HURDS HICKORY HEIGHTS PLAT 2"
+}, {
+  "gp": "792320177009",
+  "parcel_description": "LOT 31 LONGACRE"
+}, {
+  "gp": "782511401020",
+  "parcel_description": "LOT 4 MIKSICH ACRES"
+}, {
+  "gp": "802523426032",
+  "parcel_description": "LOT 55 SUNSET RIDGE POINTE PLAT 2"
+}, {
+  "gp": "792329429001",
+  "parcel_description": "LOT 561 FOUR MILE"
+}, {
+  "gp": "802532127006",
+  "parcel_description": "LOT 7 HERITAGE AT GRIMES PLAT 4"
+}, {
+  "gp": "802435282008",
+  "parcel_description": "LOT 7 SIENA HILLS PLAT 3"
+}, {
+  "gp": "782418451014",
+  "parcel_description": "LOT 9 EAGLE TRACE"
+}, {
+  "gp": "792420330030",
+  "parcel_description": "LOT 9 RONNAS ACRES PLAT NO 2"
+}, {
+  "gp": "792329176024",
+  "parcel_description": "LOT 9 TIFFIN PLACE"
+}, {
+  "gp": "802230353015",
+  "parcel_description": "LT 11 TUFTS ACRES PLAT 1"
+}, {
+  "gp": "792328402007",
+  "parcel_description": "LT 12 EAST EDGE MANOR"
+}, {
+  "gp": "782425284006",
+  "parcel_description": "LT 12 EASTER LAKE ESTATES PLAT 6"
+}, {
+  "gp": "792503352026",
+  "parcel_description": "LT 32 NEWPORT RIDGE PLAT 1"
+}, {
+  "gp": "792406101046",
+  "parcel_description": "LT 45 NORTHGLENN PLAT 5"
+}, {
+  "gp": "792434404021",
+  "parcel_description": "LT 9 W W FINKS SUB DIV OF LOT 42"
+}, {
+  "gp": "782405157007",
+  "parcel_description": "S 35 F LOT 21 IRA P WETMORES ADDITION"
+}, {
+  "gp": "782506427002",
+  "parcel_description": "UNIT 1002 BLDG 1 STONERIDGE CONDOMINIUM"
+}, {
+  "gp": "782516279095",
+  "parcel_description": "UNIT 2265-3 VILLAS OF WHITE OAKS CONDO"
+}, {
+  "gp": "782501482006",
+  "parcel_description": "UNIT 301 4220 30 INGERSOLL CONDO"
+}, {
+  "gp": "782518203021",
+  "parcel_description": "UNIT 901 VILLAS OF BERKSHIRE HILLS CONDO"
+}, {
+  "gp": "802532358004",
+  "parcel_description": "W 1/2 ALLEY E OF \u0026 ADJ \u0026 ALL LT 3 BLK 8 CHANNONS NORTH ADDITION TO GRIMES"
+}, {
+  "gp": "782502478010",
+  "parcel_description": "-EX A TRI PC 27.92 F ON E LINE- LOT 50 INGERSOLL OAKS"
+}, {
+  "gp": "812403300002",
+  "parcel_description": "-EX N 198 F W 165 F-BEG NW COR THN E 401.5F S 404F W 101.5F S 26F W 75F S 50F W 225F N 480F TO POB SW 1/4 LESS .33A RD SEC 3-81-24"
+}, {
+  "gp": "782422176019",
+  "parcel_description": "-EX N 79F- \u0026 -EX E 5F- LOT 34 SMITHS ACRES PLAT 3"
+}, {
+  "gp": "792330429008",
+  "parcel_description": "E 1/2 LOT 159 GRAND VIEW HEIGHTS"
+}, {
+  "gp": "782502180012",
+  "parcel_description": "LOT 10 MAIRNER"
+}, {
+  "gp": "782402305013",
+  "parcel_description": "LOT 14 COTTAGE PLACE"
+}, {
+  "gp": "792331380001",
+  "parcel_description": "LOT 14 F H MC CLURGS ORCHARD"
+}, {
+  "gp": "802417230006",
+  "parcel_description": "LOT 15 GROVE LANDING PLAT 5"
+}, {
+  "gp": "782424152002",
+  "parcel_description": "LOT 15 WOODS EDGE PLAT 2"
+}, {
+  "gp": "802532177006",
+  "parcel_description": "LOT 17 TAYLOR ESTATES PLAT NO 5"
+}, {
+  "gp": "792525226009",
+  "parcel_description": "LOT 174 CLOVER ACRES REPLAT"
+}, {
+  "gp": "792320126010",
+  "parcel_description": "LOT 20 LONGACRE"
+}, {
+  "gp": "792420153012",
+  "parcel_description": "LOT 22 JOE MC CABE PLAT 1"
+}, {
+  "gp": "792313276019",
+  "parcel_description": "LOT 22 STONE PRAIRIE PLAT 1"
+}, {
+  "gp": "782427381018",
+  "parcel_description": "LOT 27 \u0026 -EX E 1/2- LT 28 RAINBOW PLACE"
+}, {
+  "gp": "802306177002",
+  "parcel_description": "LOT 31 OTTER CREEK GOLF COURSE PLAT 1"
+}, {
+  "gp": "792331301004",
+  "parcel_description": "LOT 47 DELEWARE PLACE"
+}, {
+  "gp": "792511179015",
+  "parcel_description": "LOT 51 GREEN MEADOWS WEST PLT 2"
+}, {
+  "gp": "792406454005",
+  "parcel_description": "LOT 62 JOHNSTON MEADOWS PLAT 1"
+}, {
+  "gp": "792523429009",
+  "parcel_description": "LOT 67 SHARON HEIGHTS PLAT 3"
+}, {
+  "gp": "792514332007",
+  "parcel_description": "LOT 68 MEREDITH PARK PLAT NO 2"
+}, {
+  "gp": "792331130022",
+  "parcel_description": "LOT 7 BLK 5 EASTON PLACE PLAT NO 3"
+}, {
+  "gp": "782518132006",
+  "parcel_description": "LOT 72 PONDEROSA VALLEY PLAT 3"
+}, {
+  "gp": "792436101017",
+  "parcel_description": "LOT 8 DEWEY HEIGHTS"
+}, {
+  "gp": "782518101006",
+  "parcel_description": "LT 10 WESTRIDGE ESTATES PLAT 6"
+}, {
+  "gp": "802531476062",
+  "parcel_description": "LT 21 PARKVIEW PLAZA PLAT 5"
+}, {
+  "gp": "782427101030",
+  "parcel_description": "LT 3 SOUTHLAND PLAT NO 3"
+}, {
+  "gp": "782425280030",
+  "parcel_description": "LT 42 EASTER LAKE ESTATES PLAT 6"
+}, {
+  "gp": "792219228022",
+  "parcel_description": "LT 7 FALCON RIDGE PLAT 9"
+}, {
+  "gp": "792328256008",
+  "parcel_description": "LT 8 SUNRISE ESTATES PLAT 3"
+}, {
+  "gp": "792420453008",
+  "parcel_description": "S 71 F LT 42 HALLETT ACRES"
+}, {
+  "gp": "782505310086",
+  "parcel_description": "UNIT 6 LOT 12 COLONIAL VILLAGE 4TH ADD NOELCREST CONDOMINIUMS"
+}, {
+  "gp": "782323226006",
+  "parcel_description": "W 246 F E 456 F N 620 F NE 1/4 NE 1/4 NE 1/4 LESS RD SEC 23-78-23"
+}, {
+  "gp": "792432153015",
+  "parcel_description": "W 82F LOT 1 FLEETWOOD"
+}, {
+  "gp": "792213300007",
+  "parcel_description": "-EX PARCEL 2018-58 BK 16892 PG 319- BEG 427.23F S OF NE COR THN W 660F S 403.28F E 450.71F N 41F E 208.71F N 362.63F TO POB NE 1/4 SW 1/4 LESS RD SEC 13-79-22"
+}, {
+  "gp": "802416477019",
+  "parcel_description": "LOT 1 TIMBER CREEK PLAT 1"
+}, {
+  "gp": "782501207029",
+  "parcel_description": "LOT 10 LAFAYETTE SQUARE"
+}, {
+  "gp": "802428451029",
+  "parcel_description": "LOT 10 THE WESTWINDS WOODLANDS PLAT 1"
+}, {
+  "gp": "802415332013",
+  "parcel_description": "LOT 105 WESTWOOD-ANKENY PLAT 1"
+}, {
+  "gp": "782421351010",
+  "parcel_description": "LOT 106 LAWN ARBOR PLACE"
+}, {
+  "gp": "792503153006",
+  "parcel_description": "LOT 11 ASHTON POINTE PLAT 2"
+}, {
+  "gp": "802502204021",
+  "parcel_description": "LOT 15 FOREST HEIGHTS PLAT 4"
+}, {
+  "gp": "782235330002",
+  "parcel_description": "LOT 17 BROWNS ADD"
+}, {
+  "gp": "792526278020",
+  "parcel_description": "LOT 20 BLK F KAREN ACRES PLAT 2"
+}, {
+  "gp": "792520377043",
+  "parcel_description": "LOT 25 TIMBERLINE PLAT 5"
+}, {
+  "gp": "792436351006",
+  "parcel_description": "LOT 250 ASHBROOK"
+}, {
+  "gp": "802435151012",
+  "parcel_description": "LOT 27 TWIN GATES PLAT 1"
+}, {
+  "gp": "792212327010",
+  "parcel_description": "LOT 3 MC KLVEEN ADD PLAT 2"
+}, {
+  "gp": "802325279038",
+  "parcel_description": "LOT 48 SANKEY SUMMIT PLAT 2"
+}, {
+  "gp": "792420353002",
+  "parcel_description": "LOT 52 GLEN ECHO"
+}, {
+  "gp": "792434251014",
+  "parcel_description": "LOT 7 BLK 15 POLK COUNTY HOMESTEAD \u0026 TRUST CO ADD"
+}, {
+  "gp": "802413428026",
+  "parcel_description": "LOT 7 CRESTBRUCK ACRES PLAT 6"
+}, {
+  "gp": "782406407007",
+  "parcel_description": "LOT 73 MIDDLESEX PLAT NO 2"
+}, {
+  "gp": "782312126011",
+  "parcel_description": "LT 13 ROCKHOLD ACRES"
+}, {
+  "gp": "792511451018",
+  "parcel_description": "LT 15 GREEN MEADOWS WEST PLAT 12"
+}, {
+  "gp": "792510405006",
+  "parcel_description": "LT 18 GREENWOOD HILLS PLAT 3"
+}, {
+  "gp": "792319277007",
+  "parcel_description": "N 1/2 LOT 44 DOUGLAS ACRES PLAT 8"
+}, {
+  "gp": "782503104007",
+  "parcel_description": "N 16F LOT 25 \u0026 ALL LT 26 GOLF \u0026 COUNTRY CLUB PLAT 9"
+}, {
+  "gp": "802201100008",
+  "parcel_description": "PARCEL A BEG SW COR THN N 395.9F SELY 467.7F SW 96.13F W 323.88F TO POB SE 1/4 NW FRL 1/4 SEC 1-80-22"
+}, {
+  "gp": "792526259002",
+  "parcel_description": "S 12F LT 2 \u0026 -EX S 12F- LT 3 BLK K KAREN ACRES PLAT 4"
+}, {
+  "gp": "792204100004",
+  "parcel_description": "S 40 A NW FRL 1/4 LESS .50 A RD SEC 4-79-22"
+}, {
+  "gp": "792434428014",
+  "parcel_description": "S 62 FT LOTS 7 \u0026 8 MARSHALLS ADDITION TO NORTH DES MOINES"
+}, {
+  "gp": "792523480002",
+  "parcel_description": "S 66F LOT 84 MACRAE HIGHLANDS PLAT 3"
+}, {
+  "gp": "802401477054",
+  "parcel_description": "UNIT 1002 LOT 8 THE VILLAS AT GREENVIEW CROSSING"
+}, {
+  "gp": "792531354033",
+  "parcel_description": "UNIT C-3-101 THE PINNACLE CONDO"
+}, {
+  "gp": "782421378038",
+  "parcel_description": "W 1/2 S 1/2 LT G AMEND PLACE; AND LOT 53 LAWN ARBOR PLACE"
+}]
