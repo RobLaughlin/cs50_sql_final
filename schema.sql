@@ -6,7 +6,7 @@ BEGIN TRANSACTION;
 PRAGMA foreign_keys = OFF;
 
 -- Drop all old tables if they exist
-DROP TABLE IF EXISTS bridge_sales;
+DROP TABLE IF EXISTS fct_sales;
 DROP TABLE IF EXISTS dim_geo_parcels;
 DROP TABLE IF EXISTS dim_district_parcels;
 DROP TABLE IF EXISTS bridge_dp_groups;
@@ -25,7 +25,7 @@ PRAGMA foreign_keys = ON;
 COMMIT;
 
 -- Create the sales bridge
-CREATE TABLE bridge_sales (
+CREATE TABLE fct_sales (
     -- Use INT instead of INTEGER so we don't autoincrement
     sale_id INT PRIMARY KEY,
 
@@ -37,11 +37,11 @@ CREATE TABLE bridge_sales (
 
 -- Hash (book, pg) as the default sale_id
 CREATE TRIGGER set_sale_id_hash
-AFTER INSERT ON bridge_sales
+AFTER INSERT ON fct_sales
 FOR EACH ROW
 WHEN NEW.sale_id IS NULL
 BEGIN
-    UPDATE bridge_sales
+    UPDATE fct_sales
     SET sale_id = (NEW.book * 1000000000 + NEW.pg)
     WHERE rowid = NEW.rowid;
 END;
@@ -111,7 +111,7 @@ CREATE TABLE dim_buildings (
 );
 
 CREATE TABLE dim_sales_groups (
-    sale_id INT PRIMARY KEY REFERENCES bridge_sales(sale_id) ON DELETE CASCADE,
+    sale_id INT PRIMARY KEY REFERENCES fct_sales(sale_id) ON DELETE CASCADE,
     instrument VARCHAR(8) CHECK (instrument IN ('Deed', 'Contract', 'Other')),
     analysis_quality VARCHAR(8) CHECK (analysis_quality IN ('Good', 'Bad', 'Other')),
     quality1 VARCHAR(64),
@@ -122,7 +122,7 @@ CREATE TABLE dim_sales_groups (
 );
 
 CREATE TABLE fct_sales_groups (
-    sale_id INT PRIMARY KEY REFERENCES bridge_sales(sale_id) ON DELETE CASCADE,
+    sale_id INT PRIMARY KEY REFERENCES fct_sales(sale_id) ON DELETE CASCADE,
     dp_group_id INTEGER NOT NULL REFERENCES bridge_dp_groups(group_id) ON DELETE CASCADE,
     gp_group_id INTEGER REFERENCES bridge_gp_groups(group_id) ON DELETE SET NULL,
     dp_count INTEGER NOT NULL CHECK(dp_count > 0),
@@ -137,7 +137,7 @@ CREATE TABLE fct_sales_groups (
 );
 
 CREATE TABLE fct_sales_single (
-    sale_id INT PRIMARY KEY REFERENCES bridge_sales(sale_id) ON DELETE CASCADE,
+    sale_id INT PRIMARY KEY REFERENCES fct_sales(sale_id) ON DELETE CASCADE,
     dp VARCHAR(14) NOT NULL CHECK (length(dp) = 14) REFERENCES dim_district_parcels(dp) ON DELETE SET NULL,
     building_id VARCHAR(258) REFERENCES dim_buildings(building_id) ON DELETE SET NULL,
 
@@ -209,14 +209,14 @@ SELECT
 FROM json_each(readfile('data/dim_district_parcels_data.json'));
 
 -- Insert bridge data, use (book, pg) to test the default hashing behavior
-INSERT INTO bridge_sales (
+INSERT INTO fct_sales (
     book, 
     pg
 )
 SELECT 
     value ->> 'book', 
     value ->> 'pg'
-FROM json_each(readfile('data/bridge_sales_data.json'));
+FROM json_each(readfile('data/fct_sales_data.json'));
 
 -- Insert bridge group data
 INSERT INTO bridge_dp_groups (
