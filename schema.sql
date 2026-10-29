@@ -83,7 +83,7 @@ CREATE TABLE bridge_gp_groups (
 -- Create the other dim tables
 CREATE TABLE dim_buildings (
     building_id VARCHAR(256) PRIMARY KEY,
-    dp VARCHAR(14) CHECK (length(dp) = 14) REFERENCES dim_district_parcels(dp) ON DELETE SET NULL,
+    dp VARCHAR(14) NOT NULL CHECK (length(dp) = 14) REFERENCES dim_district_parcels(dp) ON DELETE CASCADE,
     occupancy VARCHAR(256),
     residence_type VARCHAR(256),
     bldg_style VARCHAR(256),
@@ -129,9 +129,9 @@ CREATE TABLE fct_sales_groups (
     sale_date DATETIME NOT NULL,
     initial_entry_date DATETIME,
     price_dollars INTEGER NOT NULL CHECK(price_dollars >= 0),
-    land_full_assessment_dollars CHECK(land_full_assessment_dollars >= 0),
-    bldg_full_assessment_dollars CHECK(bldg_full_assessment_dollars >= 0),
-    total_full_assessment_dollars CHECK(total_full_assessment_dollars >= 0),
+    land_full_assessment_dollars INTEGER CHECK(land_full_assessment_dollars >= 0),
+    bldg_full_assessment_dollars INTEGER CHECK(bldg_full_assessment_dollars >= 0),
+    total_full_assessment_dollars INTEGER CHECK(total_full_assessment_dollars >= 0),
     land_sf REAL CHECK(land_sf >= 0),
     land_acres REAL CHECK(land_acres >= 0)
 );

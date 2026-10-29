@@ -8,41 +8,50 @@ Video overview: <URL HERE>
 
 In this section you should answer the following questions:
 
-* What is the purpose of your database?
-* Which people, places, things, etc. are you including in the scope of your database?
-* Which people, places, things, etc. are *outside* the scope of your database?
+- What is the purpose of your database?
+- Which people, places, things, etc. are you including in the scope of your database?
+- Which people, places, things, etc. are _outside_ the scope of your database?
 
 ## Functional Requirements
 
 In this section you should answer the following questions:
 
-* What should a user be able to do with your database?
-* What's beyond the scope of what a user should be able to do with your database?
+- What should a user be able to do with your database?
+- What's beyond the scope of what a user should be able to do with your database?
 
 ## Representation
 
 ### Entities
 
-In this section you should answer the following questions:
+There are three categories of entities in our database: Bridges, Facts, and Dimensions. The fact and dimension entities are categorized according to a [Star Schema](https://en.wikipedia.org/wiki/Star_schema), where the fact entities represent quantitative features and the dimension entities represent descriptive features. The bridge entities are used for many-to-many relationships in grouping.
 
-* Which entities will you choose to represent in your database?
-* What attributes will those entities have?
-* Why did you choose the types you did?
-* Why did you choose the constraints you did?
+The `fct_sales` entity is the single source of truth between all sales entities. Each sale is hashed as the `sale_id` attribute using the `(book, pg)` attributes, and that `sale_id` is mapped one-to-one across all sale entities. At least one parcel is included in each sale, and the `dp_count` attribute in `fct_sales_groups` counts how many of those parcels are included. The `fct_sales_groups` and `dim_sales_groups` entities describe features of sales that apply to the entire sale as a whole including all parcels in the sale. For example, the `land_sf` attribute in `fct_sales_groups` is the total area of ALL the parcels included in the sale. `bridge_dp_groups` and `bridge_gp_groups` assign group_id's to both district parcels and geo parcels for each sale, respectively.
+
+`fct_sales_single` is the entity which holds the quantitative attributes of the primary parcel for each sale (`dp`). The sale of each primary parcel may or may not have building features tied to each sale. For example, the sale of land alone would have a NULL `building_id` attribute, whereas the sale of a residential home would have a `building_id` attribute. The `dim_building` entity holds all such descriptive features of the building related to the parcel, if it exists, keyed by `building_id`.
+
+`dim_district_parcels` holds district parcel data that is relatively unchanging over time such as zip, jurisdiction, address, etc. `dim_geo_parcels` is a similar parcel identifier.
+
+Some attributes must have an exact length such as `dp` (length 14), `gp` (length 12), and `zip` (length 5), whereas some attributes such as `parcel_description` or `address` need a more flexible amount of characters. Generally, we use a relatively liberal VARCHAR($2^n$) for attributes that may require more space. Sale prices, assessment values, areas, single parcel sale features (bathrooms, bedrooms, hottubs, etc), all require non-negativity constraints. Percentage values such as `air_conditioning_pct` and `garage_brick_pct` require values between $0$ and $100$.
 
 ### Relationships
 
-In this section you should include your entity relationship diagram and describe the relationships between the entities in your database.
+Some district parcels ingested from our dataset have NULL `gp` values, and so `dim_district_parcels` has a zero-to-one relationship with `dim_geo_parcels`.
+
+Each sale must have at least district parcel (`dp`), so each sale group has at least one district parcel group. Sale groups having a geo parcel group is optional, so `fct_sales_groups` has a zero-to-many relationship with `bridge_gp_groups` and one-to-many with `bridge_dp_groups`.
+
+It's important to note that since there may be many sales of the same parcel, and building features may change over time due to renovations for example, that dp is not a unique identifier for `building_id`, and that parcels may have zero or many associated `building_id`'s. Furthermore, a sale may not even have a building associated with it, such as the sale of land only, so the `fct_sales_single` has a zero-to-one relationship with `dim_buildings`.
+
+![Entity Relationship Diagram](er-diagram.png)
 
 ## Optimizations
 
 In this section you should answer the following questions:
 
-* Which optimizations (e.g., indexes, views) did you create? Why?
+- Which optimizations (e.g., indexes, views) did you create? Why?
 
 ## Limitations
 
 In this section you should answer the following questions:
 
-* What are the limitations of your design?
-* What might your database not be able to represent very well?
+- What are the limitations of your design?
+- What might your database not be able to represent very well?
