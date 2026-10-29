@@ -1,23 +1,18 @@
 # Design Document
 
-By YOUR NAME HERE
+By Robert Laughlin
 
 Video overview: <URL HERE>
 
 ## Scope
 
-In this section you should answer the following questions:
+This database is a simple random sample of $2,000$ public residential Polk County parcel/housing [sale and assessment records](https://www.assess.co.polk.ia.us/cgi-bin/web/tt/infoqry.cgi?tt=downloads/res_sales_polk) over 1990-2026, transformed using my own personal [data processing pipeline](https://github.com/RobLaughlin/polk-county-ingestion-pipeline). This database was created to develop and structure the raw residential sale records in order to perform efficient descriptive statistics, analysis, and stage for potential ML modeling in the future.
 
-- What is the purpose of your database?
-- Which people, places, things, etc. are you including in the scope of your database?
-- Which people, places, things, etc. are _outside_ the scope of your database?
+This is not an exhaustive list of all sale records, and the scope of sale records are only included in the location of Polk County, Iowa, over the time period of 1990-2026. The type of sale records are residential only. Any non-residential, outside the time period 1990-2026 or outside of Polk County, Iowa, is out of scope.
 
 ## Functional Requirements
 
-In this section you should answer the following questions:
-
-- What should a user be able to do with your database?
-- What's beyond the scope of what a user should be able to do with your database?
+Users should be able calculate descriptive statistics efficiently for relevant attributes: Median sale price over a certain time period, median assessment value per square foot of land, minimum/maximum number of rooms, etc. The demo sample size of $2,000$ sale records is relatively small in comparison to the total dataset size of ~$400,000$, so I would be cautious about making inferences or training models on the demo dataset.
 
 ## Representation
 
