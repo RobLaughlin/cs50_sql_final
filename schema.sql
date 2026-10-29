@@ -5,6 +5,28 @@ BEGIN TRANSACTION;
 
 PRAGMA foreign_keys = OFF;
 
+-- Drop all old indices if they exist
+DROP INDEX IF EXISTS idx_dim_district_parcels_nbhd;
+
+DROP INDEX IF EXISTS idx_dim_buildings_dp;
+
+DROP INDEX IF EXISTS idx_fct_sales_groups_dp_gp_groups;
+DROP INDEX IF EXISTS idx_fct_sales_groups_sale_price_dollars;
+DROP INDEX IF EXISTS idx_fct_sales_groups_bldg_assessment_dollars;
+DROP INDEX IF EXISTS idx_fct_sales_groups_land_assessment_dollars;
+DROP INDEX IF EXISTS idx_fct_sales_groups_land_sf;
+DROP INDEX IF EXISTS idx_fct_sales_groups_land_acres;
+
+DROP INDEX IF EXISTS idx_fct_sales_single_dp;
+DROP INDEX IF EXISTS idx_fct_sales_single_building_id;
+
+-- Drop all old triggers if they exist
+DROP TRIGGER IF EXISTS set_sale_id_hash;
+
+-- Drop all old views if they exist
+DROP VIEW IF EXISTS hq_single_family_sales;
+DROP VIEW IF EXISTS single_parcel_sales;
+
 -- Drop all old tables if they exist
 DROP TABLE IF EXISTS fct_sales;
 DROP TABLE IF EXISTS dim_geo_parcels;
@@ -15,9 +37,6 @@ DROP TABLE IF EXISTS dim_buildings;
 DROP TABLE IF EXISTS dim_sales_groups;
 DROP TABLE IF EXISTS fct_sales_groups;
 DROP TABLE IF EXISTS fct_sales_single;
-
--- Drop all old triggers if they exist
-DROP TRIGGER IF EXISTS set_sale_id_hash;
 
 -- Enforce foreign key constraints
 PRAGMA foreign_keys = ON;
@@ -65,6 +84,10 @@ CREATE TABLE dim_district_parcels (
     school_district VARCHAR(256)
 );
 
+-- Neighborhood index
+CREATE INDEX idx_dim_district_parcels_nbhd
+ON dim_district_parcels (nbhd);
+
 -- Create the bridge groups
 CREATE TABLE bridge_dp_groups (
     dp VARCHAR(14) CHECK (length(dp) = 14) NOT NULL REFERENCES dim_distrct_parcels(dp) ON DELETE CASCADE,
@@ -110,6 +133,9 @@ CREATE TABLE dim_buildings (
     last_sale_date DATETIME
 );
 
+CREATE INDEX idx_dim_buildings_dp
+ON dim_buildings (dp);
+
 CREATE TABLE dim_sales_groups (
     sale_id INT PRIMARY KEY REFERENCES fct_sales(sale_id) ON DELETE CASCADE,
     instrument VARCHAR(8) CHECK (instrument IN ('Deed', 'Contract', 'Other')),
@@ -135,6 +161,24 @@ CREATE TABLE fct_sales_groups (
     land_sf REAL CHECK(land_sf >= 0),
     land_acres REAL CHECK(land_acres >= 0)
 );
+
+CREATE INDEX idx_fct_sales_groups_dp_gp_groups
+ON fct_sales_groups (dp_group_id, gp_group_id);
+
+CREATE INDEX idx_fct_sales_groups_sale_price_dollars
+ON fct_sales_groups (price_dollars);
+
+CREATE INDEX idx_fct_sales_groups_bldg_assessment_dollars
+ON fct_sales_groups (bldg_full_assessment_dollars);
+
+CREATE INDEX idx_fct_sales_groups_land_assessment_dollars
+ON fct_sales_groups (land_full_assessment_dollars);
+
+CREATE INDEX idx_fct_sales_groups_land_sf
+ON fct_sales_groups (land_sf);
+
+CREATE INDEX idx_fct_sales_groups_land_acres
+ON fct_sales_groups (land_acres);
 
 CREATE TABLE fct_sales_single (
     sale_id INT PRIMARY KEY REFERENCES fct_sales(sale_id) ON DELETE CASCADE,
@@ -172,6 +216,38 @@ CREATE TABLE fct_sales_single (
     bsmt_walkout_ft REAL CHECK(bsmt_walkout_ft >= 0),
     bsmt_garage_stalls INTEGER CHECK(bsmt_garage_stalls >= 0)
 );
+
+CREATE INDEX idx_fct_sales_single_dp
+ON fct_sales_single (dp);
+
+CREATE INDEX idx_fct_sales_single_building_id
+ON fct_sales_single (building_id);
+
+-- Create single parcel sales
+CREATE VIEW single_parcel_sales AS
+SELECT * FROM fct_sales
+INNER JOIN fct_sales_groups USING (sale_id)
+INNER JOIN dim_sales_groups USING (sale_id)
+INNER JOIN fct_sales_single USING (sale_id)
+LEFT JOIN dim_buildings USING (dp, building_id)
+WHERE fct_sales_groups.dp_count = 1;
+
+-- Create a view of all single family home market sales with a sale price of: 
+-- 1. At least 10k sale price
+-- 2. Positive land sqft/acres
+-- 3. Simple/normal quality conditions (Arms Length and No Code)
+CREATE VIEW hq_single_family_sales AS
+SELECT * FROM single_parcel_sales
+WHERE 
+    building_id IS NOT NULL
+    AND price_dollars >= 10000
+    AND land_sf > 0
+    AND land_acres > 0
+    AND instrument = 'Deed'
+    AND analysis_quality = 'Good' -- Market sales
+    AND quality1 = 'Arms Length'
+    AND quality2 = 'No Code'
+    AND occupancy = 'Single Family';
 
 -- Insert parcel data
 INSERT INTO dim_geo_parcels (
