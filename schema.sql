@@ -7,6 +7,7 @@ PRAGMA foreign_keys = OFF;
 
 -- Drop all old indices if they exist
 DROP INDEX IF EXISTS idx_dim_district_parcels_nbhd;
+DROP INDEX IF EXISTS idx_dim_district_parcels_school_district;
 
 DROP INDEX IF EXISTS idx_dim_buildings_dp;
 
@@ -88,6 +89,9 @@ CREATE TABLE dim_district_parcels (
 -- Neighborhood index
 CREATE INDEX idx_dim_district_parcels_nbhd
 ON dim_district_parcels (nbhd);
+
+CREATE INDEX idx_dim_district_parcels_school_district
+ON dim_district_parcels (school_district);
 
 -- Create the bridge groups
 CREATE TABLE bridge_dp_groups (
