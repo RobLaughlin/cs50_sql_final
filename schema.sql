@@ -123,23 +123,23 @@ CREATE TABLE dim_sales_groups (
 
 CREATE TABLE fct_sales_groups (
     sale_id INT PRIMARY KEY REFERENCES bridge_sales(sale_id) ON DELETE CASCADE,
-    dp_group_id INTEGER UNIQUE NOT NULL REFERENCES bridge_dp_groups(group_id) ON DELETE CASCADE,
-    gp_group_id INTEGER UNIQUE NOT NULL REFERENCES bridge_gp_groups(group_id) ON DELETE CASCADE,
+    dp_group_id INTEGER NOT NULL REFERENCES bridge_dp_groups(group_id) ON DELETE CASCADE,
+    gp_group_id INTEGER REFERENCES bridge_gp_groups(group_id) ON DELETE SET NULL,
     dp_count INTEGER NOT NULL CHECK(dp_count > 0),
     sale_date DATETIME NOT NULL,
     initial_entry_date DATETIME,
     price_dollars INTEGER NOT NULL CHECK(price_dollars >= 0),
-    land_full_assessment_dollars NOT NULL CHECK(land_full_assessment_dollars >= 0),
-    bldg_full_assessment_dollars NOT NULL CHECK(bldg_full_assessment_dollars >= 0),
-    total_full_assessment_dollars NOT NULL CHECK(total_full_assessment_dollars >= 0),
+    land_full_assessment_dollars CHECK(land_full_assessment_dollars >= 0),
+    bldg_full_assessment_dollars CHECK(bldg_full_assessment_dollars >= 0),
+    total_full_assessment_dollars CHECK(total_full_assessment_dollars >= 0),
     land_sf REAL CHECK(land_sf >= 0),
     land_acres REAL CHECK(land_acres >= 0)
 );
 
 CREATE TABLE fct_sales_single (
     sale_id INT PRIMARY KEY REFERENCES bridge_sales(sale_id) ON DELETE CASCADE,
-    dp VARCHAR(14) UNIQUE NOT NULL CHECK (length(dp) = 14) REFERENCES dim_district_parcels(dp) ON DELETE CASCADE,
-    building_id VARCHAR(258) UNIQUE REFERENCES dim_buildings(building_id) ON DELETE SET NULL,
+    dp VARCHAR(14) NOT NULL CHECK (length(dp) = 14) REFERENCES dim_district_parcels(dp) ON DELETE SET NULL,
+    building_id VARCHAR(258) REFERENCES dim_buildings(building_id) ON DELETE SET NULL,
 
     rooms INTEGER CHECK(rooms >= 0),
     bathrooms INTEGER CHECK(bathrooms >= 0),
@@ -236,3 +236,104 @@ SELECT
     value ->> 'gp', 
     value ->> 'group_id'
 FROM json_each(readfile('data/bridge_gp_groups_data.json'));
+
+-- Insert fact data
+INSERT INTO fct_sales_groups (
+    sale_id,
+    dp_group_id,
+    gp_group_id,
+    dp_count,
+    sale_date,
+    initial_entry_date,
+    price_dollars,
+    land_full_assessment_dollars,
+    bldg_full_assessment_dollars,
+    total_full_assessment_dollars,
+    land_sf,
+    land_acres
+)
+SELECT 
+    value ->> 'sale_id', 
+    value ->> 'dp_group_id',
+    value ->> 'gp_group_id',
+    value ->> 'dp_count',
+    value ->> 'sale_date',
+    value ->> 'initial_entry_date',
+    value ->> 'price_dollars',
+    value ->> 'land_full_assessment_dollars',
+    value ->> 'bldg_full_assessment_dollars',
+    value ->> 'total_full_assessment_dollars',
+    value ->> 'land_sf',
+    value ->> 'land_acres'
+FROM json_each(readfile('data/fct_sales_groups_data.json'));
+
+INSERT INTO fct_sales_single (
+    sale_id,
+    dp,
+    building_id,
+    rooms,
+    bathrooms,
+    bedrooms,
+    toilet_rooms,
+    extra_fixtures,
+    whirlpools,
+    hottubs,
+    saunas,
+    fireplaces,
+
+    main_living_area_sf,
+    upper_living_area_sf,
+    fin_attic_area_sf,
+    total_living_area_sf,
+    unfin_attic_area_sf,
+    att_garage_area_sf,
+    open_porch_area_sf,
+    enclose_porch_area_sf,
+    patio_area_sf,
+    deck_area_sf,
+    canopy_area_sf,
+    veneer_area_sf,
+    carport_area_sf,
+    condo_fin_liv_area_sf,
+    basement_area_sf,
+    fin_bsmt_area_total_sf,
+    fin_bsmt_area1_sf,
+    fin_bsmt_area2_sf,
+    bsmt_walkout_ft,
+    bsmt_garage_stalls
+)
+SELECT 
+    value ->> 'sale_id',
+    value ->> 'dp',
+    value ->> 'building_id',
+    value ->> 'rooms',
+    value ->> 'bathrooms',
+    value ->> 'bedrooms',
+    value ->> 'toilet_rooms',
+    value ->> 'extra_fixtures',
+    value ->> 'whirlpools',
+    value ->> 'hottubs',
+    value ->> 'saunas',
+    value ->> 'fireplaces',
+
+    value ->> 'main_living_area_sf',
+    value ->> 'upper_living_area_sf',
+    value ->> 'fin_attic_area_sf',
+    value ->> 'total_living_area_sf',
+    value ->> 'unfin_attic_area_sf',
+    value ->> 'att_garage_area_sf',
+    value ->> 'open_porch_area_sf',
+    value ->> 'enclose_porch_area_sf',
+    value ->> 'patio_area_sf',
+    value ->> 'deck_area_sf',
+    value ->> 'canopy_area_sf',
+    value ->> 'veneer_area_sf',
+    value ->> 'carport_area_sf',
+    value ->> 'condo_fin_liv_area_sf',
+    value ->> 'basement_area_sf',
+    value ->> 'fin_bsmt_area_total_sf',
+    value ->> 'fin_bsmt_area1_sf',
+    value ->> 'fin_bsmt_area2_sf',
+    value ->> 'bsmt_walkout_ft',
+    value ->> 'bsmt_garage_stalls'
+FROM json_each(readfile('data/fct_sales_single_data.json'));
