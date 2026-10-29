@@ -10,6 +10,7 @@ DROP INDEX IF EXISTS idx_dim_district_parcels_nbhd;
 
 DROP INDEX IF EXISTS idx_dim_buildings_dp;
 
+DROP INDEX IF EXISTS idx_fct_sales_groups_sale_date;
 DROP INDEX IF EXISTS idx_fct_sales_groups_dp_gp_groups;
 DROP INDEX IF EXISTS idx_fct_sales_groups_sale_price_dollars;
 DROP INDEX IF EXISTS idx_fct_sales_groups_bldg_assessment_dollars;
@@ -161,6 +162,9 @@ CREATE TABLE fct_sales_groups (
     land_sf REAL CHECK(land_sf >= 0),
     land_acres REAL CHECK(land_acres >= 0)
 );
+
+CREATE INDEX idx_fct_sales_groups_sale_date
+ON fct_sales_groups (sale_date);
 
 CREATE INDEX idx_fct_sales_groups_dp_gp_groups
 ON fct_sales_groups (dp_group_id, gp_group_id);
