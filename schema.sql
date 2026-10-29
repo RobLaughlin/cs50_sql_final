@@ -83,7 +83,7 @@ CREATE TABLE bridge_gp_groups (
 -- Create the other dim tables
 CREATE TABLE dim_buildings (
     building_id VARCHAR(256) PRIMARY KEY,
-    dp VARCHAR(14) NOT NULL CHECK (length(dp) = 14) REFERENCES dim_district_parcels(dp) ON DELETE SET NULL,
+    dp VARCHAR(14) CHECK (length(dp) = 14) REFERENCES dim_district_parcels(dp) ON DELETE SET NULL,
     occupancy VARCHAR(256),
     residence_type VARCHAR(256),
     bldg_style VARCHAR(256),
@@ -337,3 +337,91 @@ SELECT
     value ->> 'bsmt_walkout_ft',
     value ->> 'bsmt_garage_stalls'
 FROM json_each(readfile('data/fct_sales_single_data.json'));
+
+-- Insert the sales dimension data
+INSERT INTO dim_sales_groups (
+    sale_id,
+    instrument,
+    analysis_quality,
+    quality1,
+    quality2,
+    buyer,
+    seller,
+    detached_structs
+)
+SELECT 
+    value ->> 'sale_id', 
+    value ->> 'instrument',
+    value ->> 'analysis_quality',
+    value ->> 'quality1',
+    value ->> 'quality2',
+    value ->> 'buyer',
+    value ->> 'seller',
+    value ->> 'detached_structs'
+FROM json_each(readfile('data/dim_sales_groups_data.json'));
+
+-- Insert the buildings dimension data
+INSERT INTO dim_buildings (
+    building_id,
+    dp,
+    occupancy,
+    residence_type,
+    bldg_style,
+    exterior_wall_type,
+    roof_type,
+    roof_material,
+    foundation,
+    heating,
+    fin_bsmt_qual1,
+    fin_bsmt_qual2,
+    grade,
+    grade_adjustment,
+    condition,
+
+    families,
+
+    brick_pct,
+    air_conditioning_pct,
+    completed_pct,
+    garage_brick_pct,
+
+    year_built,
+    eff_year_built,
+    year_remodel,
+    condo_year_built,
+
+    first_sale_date,
+    last_sale_date
+)
+SELECT 
+    value ->> 'building_id',
+    value ->> 'dp',
+    value ->> 'occupancy',
+    value ->> 'residence_type',
+    value ->> 'bldg_style',
+    value ->> 'exterior_wall_type',
+    value ->> 'roof_type',
+    value ->> 'roof_material',
+    value ->> 'foundation',
+    value ->> 'heating',
+    value ->> 'fin_bsmt_qual1',
+    value ->> 'fin_bsmt_qual2',
+    value ->> 'grade',
+    value ->> 'grade_adjustment',
+    value ->> 'condition',
+    
+    value ->> 'families',
+
+    value ->> 'brick_pct',
+    value ->> 'air_conditioning_pct',
+    value ->> 'completed_pct',
+    value ->> 'garage_brick_pct',
+
+    value ->> 'year_built',
+    value ->> 'eff_year_built',
+    value ->> 'year_remodel',
+    value ->> 'condo_year_built',
+
+    value ->> 'first_sale_date',
+    value ->> 'last_sale_date'
+FROM json_each(readfile('data/dim_buildings_data.json'));
