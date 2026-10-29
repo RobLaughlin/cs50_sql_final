@@ -217,3 +217,22 @@ SELECT
     value ->> 'book', 
     value ->> 'pg'
 FROM json_each(readfile('data/bridge_sales_data.json'));
+
+-- Insert bridge group data
+INSERT INTO bridge_dp_groups (
+    dp, 
+    group_id
+)
+SELECT 
+    value ->> 'dp', 
+    value ->> 'group_id'
+FROM json_each(readfile('data/bridge_dp_groups_data.json'));
+
+INSERT INTO bridge_gp_groups (
+    gp, 
+    group_id
+)
+SELECT 
+    value ->> 'gp', 
+    value ->> 'group_id'
+FROM json_each(readfile('data/bridge_gp_groups_data.json'));
