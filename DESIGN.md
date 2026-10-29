@@ -40,13 +40,14 @@ It's important to note that since there may be many sales of the same parcel, an
 
 ## Optimizations
 
-In this section you should answer the following questions:
+It's very common we're going to join and filter by parcel identifiers and building identifiers such as dp, gp, and building_id, so all tables with non-primary key fields are indexed by those attributes. Additionally, we index fct_sales_groups by assessment values, sale prices, and land measurements, as those are going to be the particular metrics of interest for housing sale analysis.
 
-- Which optimizations (e.g., indexes, views) did you create? Why?
+We also included two views that will be used frequently: A view for single parcel sales (sales with dp_count = 1), and a view for high quality single family sales built on top of the single parcel sales view, which filters out a lot of poor quality/outlier single family housing sales that may skew our analysis.
 
 ## Limitations
 
 In this section you should answer the following questions:
 
-- What are the limitations of your design?
-- What might your database not be able to represent very well?
+This database is only a small subset of sales data collected in Polk County, Iowa, between 1990 and 2026. To expand for data outside of this region and generalize to the whole USA, we would have to include additional attributes to `dim_district_parcels` such as state, city, county, etc.
+
+Furthermore, since we currently manually run queries in BQ to extract the data for this database, every time we make model changes we would have to make sure that our BQ queries extract the correct columns and insert them in the correct order. The current database is a reflection of the BQ models at the current point in time, not a constantly up-to-date snapshot of sales data.
