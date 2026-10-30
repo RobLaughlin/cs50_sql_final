@@ -33,6 +33,8 @@ DROP VIEW IF EXISTS single_parcel_sales;
 DROP TABLE IF EXISTS dim_sales;
 DROP TABLE IF EXISTS dim_geo_parcels;
 DROP TABLE IF EXISTS dim_district_parcels;
+DROP TABLE IF EXISTS dim_dp_groups;
+DROP TABLE IF EXISTS dim_gp_groups;
 DROP TABLE IF EXISTS bridge_dp_groups;
 DROP TABLE IF EXISTS bridge_gp_groups;
 DROP TABLE IF EXISTS dim_buildings;
@@ -93,24 +95,33 @@ CREATE TABLE dim_district_parcels (
     school_district VARCHAR(256)
 );
 
--- Neighborhood index
 CREATE INDEX idx_dim_district_parcels_nbhd
 ON dim_district_parcels (nbhd);
 
 CREATE INDEX idx_dim_district_parcels_school_district
 ON dim_district_parcels (school_district);
 
+CREATE TABLE dim_dp_groups (
+    group_id VARCHAR(256) PRIMARY KEY,
+    dp_count INTEGER NOT NULL CHECK(dp_count > 0)
+);
+
+CREATE TABLE dim_gp_groups (
+    group_id VARCHAR(256) PRIMARY KEY,
+    gp_count INTEGER NOT NULL CHECK(gp_count > 0)
+);
+
 -- Create the bridge groups
 CREATE TABLE bridge_dp_groups (
     dp VARCHAR(14) CHECK (length(dp) = 14) NOT NULL REFERENCES dim_district_parcels(dp) ON DELETE CASCADE,
-    group_id VARCHAR(256) NOT NULL,
+    group_id VARCHAR(256) NOT NULL REFERENCES dim_dp_groups(group_id) ON DELETE SET NULL,
 
     PRIMARY KEY(dp, group_id)
 );
 
 CREATE TABLE bridge_gp_groups (
     gp VARCHAR(12) CHECK (length(gp) = 12) NOT NULL REFERENCES dim_geo_parcels(gp) ON DELETE CASCADE,
-    group_id VARCHAR(256) NOT NULL,
+    group_id VARCHAR(256) NOT NULL REFERENCES dim_gp_groups(group_id) ON DELETE SET NULL,
 
     PRIMARY KEY(gp, group_id)
 );
@@ -150,9 +161,8 @@ ON dim_buildings (dp);
 
 CREATE TABLE fct_sales_groups (
     sale_id INT PRIMARY KEY REFERENCES dim_sales(sale_id) ON DELETE CASCADE,
-    dp_group_id VARCHAR(256),
-    gp_group_id VARCHAR(256),
-    dp_count INTEGER NOT NULL CHECK(dp_count > 0),
+    dp_group_id VARCHAR(256) NOT NULL REFERENCES dim_dp_groups(group_id) ON DELETE CASCADE,
+    gp_group_id VARCHAR(256) REFERENCES dim_gp_groups(group_id) ON DELETE SET NULL,
     sale_date DATETIME NOT NULL,
     initial_entry_date DATETIME,
     price_dollars INTEGER NOT NULL CHECK(price_dollars >= 0),
@@ -229,11 +239,21 @@ ON fct_sales_single (building_id);
 
 -- Create single parcel sales
 CREATE VIEW single_parcel_sales AS
+WITH dp_groups AS (
+    SELECT group_id AS dp_group_id, dp_count
+    FROM dim_dp_groups
+),
+gp_groups AS (
+    SELECT group_id AS gp_group_id, gp_count
+    FROM dim_gp_groups
+)
 SELECT * FROM dim_sales
 INNER JOIN fct_sales_groups USING (sale_id)
 INNER JOIN fct_sales_single USING (sale_id)
+LEFT JOIN dp_groups USING (dp_group_id)
+LEFT JOIN gp_groups USING (gp_group_id)
 LEFT JOIN dim_buildings USING (dp, building_id)
-WHERE fct_sales_groups.dp_count = 1;
+WHERE dp_count = 1;
 
 -- Create a view of all single family home market sales with a sale price of: 
 -- 1. At least 10k sale price
@@ -312,7 +332,26 @@ SELECT
     value ->> 'detached_structs'
 FROM json_each(readfile('data/dim_sales_data.json'));
 
--- Insert bridge group data
+-- Insert dim group data
+INSERT INTO dim_dp_groups (
+    group_id, 
+    dp_count
+)
+SELECT 
+    value ->> 'group_id', 
+    value ->> 'dp_count'
+FROM json_each(readfile('data/dim_dp_groups_data.json'));
+
+INSERT INTO dim_gp_groups (
+    group_id, 
+    gp_count
+)
+SELECT 
+    value ->> 'group_id', 
+    value ->> 'gp_count'
+FROM json_each(readfile('data/dim_gp_groups_data.json'));
+
+-- Insert bridge data
 INSERT INTO bridge_dp_groups (
     dp, 
     group_id
@@ -336,7 +375,6 @@ INSERT INTO fct_sales_groups (
     sale_id,
     dp_group_id,
     gp_group_id,
-    dp_count,
     sale_date,
     initial_entry_date,
     price_dollars,
@@ -350,7 +388,6 @@ SELECT
     value ->> 'sale_id', 
     value ->> 'dp_group_id',
     value ->> 'gp_group_id',
-    value ->> 'dp_count',
     value ->> 'sale_date',
     value ->> 'initial_entry_date',
     value ->> 'price_dollars',
