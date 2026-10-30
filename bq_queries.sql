@@ -18,27 +18,64 @@ CREATE OR REPLACE TABLE `polk-county-ingestion-pipeline.random_samples.fct_sales
   ON random_sales_ids.sale_id = fct_sales_groups.sale_id
 );
 
-CREATE OR REPLACE TABLE `polk-county-ingestion-pipeline.random_samples.dim_sales_groups` AS (
+CREATE OR REPLACE TABLE `polk-county-ingestion-pipeline.random_samples.dim_dp_groups` AS (
+  SELECT 
+    dp_group_id AS group_id,
+    COUNT(*) AS dp_count
+  FROM `polk-county-ingestion-pipeline.random_samples.fct_sales_groups`
+  GROUP BY dp_group_id
+);
+
+CREATE OR REPLACE TABLE `polk-county-ingestion-pipeline.random_samples.dim_gp_groups` AS (
+  SELECT 
+    gp_group_id AS group_id,
+    COUNT(*) AS gp_count
+  FROM `polk-county-ingestion-pipeline.random_samples.fct_sales_groups`
+  WHERE gp_group_id IS NOT NULL
+  GROUP BY gp_group_id
+);
+
+
+-- CREATE OR REPLACE TABLE `polk-county-ingestion-pipeline.random_samples.dim_sales_groups` AS (
+--     SELECT 
+--       random_sales_ids.sale_id,
+--       dim_instruments.instrument,
+--       dim_analysis_qualities.analysis_quality,
+--       dim_quality1_conditions.quality AS quality1,
+--       dim_quality2_conditions.quality AS quality2,
+--       dim_sales_groups.* EXCEPT (sale_id, instrument_id, quality1_id, quality2_id, analysis_quality_id)
+--     FROM random_sales_ids
+--     INNER JOIN `polk-county-ingestion-pipeline.marts_dims.dim_sales_groups` AS dim_sales_groups
+--     ON random_sales_ids.sale_id = dim_sales_groups.sale_id
+--     LEFT JOIN `polk-county-ingestion-pipeline.marts_dims.dim_analysis_qualities` AS dim_analysis_qualities
+--     ON dim_sales_groups.analysis_quality_id = dim_analysis_qualities.id
+--     LEFT JOIN `polk-county-ingestion-pipeline.marts_dims.dim_instruments` AS dim_instruments
+--     ON dim_sales_groups.instrument_id = dim_instruments.id
+--     LEFT JOIN `polk-county-ingestion-pipeline.marts_dims.dim_quality1_conditions` AS dim_quality1_conditions
+--     ON dim_sales_groups.quality1_id = dim_quality1_conditions.id
+--     LEFT JOIN `polk-county-ingestion-pipeline.marts_dims.dim_quality2_conditions` AS dim_quality2_conditions
+--     ON dim_sales_groups.quality2_id = dim_quality2_conditions.id
+-- );
+
+CREATE OR REPLACE TABLE `polk-county-ingestion-pipeline.random_samples.dim_sales` AS (
     SELECT 
       random_sales_ids.sale_id,
       dim_instruments.instrument,
       dim_analysis_qualities.analysis_quality,
       dim_quality1_conditions.quality AS quality1,
       dim_quality2_conditions.quality AS quality2,
-      dim_sales_groups.* EXCEPT (sale_id, instrument_id, quality1_id, quality2_id, analysis_quality_id)
+      dim_sales.* EXCEPT (sale_id, instrument_id, quality1_id, quality2_id, analysis_quality_id)
     FROM random_sales_ids
-    INNER JOIN `polk-county-ingestion-pipeline.marts_dims.dim_sales_groups` AS dim_sales_groups
-    ON random_sales_ids.sale_id = dim_sales_groups.sale_id
+    INNER JOIN `polk-county-ingestion-pipeline.marts_dims.dim_sales` AS dim_sales USING(sale_id)
     LEFT JOIN `polk-county-ingestion-pipeline.marts_dims.dim_analysis_qualities` AS dim_analysis_qualities
-    ON dim_sales_groups.analysis_quality_id = dim_analysis_qualities.id
+    ON dim_sales.analysis_quality_id = dim_analysis_qualities.id
     LEFT JOIN `polk-county-ingestion-pipeline.marts_dims.dim_instruments` AS dim_instruments
-    ON dim_sales_groups.instrument_id = dim_instruments.id
+    ON dim_sales.instrument_id = dim_instruments.id
     LEFT JOIN `polk-county-ingestion-pipeline.marts_dims.dim_quality1_conditions` AS dim_quality1_conditions
-    ON dim_sales_groups.quality1_id = dim_quality1_conditions.id
+    ON dim_sales.quality1_id = dim_quality1_conditions.id
     LEFT JOIN `polk-county-ingestion-pipeline.marts_dims.dim_quality2_conditions` AS dim_quality2_conditions
-    ON dim_sales_groups.quality2_id = dim_quality2_conditions.id
+    ON dim_sales.quality2_id = dim_quality2_conditions.id
 );
-
 
 CREATE OR REPLACE TABLE `polk-county-ingestion-pipeline.random_samples.fct_sales_single` AS (
   SELECT 
@@ -67,14 +104,18 @@ CREATE OR REPLACE TABLE `polk-county-ingestion-pipeline.random_samples.dim_distr
   WITH district_parcels AS (
     SELECT DISTINCT dp
     FROM `polk-county-ingestion-pipeline.random_samples.fct_sales_single` AS fct_sales_single
+    UNION DISTINCT
+    SELECT DISTINCT dp
+    FROM `polk-county-ingestion-pipeline.marts_bridge.bridge_dp_groups` AS bridge_dp_groups
+    INNER JOIN `polk-county-ingestion-pipeline.random_samples.fct_sales_groups` AS fct_sales_groups
+    ON fct_sales_groups.dp_group_id = bridge_dp_groups.group_id
   )
   SELECT 
     dim_district_parcels.* EXCEPT (school_district_id),
     dim_school_districts.school_district
   FROM district_parcels
-  INNER JOIN `polk-county-ingestion-pipeline.marts_dims.dim_district_parcels` AS dim_district_parcels
-  ON district_parcels.dp = dim_district_parcels.dp
-  INNER JOIN `polk-county-ingestion-pipeline.marts_dims.dim_school_districts` AS dim_school_districts
+  INNER JOIN `polk-county-ingestion-pipeline.marts_dims.dim_district_parcels` AS dim_district_parcels USING (dp)
+  LEFT JOIN `polk-county-ingestion-pipeline.marts_dims.dim_school_districts` AS dim_school_districts
   ON dim_district_parcels.school_district_id = dim_school_districts.id
 );
 
@@ -82,6 +123,11 @@ CREATE OR REPLACE TABLE `polk-county-ingestion-pipeline.random_samples.dim_geo_p
   WITH geo_parcels AS (
     SELECT DISTINCT gp
     FROM `polk-county-ingestion-pipeline.random_samples.dim_district_parcels`
+    UNION DISTINCT
+    SELECT DISTINCT gp
+    FROM `polk-county-ingestion-pipeline.marts_bridge.bridge_gp_groups` AS bridge_gp_groups
+    INNER JOIN `polk-county-ingestion-pipeline.random_samples.fct_sales_groups` AS fct_sales_groups
+    ON fct_sales_groups.gp_group_id = bridge_gp_groups.group_id
   )
   SELECT 
     dim_geo_parcels.*
@@ -92,13 +138,13 @@ CREATE OR REPLACE TABLE `polk-county-ingestion-pipeline.random_samples.dim_geo_p
 
 
 -- Create group bridges
-CREATE OR REPLACE TABLE `polk-county-ingestion-pipeline.random_samples.bridge_sales` AS (
-  SELECT 
-    bridge_sales.*
-  FROM random_sales_ids
-  INNER JOIN `polk-county-ingestion-pipeline.marts_bridge.bridge_sales` AS bridge_sales
-  ON random_sales_ids.sale_id = bridge_sales.sale_id
-);
+-- CREATE OR REPLACE TABLE `polk-county-ingestion-pipeline.random_samples.bridge_sales` AS (
+--   SELECT 
+--     bridge_sales.*
+--   FROM random_sales_ids
+--   INNER JOIN `polk-county-ingestion-pipeline.marts_bridge.bridge_sales` AS bridge_sales
+--   ON random_sales_ids.sale_id = bridge_sales.sale_id
+-- );
 
 CREATE OR REPLACE TABLE `polk-county-ingestion-pipeline.random_samples.bridge_dp_groups` AS (
   SELECT DISTINCT
