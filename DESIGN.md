@@ -2,7 +2,7 @@
 
 By Robert Laughlin
 
-Video overview: <URL HERE>
+Video overview: https://www.youtube.com/watch?v=NL1MBbQGG1I 
 
 ## Scope
 
