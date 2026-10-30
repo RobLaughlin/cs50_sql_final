@@ -1,9 +1,9 @@
 -- In this SQL file, write (and comment!) the schema of your database, including the CREATE TABLE, CREATE INDEX, CREATE VIEW, etc. statements that compose it
 
 -- Temporarily disable foreign keys while dropping tables. All tables being dropped is one single transaction
-BEGIN TRANSACTION;
-
 PRAGMA foreign_keys = OFF;
+
+BEGIN TRANSACTION;
 
 -- Drop all old indices if they exist
 DROP INDEX IF EXISTS idx_dim_district_parcels_nbhd;
@@ -30,39 +30,46 @@ DROP VIEW IF EXISTS hq_single_family_sales;
 DROP VIEW IF EXISTS single_parcel_sales;
 
 -- Drop all old tables if they exist
-DROP TABLE IF EXISTS fct_sales;
+DROP TABLE IF EXISTS dim_sales;
 DROP TABLE IF EXISTS dim_geo_parcels;
 DROP TABLE IF EXISTS dim_district_parcels;
 DROP TABLE IF EXISTS bridge_dp_groups;
 DROP TABLE IF EXISTS bridge_gp_groups;
 DROP TABLE IF EXISTS dim_buildings;
-DROP TABLE IF EXISTS dim_sales_groups;
 DROP TABLE IF EXISTS fct_sales_groups;
 DROP TABLE IF EXISTS fct_sales_single;
+
+COMMIT;
 
 -- Enforce foreign key constraints
 PRAGMA foreign_keys = ON;
 
-COMMIT;
-
 -- Create the sales bridge
-CREATE TABLE fct_sales (
+CREATE TABLE dim_sales (
     -- Use INT instead of INTEGER so we don't autoincrement
     sale_id INT PRIMARY KEY,
 
     book INTEGER NOT NULL,
     pg INTEGER NOT NULL,
 
+    instrument VARCHAR(8) CHECK (instrument IN ('Deed', 'Contract', 'Other')),
+    analysis_quality VARCHAR(8) CHECK (analysis_quality IN ('Good', 'Bad', 'Other')),
+    quality1 VARCHAR(64),
+    quality2 VARCHAR(64),
+    buyer VARCHAR(256),
+    seller VARCHAR(256),
+    detached_structs VARCHAR(512),
+
     UNIQUE(book, pg)
 );
 
 -- Hash (book, pg) as the default sale_id
 CREATE TRIGGER set_sale_id_hash
-AFTER INSERT ON fct_sales
+AFTER INSERT ON dim_sales
 FOR EACH ROW
 WHEN NEW.sale_id IS NULL
 BEGIN
-    UPDATE fct_sales
+    UPDATE dim_sales
     SET sale_id = (NEW.book * 1000000000 + NEW.pg)
     WHERE rowid = NEW.rowid;
 END;
@@ -95,7 +102,7 @@ ON dim_district_parcels (school_district);
 
 -- Create the bridge groups
 CREATE TABLE bridge_dp_groups (
-    dp VARCHAR(14) CHECK (length(dp) = 14) NOT NULL REFERENCES dim_distrct_parcels(dp) ON DELETE CASCADE,
+    dp VARCHAR(14) CHECK (length(dp) = 14) NOT NULL REFERENCES dim_district_parcels(dp) ON DELETE CASCADE,
     group_id VARCHAR(256) NOT NULL,
 
     PRIMARY KEY(dp, group_id)
@@ -141,21 +148,10 @@ CREATE TABLE dim_buildings (
 CREATE INDEX idx_dim_buildings_dp
 ON dim_buildings (dp);
 
-CREATE TABLE dim_sales_groups (
-    sale_id INT PRIMARY KEY REFERENCES fct_sales(sale_id) ON DELETE CASCADE,
-    instrument VARCHAR(8) CHECK (instrument IN ('Deed', 'Contract', 'Other')),
-    analysis_quality VARCHAR(8) CHECK (analysis_quality IN ('Good', 'Bad', 'Other')),
-    quality1 VARCHAR(64),
-    quality2 VARCHAR(64),
-    buyer VARCHAR(256),
-    seller VARCHAR(256),
-    detached_structs VARCHAR(512)
-);
-
 CREATE TABLE fct_sales_groups (
-    sale_id INT PRIMARY KEY REFERENCES fct_sales(sale_id) ON DELETE CASCADE,
-    dp_group_id INTEGER NOT NULL REFERENCES bridge_dp_groups(group_id) ON DELETE CASCADE,
-    gp_group_id INTEGER REFERENCES bridge_gp_groups(group_id) ON DELETE SET NULL,
+    sale_id INT PRIMARY KEY REFERENCES dim_sales(sale_id) ON DELETE CASCADE,
+    dp_group_id VARCHAR(256),
+    gp_group_id VARCHAR(256),
     dp_count INTEGER NOT NULL CHECK(dp_count > 0),
     sale_date DATETIME NOT NULL,
     initial_entry_date DATETIME,
@@ -189,10 +185,10 @@ CREATE INDEX idx_fct_sales_groups_land_acres
 ON fct_sales_groups (land_acres);
 
 CREATE TABLE fct_sales_single (
-    sale_id INT PRIMARY KEY REFERENCES fct_sales(sale_id) ON DELETE CASCADE,
+    sale_id INT PRIMARY KEY REFERENCES dim_sales(sale_id) ON DELETE CASCADE,
     dp VARCHAR(14) NOT NULL CHECK (length(dp) = 14) REFERENCES dim_district_parcels(dp) ON DELETE SET NULL,
     building_id VARCHAR(258) REFERENCES dim_buildings(building_id) ON DELETE SET NULL,
-
+     
     rooms INTEGER CHECK(rooms >= 0),
     bathrooms INTEGER CHECK(bathrooms >= 0),
     bedrooms INTEGER CHECK(bedrooms >= 0),
@@ -233,9 +229,8 @@ ON fct_sales_single (building_id);
 
 -- Create single parcel sales
 CREATE VIEW single_parcel_sales AS
-SELECT * FROM fct_sales
+SELECT * FROM dim_sales
 INNER JOIN fct_sales_groups USING (sale_id)
-INNER JOIN dim_sales_groups USING (sale_id)
 INNER JOIN fct_sales_single USING (sale_id)
 LEFT JOIN dim_buildings USING (dp, building_id)
 WHERE fct_sales_groups.dp_count = 1;
@@ -293,14 +288,29 @@ SELECT
 FROM json_each(readfile('data/dim_district_parcels_data.json'));
 
 -- Insert bridge data, use (book, pg) to test the default hashing behavior
-INSERT INTO fct_sales (
-    book, 
-    pg
+-- Insert the sales dimension data
+INSERT INTO dim_sales (
+    book,
+    pg,
+    instrument,
+    analysis_quality,
+    quality1,
+    quality2,
+    buyer,
+    seller,
+    detached_structs
 )
 SELECT 
     value ->> 'book', 
-    value ->> 'pg'
-FROM json_each(readfile('data/fct_sales_data.json'));
+    value ->> 'pg',  
+    value ->> 'instrument',
+    value ->> 'analysis_quality',
+    value ->> 'quality1',
+    value ->> 'quality2',
+    value ->> 'buyer',
+    value ->> 'seller',
+    value ->> 'detached_structs'
+FROM json_each(readfile('data/dim_sales_data.json'));
 
 -- Insert bridge group data
 INSERT INTO bridge_dp_groups (
@@ -350,6 +360,72 @@ SELECT
     value ->> 'land_sf',
     value ->> 'land_acres'
 FROM json_each(readfile('data/fct_sales_groups_data.json'));
+
+-- Insert the buildings dimension data
+INSERT INTO dim_buildings (
+    building_id,
+    dp,
+    occupancy,
+    residence_type,
+    bldg_style,
+    exterior_wall_type,
+    roof_type,
+    roof_material,
+    foundation,
+    heating,
+    fin_bsmt_qual1,
+    fin_bsmt_qual2,
+    grade,
+    grade_adjustment,
+    condition,
+
+    families,
+
+    brick_pct,
+    air_conditioning_pct,
+    completed_pct,
+    garage_brick_pct,
+
+    year_built,
+    eff_year_built,
+    year_remodel,
+    condo_year_built,
+
+    first_sale_date,
+    last_sale_date
+)
+SELECT 
+    value ->> 'building_id',
+    value ->> 'dp',
+    value ->> 'occupancy',
+    value ->> 'residence_type',
+    value ->> 'bldg_style',
+    value ->> 'exterior_wall_type',
+    value ->> 'roof_type',
+    value ->> 'roof_material',
+    value ->> 'foundation',
+    value ->> 'heating',
+    value ->> 'fin_bsmt_qual1',
+    value ->> 'fin_bsmt_qual2',
+    value ->> 'grade',
+    value ->> 'grade_adjustment',
+    value ->> 'condition',
+    
+    value ->> 'families',
+
+    value ->> 'brick_pct',
+    value ->> 'air_conditioning_pct',
+    value ->> 'completed_pct',
+    value ->> 'garage_brick_pct',
+
+    value ->> 'year_built',
+    value ->> 'eff_year_built',
+    value ->> 'year_remodel',
+    value ->> 'condo_year_built',
+
+    value ->> 'first_sale_date',
+    value ->> 'last_sale_date'
+FROM json_each(readfile('data/dim_buildings_data.json'));
 
 INSERT INTO fct_sales_single (
     sale_id,
@@ -421,91 +497,3 @@ SELECT
     value ->> 'bsmt_walkout_ft',
     value ->> 'bsmt_garage_stalls'
 FROM json_each(readfile('data/fct_sales_single_data.json'));
-
--- Insert the sales dimension data
-INSERT INTO dim_sales_groups (
-    sale_id,
-    instrument,
-    analysis_quality,
-    quality1,
-    quality2,
-    buyer,
-    seller,
-    detached_structs
-)
-SELECT 
-    value ->> 'sale_id', 
-    value ->> 'instrument',
-    value ->> 'analysis_quality',
-    value ->> 'quality1',
-    value ->> 'quality2',
-    value ->> 'buyer',
-    value ->> 'seller',
-    value ->> 'detached_structs'
-FROM json_each(readfile('data/dim_sales_groups_data.json'));
-
--- Insert the buildings dimension data
-INSERT INTO dim_buildings (
-    building_id,
-    dp,
-    occupancy,
-    residence_type,
-    bldg_style,
-    exterior_wall_type,
-    roof_type,
-    roof_material,
-    foundation,
-    heating,
-    fin_bsmt_qual1,
-    fin_bsmt_qual2,
-    grade,
-    grade_adjustment,
-    condition,
-
-    families,
-
-    brick_pct,
-    air_conditioning_pct,
-    completed_pct,
-    garage_brick_pct,
-
-    year_built,
-    eff_year_built,
-    year_remodel,
-    condo_year_built,
-
-    first_sale_date,
-    last_sale_date
-)
-SELECT 
-    value ->> 'building_id',
-    value ->> 'dp',
-    value ->> 'occupancy',
-    value ->> 'residence_type',
-    value ->> 'bldg_style',
-    value ->> 'exterior_wall_type',
-    value ->> 'roof_type',
-    value ->> 'roof_material',
-    value ->> 'foundation',
-    value ->> 'heating',
-    value ->> 'fin_bsmt_qual1',
-    value ->> 'fin_bsmt_qual2',
-    value ->> 'grade',
-    value ->> 'grade_adjustment',
-    value ->> 'condition',
-    
-    value ->> 'families',
-
-    value ->> 'brick_pct',
-    value ->> 'air_conditioning_pct',
-    value ->> 'completed_pct',
-    value ->> 'garage_brick_pct',
-
-    value ->> 'year_built',
-    value ->> 'eff_year_built',
-    value ->> 'year_remodel',
-    value ->> 'condo_year_built',
-
-    value ->> 'first_sale_date',
-    value ->> 'last_sale_date'
-FROM json_each(readfile('data/dim_buildings_data.json'));
