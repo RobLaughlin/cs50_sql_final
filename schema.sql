@@ -46,7 +46,6 @@ COMMIT;
 -- Enforce foreign key constraints
 PRAGMA foreign_keys = ON;
 
--- Create the sales bridge
 CREATE TABLE dim_sales (
     -- Use INT instead of INTEGER so we don't autoincrement
     sale_id INT PRIMARY KEY,
@@ -307,8 +306,8 @@ SELECT
     value ->> 'school_district'
 FROM json_each(readfile('data/dim_district_parcels_data.json'));
 
--- Insert bridge data, use (book, pg) to test the default hashing behavior
 -- Insert the sales dimension data
+-- Use (book, pg) to test the default hashing behavior
 INSERT INTO dim_sales (
     book,
     pg,

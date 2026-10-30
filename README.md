@@ -23,7 +23,7 @@ This database is a simple random sample of $2,000$ public residential Polk Count
    sqlite3 polk.db < schema.sql
    ```
 
-   Run this from the repository folder, because `schema.sql` reads the data from `data/*.json`. It prints nothing when it works. It drops and recreates every table, so you can run it again at any time to start fresh. To check the load, `sqlite3 polk.db "SELECT COUNT(*) FROM fct_sales;"` should print `2000`.
+   Run this from the repository folder, because `schema.sql` reads the data from `data/*.json`. It prints nothing when it works. It drops and recreates every table, so you can run it again at any time to start fresh. To check the load, `sqlite3 polk.db "SELECT COUNT(*) FROM dim_sales;"` should print `2000`.
 
 3. Run the queries:
 
@@ -40,15 +40,22 @@ This database is a simple random sample of $2,000$ public residential Polk Count
 - Money is in whole dollars, and columns ending in `_sf` are in square feet.
 - Key: **PK** is the primary key, **FK** is a foreign key, and **UNIQUE** means no two rows share the value.
 
-## fct_sales
+## dim_sales
 
-One row per sale (one recorded document). Every other sales table has the same `sale_id`.
+One row per sale (one recorded document): what describes the sale as a whole, across every parcel it covers. Both fact tables reference its `sale_id`.
 
-| Column  | Type    | Key               | Description                                                                          |
-| ------- | ------- | ----------------- | ------------------------------------------------------------------------------------ |
-| sale_id | INT     | PK                | One number for the document: Hashed from (book, pg).                                 |
-| book    | INTEGER | UNIQUE (book, pg) | Recorder's book number for the document. Book numbers rise over time.                |
-| pg      | INTEGER | UNIQUE (book, pg) | Recorder's page number within the book. Together, book and pg identify one document. |
+| Column           | Type         | Key               | Description                                                                                                                                                                   |
+| ---------------- | ------------ | ----------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| sale_id          | INT          | PK                | One number for the document: Hashed from (book, pg).                                                                                                                          |
+| book             | INTEGER      | UNIQUE (book, pg) | Recorder's book number for the document. Book numbers rise over time.                                                                                                         |
+| pg               | INTEGER      | UNIQUE (book, pg) | Recorder's page number within the book. Together, book and pg identify one document.                                                                                          |
+| instrument       | VARCHAR(8)   |                   | Document type: Deed, Contract or Other.                                                                                                                                       |
+| analysis_quality | VARCHAR(8)   |                   | Whether the assessor uses the sale in its own market analysis: Good (used), Bad (not used) or Other.                                                                          |
+| quality1         | VARCHAR(64)  |                   | First sale condition: the reason, if any, the sale isn't a normal market sale, e.g. Family or Foreclosure. Arms Length means no condition.                                    |
+| quality2         | VARCHAR(64)  |                   | Second sale condition, for sales with two. No Code means no second condition.                                                                                                 |
+| buyer            | VARCHAR(256) |                   | Buyer (grantee).                                                                                                                                                              |
+| seller           | VARCHAR(256) |                   | Seller (grantor).                                                                                                                                                             |
+| detached_structs | VARCHAR(512) |                   | Detached structures as CODE/size pairs, e.g. BBK/1584 SHD/120 for a bank barn and a shed. Common codes: GAR Garage, SHD Shed, PTC Concrete Patio, SWR Outdoor Pool, DEC Deck. |
 
 ## dim_geo_parcels
 
@@ -76,23 +83,41 @@ One row per district parcel, with its location as of its most recent sale. Parce
 | platname        | VARCHAR(256) |                         | Name of the recorded plat (subdivision) the parcel is in, e.g. WHITE BIRCH PLAT 1.                                                                                                                                  |
 | school_district | VARCHAR(256) |                         | School district the parcel is in, e.g. Ankeny.                                                                                                                                                                      |
 
+## dim_dp_groups
+
+One row per dp group. A dp group is the set of district parcels a sale covers, and sales that cover the same parcels share a group. `fct_sales_groups.dp_group_id` and `bridge_dp_groups.group_id` reference its `group_id`.
+
+| Column   | Type         | Key | Description                                                                             |
+| -------- | ------------ | --- | --------------------------------------------------------------------------------------- |
+| group_id | VARCHAR(256) | PK  | The dp group: a hash of the group's sorted parcels.                                     |
+| dp_count | INTEGER      |     | Number of district parcels in the group: 1 for a single-parcel sale. Always at least 1. |
+
+## dim_gp_groups
+
+One row per gp group: the same idea as dim_dp_groups, for geoparcels. A sale that lists no geoparcels has no gp group.
+
+| Column   | Type         | Key | Description                                            |
+| -------- | ------------ | --- | ------------------------------------------------------ |
+| group_id | VARCHAR(256) | PK  | The gp group: a hash of the group's sorted geoparcels. |
+| gp_count | INTEGER      |     | Number of geoparcels in the group. Always at least 1.  |
+
 ## bridge_dp_groups
 
-One row per district parcel in each dp group. A dp group is the set of district parcels a sale covers, and sales that cover the same parcels share a group. Join `fct_sales_groups.dp_group_id` to `group_id` for one row per parcel.
+One row per district parcel in each dp group. Join `fct_sales_groups.dp_group_id` to `group_id` for one row per parcel. Each group is in dim_dp_groups.
 
 | Column   | Type         | Key                                             | Description                                         |
 | -------- | ------------ | ----------------------------------------------- | --------------------------------------------------- |
 | dp       | VARCHAR(14)  | PK (dp, group_id), FK → dim_district_parcels.dp | A district parcel in the group.                     |
-| group_id | VARCHAR(256) | PK (dp, group_id)                               | The dp group: a hash of the group's sorted parcels. |
+| group_id | VARCHAR(256) | PK (dp, group_id), FK → dim_dp_groups.group_id  | The dp group: a hash of the group's sorted parcels. |
 
 ## bridge_gp_groups
 
-One row per geoparcel in each gp group: the same idea as bridge_dp_groups, for geoparcels. Join `fct_sales_groups.gp_group_id` to `group_id`.
+One row per geoparcel in each gp group: the same idea as bridge_dp_groups, for geoparcels. Join `fct_sales_groups.gp_group_id` to `group_id`. Each group is in dim_gp_groups.
 
-| Column   | Type         | Key                                        | Description                                            |
-| -------- | ------------ | ------------------------------------------ | ------------------------------------------------------ |
-| gp       | VARCHAR(12)  | PK (gp, group_id), FK → dim_geo_parcels.gp | A geoparcel in the group.                              |
-| group_id | VARCHAR(256) | PK (gp, group_id)                          | The gp group: a hash of the group's sorted geoparcels. |
+| Column   | Type         | Key                                            | Description                                            |
+| -------- | ------------ | ---------------------------------------------- | ------------------------------------------------------ |
+| gp       | VARCHAR(12)  | PK (gp, group_id), FK → dim_geo_parcels.gp     | A geoparcel in the group.                              |
+| group_id | VARCHAR(256) | PK (gp, group_id), FK → dim_gp_groups.group_id | The gp group: a hash of the group's sorted geoparcels. |
 
 ## dim_buildings
 
@@ -127,39 +152,23 @@ One row per building version: a building's description as it was at one or more 
 | first_sale_date      | DATETIME     |                              | Date of the first sale that saw this building version.                                                                                     |
 | last_sale_date       | DATETIME     |                              | Date of the last sale that saw this building version.                                                                                      |
 
-## dim_sales_groups
-
-One row per sale: what describes the sale as a whole, across every parcel it covers.
-
-| Column           | Type         | Key                        | Description                                                                                                                                                                   |
-| ---------------- | ------------ | -------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| sale_id          | INT          | PK, FK → fct_sales.sale_id | The sale.                                                                                                                                                                     |
-| instrument       | VARCHAR(8)   |                            | Document type: Deed, Contract or Other.                                                                                                                                       |
-| analysis_quality | VARCHAR(8)   |                            | Whether the assessor uses the sale in its own market analysis: Good (used), Bad (not used) or Other.                                                                          |
-| quality1         | VARCHAR(64)  |                            | First sale condition: the reason, if any, the sale isn't a normal market sale, e.g. Family or Foreclosure. Arms Length means no condition.                                    |
-| quality2         | VARCHAR(64)  |                            | Second sale condition, for sales with two. No Code means no second condition.                                                                                                 |
-| buyer            | VARCHAR(256) |                            | Buyer (grantee).                                                                                                                                                              |
-| seller           | VARCHAR(256) |                            | Seller (grantor).                                                                                                                                                             |
-| detached_structs | VARCHAR(512) |                            | Detached structures as CODE/size pairs, e.g. BBK/1584 SHD/120 for a bank barn and a shed. Common codes: GAR Garage, SHD Shed, PTC Concrete Patio, SWR Outdoor Pool, DEC Deck. |
-
 ## fct_sales_groups
 
 One row per sale: what the sale covers as a whole. The price, assessed values and land area are totals for every parcel in the sale.
 
-| Column                        | Type     | Key                            | Description                                                                                                                               |
-| ----------------------------- | -------- | ------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------- |
-| sale_id                       | INT      | PK, FK → fct_sales.sale_id     | The sale.                                                                                                                                 |
-| dp_group_id                   | INTEGER  | FK → bridge_dp_groups.group_id | The district parcels the sale covers, as a group.                                                                                         |
-| gp_group_id                   | INTEGER  | FK → bridge_gp_groups.group_id | The geoparcels the sale covers, as a group. NULL when the sale lists none.                                                                |
-| dp_count                      | INTEGER  |                                | Number of district parcels in the sale: 1 for a single-parcel sale.                                                                       |
-| sale_date                     | DATETIME |                                | Date the parties signed the deed or contract. This is the signing date, not the recording date.                                           |
-| initial_entry_date            | DATETIME |                                | Probably the date the sale was first entered into the assessor's system, usually a few days after sale_date.                              |
-| price_dollars                 | INTEGER  |                                | Price paid for the real property only, without any personal property. Token prices such as 0, 1 or 10 are common on non-market transfers. |
-| land_full_assessment_dollars  | INTEGER  |                                | Full assessed value of the land at the time of sale, as of January 1 of that assessment year.                                             |
-| bldg_full_assessment_dollars  | INTEGER  |                                | Full assessed value of the buildings at the time of sale.                                                                                 |
-| total_full_assessment_dollars | INTEGER  |                                | Full assessed value of the land and buildings together. It should equal land plus buildings.                                              |
-| land_sf                       | REAL     |                                | Land area.                                                                                                                                |
-| land_acres                    | REAL     |                                | Land area in acres, to 3 decimal places.                                                                                                  |
+| Column                        | Type         | Key                         | Description                                                                                                                               |
+| ----------------------------- | ------------ | --------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- |
+| sale_id                       | INT          | PK, FK → dim_sales.sale_id  | The sale.                                                                                                                                 |
+| dp_group_id                   | VARCHAR(256) | FK → dim_dp_groups.group_id | The district parcels the sale covers, as a group.                                                                                         |
+| gp_group_id                   | VARCHAR(256) | FK → dim_gp_groups.group_id | The geoparcels the sale covers, as a group. NULL when the sale lists none.                                                                |
+| sale_date                     | DATETIME     |                             | Date the parties signed the deed or contract. This is the signing date, not the recording date.                                           |
+| initial_entry_date            | DATETIME     |                             | Probably the date the sale was first entered into the assessor's system, usually a few days after sale_date.                              |
+| price_dollars                 | INTEGER      |                             | Price paid for the real property only, without any personal property. Token prices such as 0, 1 or 10 are common on non-market transfers. |
+| land_full_assessment_dollars  | INTEGER      |                             | Full assessed value of the land at the time of sale, as of January 1 of that assessment year.                                             |
+| bldg_full_assessment_dollars  | INTEGER      |                             | Full assessed value of the buildings at the time of sale.                                                                                 |
+| total_full_assessment_dollars | INTEGER      |                             | Full assessed value of the land and buildings together. It should equal land plus buildings.                                              |
+| land_sf                       | REAL         |                             | Land area.                                                                                                                                |
+| land_acres                    | REAL         |                             | Land area in acres, to 3 decimal places.                                                                                                  |
 
 ## fct_sales_single
 
@@ -167,7 +176,7 @@ One row per sale: the measurements of the residence on the one parcel the sale i
 
 | Column                 | Type         | Key                            | Description                                                                                      |
 | ---------------------- | ------------ | ------------------------------ | ------------------------------------------------------------------------------------------------ |
-| sale_id                | INT          | PK, FK → fct_sales.sale_id     | The sale.                                                                                        |
+| sale_id                | INT          | PK, FK → dim_sales.sale_id     | The sale.                                                                                        |
 | dp                     | VARCHAR(14)  | FK → dim_district_parcels.dp   | District parcel the sale is filed under. In a multi-parcel sale, its dp group lists all of them. |
 | building_id            | VARCHAR(258) | FK → dim_buildings.building_id | The building version at this sale. NULL when the sale has no building data.                      |
 | rooms                  | INTEGER      |                                | Total number of rooms.                                                                           |
@@ -204,5 +213,5 @@ One row per sale: the measurements of the residence on the one parcel the sale i
 
 | View                   | Description                                                                                                                                                                                                                                        |
 | ---------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| single_parcel_sales    | One row per sale of a single district parcel (dp_count = 1), with every column of fct_sales, fct_sales_groups, dim_sales_groups and fct_sales_single joined on sale_id, plus the building from dim_buildings.                                      |
+| single_parcel_sales    | One row per sale of a single district parcel (dp_count = 1), with every column of dim_sales, fct_sales_groups and fct_sales_single joined on sale_id, plus dp_count and gp_count from the group tables and the building from dim_buildings.        |
 | hq_single_family_sales | The high quality single family market sales from single_parcel_sales: a deed rated Good by the assessor, with conditions Arms Length and No Code, a price of at least 10,000 dollars, positive land area, a building, and occupancy Single Family. |
